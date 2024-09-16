@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "d4a35040f8c7865c",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b096fa29f33d9c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9aba512968e6e27e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Huiswerk.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e55927003c81342f",
+    "type": "split",
+    "children": [
+      {
+        "id": "30bca1b2289679eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c45061857eda27e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "617b02984335ad36",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c20d51c0b2df5924",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "556d6bd278b78e64",
+    "type": "split",
+    "children": [
+      {
+        "id": "9dc64dbf42545eee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd8730b1d4783382",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Huiswerk.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "680fd53747989a9c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Huiswerk.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5d02416b5154e99",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Huiswerk.md"
+              }
+            }
+          },
+          {
+            "id": "4c44dbe7adb618ba",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "8efa23b2f74a4104",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "9ed88ac2cc62da63",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "4d1393e503395be2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "205316ee858c8abb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "bcf0a61a9d8e6689",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 237.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "card-board:CardBoard": false
+    }
+  },
+  "active": "9aba512968e6e27e",
+  "lastOpenFiles": [
+    "Templates/Huiswerk.md",
+    "Untitled.md",
+    "Templates",
+    "Huiswerk.md",
+    "Planning.md",
+    "Template/Huiswerk.md",
+    "Template",
+    "Week Planner/Days/2024-09-10-Tuesday.md",
+    "Week Planner/Days",
+    "Week Planner",
+    "Week Planner/Weeks/Calweek-2024-37.md",
+    "Week Planner/Weeks",
+    "2023-10-06.md",
+    "Bassiswiskunde/Les 3.md",
+    "Tangents/Koppelmoment.md",
+    "Statica/Les 3 -.md",
+    "Tangents/moment.md",
+    "Excalidraw/Moment 1.md",
+    "Tangents/De algemene vorm van kwadratische functies.md",
+    "Bijlages/Pasted image 20230912111219.png",
+    "Bijlages/Pasted image 20230912111153.png",
+    "Bijlages/Pasted image 20230912105800.png",
+    "Excalidraw/Drawing 2023-09-12 10.39.11.excalidraw.md",
+    "Tangents/richtingscoëfficiënt.md",
+    "Bijlages/Pasted image 20230912104101.png",
+    "Index/Bassiswiskunde.md",
+    "Index.md",
+    "Week planner.md",
+    "Elektrische netwerken/Les 1 - Stroom, Spanning en de wetten van Kirchhoff.md",
+    "Elektrische netwerken/Les 2 - Vervangingsschema's, Weerstanden, Wet van Ohm, Schakelaars, Transistoren en H-brug.md",
+    "Tangents/Test.md",
+    "2023-09-11.md",
+    "Tangents/Untitled Kanban.md",
+    "2023-09-10.md",
+    "Microcontrollers programmeren/Les 1B - Introductie met C deel 2, commentaar, while, pinnummers, pinout, output-pin.md",
+    "Microcontrollers programmeren/Code/Test/obj/Debug/2hz.o",
+    "Microcontrollers programmeren/Code/Test/2hz.c",
+    "Microcontrollers programmeren/Code/Test/obj/Debug/1hz.o",
+    "Microcontrollers programmeren/Code/Test/1hz.c",
+    "Microcontrollers programmeren/Code/Test/Test.depend",
+    "Bijlages/Pasted image 20230907155541.png",
+    "Bijlages/Pasted image 20230907155422.png",
+    "Bijlages/Pasted image 20230907154939.png",
+    "Bijlages/Pasted image 20230907154810.png",
+    "Bijlages/Pasted image 20230907153218.png",
+    "Bijlages/Pasted image 20230907152415.png"
+  ]
+}
