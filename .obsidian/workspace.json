@@ -8,16 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b79e3236e34ca2ed",
+            "id": "d1d369eeabdb56bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Huiswerk.md",
+                "file": "Homepage.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "d9df55f90f4473fe"
+          }
+        ]
+      },
+      {
+        "id": "2e198fbfc7b5d2be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f36f6fa9c6e82fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homepage.md",
                 "mode": "preview",
                 "source": true
               }
-            }
+            },
+            "group": "d9df55f90f4473fe"
           }
         ]
       }
@@ -69,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "556d6bd278b78e64",
@@ -86,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Huiswerk.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Huiswerk.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Huiswerk.md"
+                "file": "Homepage.md"
               }
             }
           },
@@ -201,17 +220,27 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "card-board:CardBoard": false
+      "card-board:CardBoard": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "b79e3236e34ca2ed",
+  "active": "d1d369eeabdb56bb",
   "lastOpenFiles": [
+    "Huiswerk.md",
     "Ontwerpen in groepen/Week 3.md",
+    "Homepage.md",
+    "Subonderwerpen/Valideerbaar.md",
+    "Subonderwerpen/Haalbaar.md",
+    "Subonderwerpen/Eenduidig.md",
+    "Subonderwerpen/Constistent.md",
+    "Subonderwerpen/Compleet.md",
+    "Subonderwerpen/Begrijplijk.md",
     "Valideerbaar.md",
+    "Subonderwerpen",
+    "Ontwerpen in groepen/Week 4.md",
     "Begrijplijk.md",
     "Constistent.md",
     "Compleet.md",
-    "Huiswerk.md",
     "Haalbaar.md",
     "Eenduidig.md",
     "Ontwerpen in groepen",
@@ -230,22 +259,13 @@
     "Bassiswiskunde/Les 3.md",
     "Tangents/Koppelmoment.md",
     "Statica/Les 3 -.md",
-    "Tangents/moment.md",
-    "Excalidraw/Moment 1.md",
-    "Tangents/De algemene vorm van kwadratische functies.md",
     "Bijlages/Pasted image 20230912111219.png",
     "Bijlages/Pasted image 20230912111153.png",
     "Bijlages/Pasted image 20230912105800.png",
-    "Excalidraw/Drawing 2023-09-12 10.39.11.excalidraw.md",
-    "Tangents/richtingscoëfficiënt.md",
     "Bijlages/Pasted image 20230912104101.png",
-    "Index/Bassiswiskunde.md",
-    "Index.md",
-    "Week planner.md",
     "Microcontrollers programmeren/Code/Test/obj/Debug/2hz.o",
     "Microcontrollers programmeren/Code/Test/2hz.c",
     "Microcontrollers programmeren/Code/Test/obj/Debug/1hz.o",
-    "Microcontrollers programmeren/Code/Test/1hz.c",
     "Bijlages/Pasted image 20230907155541.png",
     "Bijlages/Pasted image 20230907155422.png",
     "Bijlages/Pasted image 20230907154939.png",

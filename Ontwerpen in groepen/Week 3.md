@@ -1,5 +1,9 @@
 ---
 created: 2024-09-17T10:34
+updated: 2024-09-19T08:57
+---
+W---
+created: 2024-09-17T10:34
 updated: 2024-09-17T11:48
 ---
 ```toc
@@ -49,7 +53,7 @@ Hetzelfde geldt voor Solution domain.
 INCOSE
 
 ## Karakteristieken
-- [[Noodzakelijk]]
+- [[Haalbaar]]
 - [[Eenduidig]]
 - [[Compleet]]
 - [[Enkelvoudiig]]
