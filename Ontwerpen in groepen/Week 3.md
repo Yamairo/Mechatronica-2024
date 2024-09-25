@@ -1,10 +1,6 @@
 ---
 created: 2024-09-17T10:34
-updated: 2024-09-19T08:57
----
-W---
-created: 2024-09-17T10:34
-updated: 2024-09-17T11:48
+updated: 2024-09-23T14:40
 ---
 ```toc
 ```
@@ -64,7 +60,7 @@ INCOSE
 
 ## Werkwoord vorm
 - Shall: `zal`
-- Shoukd: `zou`
+- Should: `zou`
 
 ## Waar moet de lijst aan voldoen?
 - [[Compleet]] 

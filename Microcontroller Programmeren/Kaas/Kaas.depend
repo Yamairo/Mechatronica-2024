@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1726743015 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\kaas\fuse.c
+	<avr/io.h>
+
+1726743015 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\kaas\main.c
+	<avr/io.h>
+
