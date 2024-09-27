@@ -4,40 +4,48 @@
     "type": "split",
     "children": [
       {
-        "id": "fc8f670b94cb3ec7",
+        "id": "d5b4db5c26c5150a",
         "type": "tabs",
         "children": [
           {
-            "id": "d1d369eeabdb56bb",
+            "id": "b8086fc7be575ad2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Ontwerpen in groepen/Week 3.md",
+=======
+                "file": "Huiswerk.md",
+>>>>>>> 6e4ab4a0a5b3e728e007767553872a685ef938f6
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "d9df55f90f4473fe"
+            "group": "70c36af3c23b44e7"
           }
         ]
       },
       {
-        "id": "2e198fbfc7b5d2be",
+        "id": "d350e2f815bdaebb",
         "type": "tabs",
         "children": [
           {
-            "id": "9f36f6fa9c6e82fa",
+            "id": "71d62d4ad6e7a078",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Ontwerpen in groepen/Week 3.md",
+=======
+                "file": "Huiswerk.md",
+>>>>>>> 6e4ab4a0a5b3e728e007767553872a685ef938f6
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "d9df55f90f4473fe"
+            "group": "70c36af3c23b44e7"
           }
         ]
       }
@@ -105,7 +113,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Ontwerpen in groepen/Week 3.md",
+=======
+                "file": "Huiswerk.md",
+>>>>>>> 6e4ab4a0a5b3e728e007767553872a685ef938f6
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +134,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Ontwerpen in groepen/Week 3.md",
+=======
+                "file": "Huiswerk.md",
+>>>>>>> 6e4ab4a0a5b3e728e007767553872a685ef938f6
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +150,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Ontwerpen in groepen/Week 3.md"
+=======
+                "file": "Huiswerk.md"
+>>>>>>> 6e4ab4a0a5b3e728e007767553872a685ef938f6
               }
             }
           },
@@ -224,11 +244,28 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d1d369eeabdb56bb",
+  "active": "b8086fc7be575ad2",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Homepage.md",
     "Huiswerk.md",
     "Ontwerpen in groepen/Week 3.md",
+=======
+    "Ontwerpen in groepen/Week 3.md",
+    "Homepage.md",
+    "Huiswerk.md",
+    "Templates/Huiswerk.md",
+    "Solidworks/3d Modeleren/Stuklijst onderdelen CAD 2024-2025/~$Container.SLDPRT",
+    "Solidworks/3d Modeleren/Stuklijst onderdelen CAD 2024-2025/Item 24/HOEK 8 40x40 ZN 0.0601.62/~$HOEK 8 40x40 ZN.SLDPRT",
+    "Solidworks/3d Modeleren/Stuklijst onderdelen CAD 2024-2025/Festo/ELGR-TB-GF-45-500-0H #560506/~$560506 ELGR---(SK_GF).sldprt",
+    "Solidworks/3d Modeleren/Stuklijst onderdelen CAD 2024-2025/Festo/ELGR-TB-GF-45-500-0H #560506/~$716452 DGC-70-TB.sldprt",
+    "Solidworks/3d Modeleren/Stuklijst onderdelen CAD 2024-2025/Festo/ELGR-TB-GF-45-500-0H #560506/~$732020 ELGR-TB-45-500-0H---G.sldprt",
+    "Solidworks/3d Modeleren/Stuklijst onderdelen CAD 2024-2025/Festo/ELGR-TB-GF-45-500-0H #560506/~$560506 ELGR-TB-GF-45-500-0H---(0).SLDASM",
+    "Solidworks/3d Modeleren/Stuklijst onderdelen CAD 2024-2025/Item 24/HOEK 8 40x40 ZN 0.0601.62/~$HOEK 8 40x40 ZN Assembly.SLDPRT",
+    "Solidworks/3d Modeleren/Parts/~$x-as.sldprt",
+    "Solidworks/3d Modeleren/Stuklijst onderdelen CAD 2024-2025/Item 24/Profil 8 40x40 #7.0.000.09/~$item_7000009_Profile_8_40x40_E_L=20.sldprt",
+    "Solidworks/3d Modeleren/Parts/~$Bodemplaat.SLDPRT",
+>>>>>>> 6e4ab4a0a5b3e728e007767553872a685ef938f6
     "Subonderwerpen/Valideerbaar.md",
     "Subonderwerpen/Haalbaar.md",
     "Subonderwerpen/Eenduidig.md",
@@ -236,36 +273,24 @@
     "Subonderwerpen/Compleet.md",
     "Subonderwerpen/Begrijplijk.md",
     "Valideerbaar.md",
-    "Subonderwerpen",
     "Ontwerpen in groepen/Week 4.md",
     "Begrijplijk.md",
     "Constistent.md",
     "Compleet.md",
     "Haalbaar.md",
     "Eenduidig.md",
-    "Ontwerpen in groepen",
-    "Templates/Huiswerk.md",
     "Untitled.md",
-    "Templates",
     "Planning.md",
     "Template/Huiswerk.md",
-    "Template",
     "Week Planner/Days/2024-09-10-Tuesday.md",
-    "Week Planner/Days",
-    "Week Planner",
     "Week Planner/Weeks/Calweek-2024-37.md",
-    "Week Planner/Weeks",
     "2023-10-06.md",
     "Bassiswiskunde/Les 3.md",
     "Tangents/Koppelmoment.md",
-    "Statica/Les 3 -.md",
     "Bijlages/Pasted image 20230912111219.png",
     "Bijlages/Pasted image 20230912111153.png",
     "Bijlages/Pasted image 20230912105800.png",
     "Bijlages/Pasted image 20230912104101.png",
-    "Microcontrollers programmeren/Code/Test/obj/Debug/2hz.o",
-    "Microcontrollers programmeren/Code/Test/2hz.c",
-    "Microcontrollers programmeren/Code/Test/obj/Debug/1hz.o",
     "Bijlages/Pasted image 20230907155541.png",
     "Bijlages/Pasted image 20230907155422.png",
     "Bijlages/Pasted image 20230907154939.png",

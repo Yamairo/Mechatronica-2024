@@ -1,0 +1,55 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "avr-gcc",
+            "args": [
+                "-mmcu=atmega2560",    // MCU is ATmega2560
+                "-DF_CPU=16000000UL",  // Adjust if using a different clock frequency
+                "-Os",                 // Optimize for size
+                "-o", "main.elf",      // Output file
+                "main.c"               // Source file
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "hex",
+            "type": "shell",
+            "command": "avr-objcopy",
+            "args": [
+                "-O", "ihex",       // Output format: Intel HEX
+                "main.elf",         // Input file
+                "main.hex"          // Output file
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "upload",
+            "type": "shell",
+            "command": "avrdude",
+            "args": [
+                "-p", "m2560",           // MCU is ATmega2560
+                "-c", "wiring",          // Upload method (e.g., wiring for Arduino Mega)
+                "-P", "/dev/ttyACM0",    // Serial port (adjust for your system)
+                "-b", "115200",          // Baud rate (adjust if needed)
+                "-D",                    // Disable auto-erase
+                "-U", "flash:w:main.hex:i"  // Upload main.hex
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
