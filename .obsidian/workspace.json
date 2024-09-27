@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage.md",
+                "file": "Ontwerpen in groepen/Week 3.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage.md",
+                "file": "Ontwerpen in groepen/Week 3.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
+                "file": "Ontwerpen in groepen/Week 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
+                "file": "Ontwerpen in groepen/Week 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage.md"
+                "file": "Ontwerpen in groepen/Week 3.md"
               }
             }
           },
@@ -226,9 +226,9 @@
   },
   "active": "d1d369eeabdb56bb",
   "lastOpenFiles": [
+    "Homepage.md",
     "Huiswerk.md",
     "Ontwerpen in groepen/Week 3.md",
-    "Homepage.md",
     "Subonderwerpen/Valideerbaar.md",
     "Subonderwerpen/Haalbaar.md",
     "Subonderwerpen/Eenduidig.md",

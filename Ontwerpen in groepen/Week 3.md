@@ -1,6 +1,6 @@
 ---
 created: 2024-09-17T10:34
-updated: 2024-09-19T08:57
+updated: 2024-09-19T09:48
 ---
 W---
 created: 2024-09-17T10:34
@@ -93,6 +93,3 @@ Ik, de klant, wil een apparaat dat schoonmaakt
 
 # Opdracht B
 
-| Vaste Eisen | Variabele Eisen |     |     |
-| ----------- | --------------- | --- | --- |
-|             |                 |     |     |
