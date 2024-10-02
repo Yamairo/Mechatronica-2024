@@ -1,6 +1,6 @@
 ---
 created: 2024-09-10T12:03
-updated: 2024-09-23T14:37
+updated: 2024-10-02T15:37
 ---
 
 
@@ -30,4 +30,11 @@ WHERE !Tasks.completed
 
 ## Week 3
 - [x] Lees 'Eisen van eisen. Pdf' [Startdatum :: 17-09-2024 ] [Einddatum :: 24-09-2024 ] [Prioriteit  :: Midden]
-- [ ] Inleveren van Lijst van eisen [Startdatum :: 17-09-2024 ] [Einddatum :: 23-09-2024 ] [Prioriteit  ::  ]
+- [x] Inleveren van Lijst van eisen [Startdatum :: 17-09-2024 ] [Einddatum :: 23-09-2024 ] [Prioriteit  ::  ]
+
+## Week 4
+- [ ] Solderen H-Brug [Startdatum :: 02-10-2024 ] [Einddatum :: 02-10-2024 ] [Prioriteit  ::  Hoog]
+	- [ ] Inleveren opdracht [Startdatum :: 02-10-2024 ] [Einddatum :: 02-10-2024 ] [Prioriteit  :: Hoog ]
+- [ ] Methodisch ontwerpen inleveren [Startdatum :: 02-10-2024 ] [Einddatum :: 09-10-2024 ] [Prioriteit  ::  Hoog]
+
+## Week 5
