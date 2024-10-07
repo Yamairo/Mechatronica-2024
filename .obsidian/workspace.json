@@ -1,5 +1,16 @@
 {
   "main": {
+<<<<<<< HEAD
+    "id": "f41e5d35fac3f851",
+    "type": "split",
+    "children": [
+      {
+        "id": "b10e997e1f8b39c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b254eea43c21727c",
+=======
     "id": "22b3439607f21cf0",
     "type": "split",
     "children": [
@@ -9,12 +20,17 @@
         "children": [
           {
             "id": "746bdf4c88462c4c",
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Huiswerk.md",
+<<<<<<< HEAD
+                "mode": "preview",
+=======
                 "mode": "source",
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
                 "source": true
               }
             }
@@ -25,6 +41,17 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< HEAD
+    "id": "82c527831a13e327",
+    "type": "split",
+    "children": [
+      {
+        "id": "1be19dce943926df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3280d23742daa60",
+=======
     "id": "437da72ea3989bae",
     "type": "split",
     "children": [
@@ -34,6 +61,7 @@
         "children": [
           {
             "id": "5d099284f382fbc1",
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +71,11 @@
             }
           },
           {
+<<<<<<< HEAD
+            "id": "407ef2b926089eb3",
+=======
             "id": "d5d66b78754d87ea",
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +90,11 @@
             }
           },
           {
+<<<<<<< HEAD
+            "id": "4ea54c60e6cf9873",
+=======
             "id": "0c0a0f2a1ad0f815",
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,6 +109,17 @@
     "collapsed": true
   },
   "right": {
+<<<<<<< HEAD
+    "id": "0f756b3620499c6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2dff43c649833869",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a862fb051887fba",
+=======
     "id": "739e16746b915c6b",
     "type": "split",
     "children": [
@@ -82,6 +129,7 @@
         "children": [
           {
             "id": "d3a719caaeda264d",
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -89,7 +137,11 @@
             }
           },
           {
+<<<<<<< HEAD
+            "id": "be2c7abf6fc0a220",
+=======
             "id": "c951f2d3a39f64ed",
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -106,7 +158,11 @@
             }
           },
           {
+<<<<<<< HEAD
+            "id": "953e6d84c29ce531",
+=======
             "id": "1b186c9b513ad843",
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -118,7 +174,11 @@
             }
           },
           {
+<<<<<<< HEAD
+            "id": "bd72ac02c6e7ccc8",
+=======
             "id": "a347b7bb3ba59ebf",
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -129,7 +189,11 @@
             }
           },
           {
+<<<<<<< HEAD
+            "id": "6f7bb769670dec64",
+=======
             "id": "8563c56f95e73596",
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -141,7 +205,11 @@
             }
           },
           {
+<<<<<<< HEAD
+            "id": "bddb6dca59a978b6",
+=======
             "id": "fef6921cab93c6ad",
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -151,7 +219,11 @@
             }
           },
           {
+<<<<<<< HEAD
+            "id": "5c80ac9f4bde9c7a",
+=======
             "id": "1e4052ae62d16347",
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -181,6 +253,10 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
+  "active": "b254eea43c21727c",
+  "lastOpenFiles": []
+=======
   "active": "746bdf4c88462c4c",
   "lastOpenFiles": [
     "Ontwerpen in groepen/Opdracht week 4 en 5/ACFBD100",
@@ -188,4 +264,5 @@
     "Homepage.md",
     "Huiswerk.md"
   ]
+>>>>>>> c155acb38a42396cdc323090d9056fc3c970ce77
 }
