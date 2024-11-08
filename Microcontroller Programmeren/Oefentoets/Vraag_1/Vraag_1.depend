@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1730555391 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\oefentoets\vraag_1\fuse.c
+	<avr/io.h>
+
+1730558202 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\oefentoets\vraag_1\main.c
+	<avr/io.h>
+	<util/delay.h>
+
