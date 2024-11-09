@@ -1,6 +1,6 @@
 ---
 created: 2024-09-10T12:03
-updated: 2024-10-02T15:37
+updated: 2024-11-05T13:03
 ---
 
 
@@ -33,8 +33,8 @@ WHERE !Tasks.completed
 - [x] Inleveren van Lijst van eisen [Startdatum :: 17-09-2024 ] [Einddatum :: 23-09-2024 ] [Prioriteit  ::  ]
 
 ## Week 4
-- [ ] Solderen H-Brug [Startdatum :: 02-10-2024 ] [Einddatum :: 02-10-2024 ] [Prioriteit  ::  Hoog]
-	- [ ] Inleveren opdracht [Startdatum :: 02-10-2024 ] [Einddatum :: 02-10-2024 ] [Prioriteit  :: Hoog ]
-- [ ] Methodisch ontwerpen inleveren [Startdatum :: 02-10-2024 ] [Einddatum :: 09-10-2024 ] [Prioriteit  ::  Hoog]
+- [x] Solderen H-Brug [Startdatum :: 02-10-2024 ] [Einddatum :: 02-10-2024 ] [Prioriteit  ::  Hoog]
+	- [x] Inleveren opdracht [Startdatum :: 02-10-2024 ] [Einddatum :: 02-10-2024 ] [Prioriteit  :: Hoog ]
+- [x] Methodisch ontwerpen inleveren [Startdatum :: 02-10-2024 ] [Einddatum :: 09-10-2024 ] [Prioriteit  ::  Hoog]
 
 ## Week 5
