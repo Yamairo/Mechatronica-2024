@@ -1,0 +1,3 @@
+- Interne weerstand is oneindig groot
+- Er loopt geen **[[stroom]]** door de meter
+- In een circuit zal dit een open tak zijn

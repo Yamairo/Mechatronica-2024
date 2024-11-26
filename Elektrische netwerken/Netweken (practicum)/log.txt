@@ -1,0 +1,29 @@
+Output:
+-------
+
+Starting new simulation on zo 10. sep 2023 at 13:14:44:976
+
+creating netlist... done.
+Starting C:/Users/Eigenaar/Downloads/qucs-0.0.19-win32-mingw482-asco-freehdl-adms/qucs-0.0.19-win32-mingw482-asco-freehdl-adms/bin/qucsator.exe
+
+project location: 
+modules to load: 0
+factorycreate.size() is 0
+factorycreate has registered:
+parsing netlist...
+checking netlist...
+netlist content
+      1 DC instances
+      1 VProbe instances
+      2 Vdc instances
+creating netlist...
+
+Simulation ended on zo 10. sep 2023 at 13:14:45:062
+Ready.
+
+
+
+Errors and Warnings:
+--------------------
+
+

@@ -1,0 +1,3 @@
+- "0" = laag = 0  V
+- "1" = hoog = *U*
+- *U* is een [[Spanning]] . Traditioneel U = 5 V. Tegenwoordig aak 3,3 V.

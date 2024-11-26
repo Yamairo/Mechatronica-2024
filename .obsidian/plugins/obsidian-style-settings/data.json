@@ -18,7 +18,13 @@
   "shiba-theme-settings@@background-settings-workplace-theme-dark": "background-settings-workplace-theme-dark-lofi4",
   "shiba-theme-settings@@shib-custom-bg-brightness-dark": 0.3,
   "minimal-advanced@@styled-scrollbars": true,
-  "minimal-style@@base@@light": "#FFFFFF",
-  "minimal-style@@bg1@@light": "#E5CBD7",
-  "minimal-style@@bg2@@light": "#C0FFBC"
+  "minimal-style@@base@@light": "#989898",
+  "minimal-style@@bg1@@light": "#CDDFD7",
+  "minimal-style@@bg2@@light": "#B59797",
+  "minimal-style@@bg3@@light": "#966464",
+  "minimal-style@@ui1@@light": "#000000",
+  "minimal-style@@ui2@@light": "#EDFF72",
+  "minimal-style@@ui3@@light": "#FFF789",
+  "wikipedia-theme@@custom-accent": false,
+  "wikipedia-theme@@image-placement": "no-float"
 }

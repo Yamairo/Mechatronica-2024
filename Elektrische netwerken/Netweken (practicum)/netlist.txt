@@ -1,0 +1,6 @@
+# Qucs 0.0.19  C:/HBO-Mechatronica-Jaar-1/Elektrische netwerken/Netweken (practicum)/DC_Week_1_prj/U_bronnen_serie.sch
+
+Vdc:V1 _net0 gnd U="5V"
+Vdc:V2 _net1 _net0 U="3V"
+.DC:DC1 Temp="26.85" reltol="0.001" abstol="1 pA" vntol="1 uV" saveOPs="no" MaxIter="150" saveAll="no" convHelper="none" Solver="CroutLU"
+VProbe:Pr1 _net1 gnd

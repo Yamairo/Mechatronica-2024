@@ -1,0 +1,1 @@
+De [[Pinout]] is de layout van de pins op een [[Microcontroller]] 

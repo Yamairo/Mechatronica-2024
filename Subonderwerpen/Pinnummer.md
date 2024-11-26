@@ -1,0 +1,1 @@
+De [[Pinnummer]]  wordt gebruikt om dingen aan te sturen en moet je meegeven in je code. Je kunt het [[Pinnummer]] in het [[Schema]]  vinden.

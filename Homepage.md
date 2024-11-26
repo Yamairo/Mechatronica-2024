@@ -1,6 +1,6 @@
 ---
 created: 2024-09-19T08:59
-updated: 2024-09-23T14:40
+updated: 2024-11-12T08:56
 ---
 ```toc
 ```
@@ -48,3 +48,4 @@ LIST
 FROM "Wiskunde"
 FLATTEN "## " + file.link AS heading
 ```
+

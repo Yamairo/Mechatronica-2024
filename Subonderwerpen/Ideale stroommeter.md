@@ -1,0 +1,3 @@
+- Interne weestand is nul
+- Er staat dus geen [[Spanning]] over de meter
+- De meter gedraagt zich als een [[Ideale draad]] 
