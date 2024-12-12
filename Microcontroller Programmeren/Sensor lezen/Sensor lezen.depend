@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1733752906 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\sensor lezen\fuse.c
+	<avr/io.h>
+
+1733754780 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\sensor lezen\main.c
+	<avr/io.h>
+	<util/delay.h>
+
