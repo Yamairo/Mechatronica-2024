@@ -202,6 +202,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Project/Motor/Motor.layout",
     "Solidworks/Solidworks-YamairoMartinus-20072716/~$Wiel-YamairoMartinus20072716.SLDPRT",
     "Project/Motor/Motor.cbp",
     "Project/Motor/bin/Debug/Motor.lfs",
@@ -212,7 +213,6 @@
     "Project/Motor/bin/Debug/Motor.lss",
     "Project/Motor/bin/Debug/Motor.lock",
     "Project/Motor/bin/Debug/Motor.hex",
-    "Project/Motor/bin/Debug/Motor.fuse",
     "Homepage.md",
     "Microcontroller Programmeren/Week 13.md",
     "Microcontroller Programmeren/Week 12 A.md",
