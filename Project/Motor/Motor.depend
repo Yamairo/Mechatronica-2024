@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1734443882 source:c:\hbo-mechatronica-jaar-1\microcontrollers programmeren\code\portaalkraan\motor\fuse.c
+	<avr/io.h>
+
+1734528793 source:c:\mechatronica-2024\project\motor\fuse.c
+	<avr/io.h>
+

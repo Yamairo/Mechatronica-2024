@@ -1,6 +1,6 @@
 ---
 created: 2024-11-26T08:47
-updated: 2024-11-26T10:15
+updated: 2024-12-10T09:19
 ---
 # Inhoudsopgave
 ```toc
@@ -79,7 +79,7 @@ void initTImer(void)
 {
 	// Timer 0 is de systeemtimer (overflow)
 	TCCR0A = 0;
-	// TImer 8 kan niet ver genoeg tellen
+	// Timer 8 kan niet ver genoeg tellen
 	// 16MHz / 64 / 256 = 976.56Hz
 	// start timer 0, prescaler 64
 	TCCR0B = TCCR0b | (! << CS01) | (1 CS00)

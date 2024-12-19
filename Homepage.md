@@ -1,6 +1,6 @@
 ---
 created: 2024-09-19T08:59
-updated: 2024-11-12T08:56
+updated: 2024-12-04T08:47
 ---
 ```toc
 ```
@@ -21,10 +21,10 @@ FLATTEN file.tasks AS Tasks
 WHERE !Tasks.completed
 ```
 
-# Ontwerpen in Groepen 
+# Elektrische Netwerken
 ```dataview
 LIST
-FROM "Ontwerpen in groepen"
+FROM "Elektrische Netwerken"
 FLATTEN "## " + file.link AS heading
 ```
 
@@ -46,6 +46,13 @@ FLATTEN "## " + file.link AS heading
 ```dataview
 LIST
 FROM "Wiskunde"
+FLATTEN "## " + file.link AS heading
+```
+
+# Ontwerpen in Groepen 
+```dataview
+LIST
+FROM "Ontwerpen in groepen"
 FLATTEN "## " + file.link AS heading
 ```
 

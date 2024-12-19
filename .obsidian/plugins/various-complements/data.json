@@ -1,6 +1,6 @@
 {
   "strategy": "default",
-  "matchStrategy": "prefix",
+  "matchStrategy": "partial",
   "maxNumberOfSuggestions": 5,
   "maxNumberOfWordsAsPhrase": 3,
   "minNumberOfCharactersTriggered": 0,
@@ -100,6 +100,118 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1732609641012
+        }
+      }
+    },
+    "velden": {
+      "velden": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1733299713606
+        }
+      }
+    },
+    "Lading": {
+      "Lading": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1733300557313
+        }
+      }
+    },
+    "Stroom": {
+      "Stroom": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1733301670863
+        }
+      }
+    },
+    "Spanning": {
+      "Spanning": {
+        "internalLink": {
+          "count": 4,
+          "lastUpdated": 1733303466741
+        }
+      }
+    },
+    "Condensator": {
+      "Condensator": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1733300505803
+        }
+      }
+    },
+    "capacitiet": {
+      "capacitiet": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1733300554495
+        }
+      }
+    },
+    "capaciteit": {
+      "capaciteit": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1733301996866
+        }
+      }
+    },
+    "condensator": {
+      "condensator": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1733303457680
+        }
+      }
+    },
+    "Capaciteit": {
+      "Capaciteit": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1733302000825
+        }
+      }
+    },
+    "\\epsilon_0": {
+      "\\epsilon_0": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1733302288941
+        }
+      }
+    },
+    "Weerstand": {
+      "Weerstand": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1733303396905
+        }
+      }
+    },
+    "resistiviteit": {
+      "resistiviteit": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1733302574956
+        }
+      }
+    },
+    "spanningsverschil": {
+      "spanningsverschil": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1733303409560
+        }
+      }
+    },
+    "compare": {
+      "compare": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1733820524744
         }
       }
     }
