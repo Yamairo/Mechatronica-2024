@@ -75,8 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7be44b8fa1489f7b",
@@ -202,17 +201,17 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Project/Motor/Motor.layout",
-    "Solidworks/Solidworks-YamairoMartinus-20072716/~$Wiel-YamairoMartinus20072716.SLDPRT",
-    "Project/Motor/Motor.cbp",
-    "Project/Motor/bin/Debug/Motor.lfs",
-    "Project/Motor/obj/Debug/fuse.o",
-    "Project/Motor/obj/Debug/main.o",
-    "Project/Motor/bin/Debug/Motor.sig",
-    "Project/Motor/bin/Debug/Motor.map",
-    "Project/Motor/bin/Debug/Motor.lss",
-    "Project/Motor/bin/Debug/Motor.lock",
-    "Project/Motor/bin/Debug/Motor.hex",
+    "Project/Portaalkraan/Portaalkraan.layout",
+    "Project/LimitSwitch/LimitSwitch.layout",
+    "Project/MotorHeader/MotorHeader.layout",
+    "Project/Portaalkraan/bin/Debug/Portaalkraan.elf",
+    "Project/Portaalkraan/obj/Debug/Portaalkraan.o",
+    "Project/Portaalkraan/Portaalkraan.h",
+    "Project/Portaalkraan/Portaalkraan.c",
+    "Project/Portaalkraan/obj/Debug/LimitSwitch.o",
+    "Project/Portaalkraan/obj/Debug/Motor.o",
+    "Project/Portaalkraan/Portaalkraan.depend",
+    "Project/Portaalkraan/bin/Debug/Portaalkraan.efs",
     "Homepage.md",
     "Microcontroller Programmeren/Week 13.md",
     "Microcontroller Programmeren/Week 12 A.md",
