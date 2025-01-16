@@ -9,11 +9,17 @@ int main(void) {
     nulpuntPortaalkraan();
     while (1) {
         uint16_t distance = afstandPortaalkraan(); // Read distance
-        portaalkraanMagneet();               // Check magnet safety
         motorBeweegRechts();
-        // Optional: Use distance for further control
-        if (distance > 10) {
+        if (distance == 10) {
             motorStop();
+            pakPotplantOp();
+            motorBeweegRechts();
+        }
+        if (distance == 30) {
+            motorStop();
+            zetPotplantNeer();
+            nulpuntPortaalkraan();
+            exit();
         }
     }
 

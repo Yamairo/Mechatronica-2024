@@ -6,8 +6,7 @@
 
 
 
-int main(void)
-{
+int main(void) {
     // Configureer pin
     DDRB = 0b11000000; // voor de Mega
     while (1)

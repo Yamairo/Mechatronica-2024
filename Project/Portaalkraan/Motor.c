@@ -1,113 +1,157 @@
 #include "motor.h"
 
-// Global variables to track motor state
-volatile uint8_t lpwm_active = 0;
-volatile uint8_t rpwm_active = 0;
-volatile uint8_t lpwm2_active = 0;
-volatile uint8_t rpwm2_active = 0;
+// Globale variabelen om de motorstatus bij te houden
+volatile uint8_t lpwm_active = 0;  // Links PWM actief
+volatile uint8_t rpwm_active = 0;  // Rechts PWM actief
+volatile uint8_t lpwm2_active = 0; // Links PWM2 actief (voor omhoog/omlaag)
+volatile uint8_t rpwm2_active = 0; // Rechts PWM2 actief (voor omhoog/omlaag)
 
+/**
+ * @brief Initialiseer de timer (Timer0) voor motorbediening.
+ *        - Zet de timer in Normal mode.
+ *        - Gebruik een prescaler van 64.
+ *        - Stel een duty cycle in van 50%.
+ *        - Schakel Compare Match A en Overflow interrupts in.
+ */
 void init_timer(void)
 {
-    // Set Normal mode, Pre-scaler = 64
-    TCCR0A = 0;
-    TCCR0B = (0 << CS02) | (1 << CS01) | (1 << CS00);
-    OCR0A = 127;  // 50% duty cycle
-    TIMSK0 = (1 << OCIE0A) | (1 << TOIE0); // Enable Compare A and Overflow interrupts
+    // Zet Timer0 in Normal mode, Prescaler = 64
+    TCCR0A = 0; // Normal mode
+    TCCR0B = (0 << CS02) | (1 << CS01) | (1 << CS00); // Prescaler = 64
+
+    OCR0A = 127;  // Duty cycle van 50%
+    TIMSK0 = (1 << OCIE0A) | (1 << TOIE0); // Schakel Compare Match A en Overflow interrupts in
 }
 
+/**
+ * @brief Initialiseer alle benodigde pins voor motorbediening en debugfuncties.
+ *        - Stel pin PB6 in als uitgang voor debug LED.
+ *        - Stel motorbedieningspins (LPWM, RPWM) in als uitgangen en zet deze uit.
+ *        - Stel pin 22 in als uitgang.
+ *        - Stel PF1 in als invoer met pull-up weerstand (bijvoorbeeld voor een knop).
+ */
 void init_pins(void)
 {
-    // Debug LED
+    // Debug LED instellen
     DDRB |= (1 << PB6);
 
-    // Motor control pins (LPWM, RPWM) as output, initially off
+    // Motorbedieningspins (LPWM, RPWM) instellen als uitgangen, standaard uitgeschakeld
     DDRL |= (1 << LPWM) | (1 << RPWM);
     PORTL &= ~(1 << LPWM) & ~(1 << RPWM);
 
-    // Pin 22 as output
+    // Pin 22 (v5) instellen als uitgang
     DDRA |= (1 << v5);
 
-    // Button on PF1 with pull-up
-    DDRF &= ~(1 << PF1);  // Set PF1 as input
-    PORTF |= (1 << PF1);  // Enable pull-up resistor
+    // PF1 (knop) instellen als invoer met pull-up weerstand
+    DDRF &= ~(1 << PF1);  // PF1 als invoer
+    PORTF |= (1 << PF1);  // Pull-up weerstand inschakelen
 }
 
+/**
+ * @brief Initialiseer de motorbediening door pins en timers in te stellen.
+ *        Schakel globale interrupts in.
+ */
 void init(void)
 {
-    init_pins();
-    init_timer();
-    sei(); // Enable global interrupts
+    init_pins();    // Pins initialiseren
+    init_timer();   // Timer initialiseren
+    sei();          // Schakel globale interrupts in
 }
 
+/**
+ * @brief Beweeg de motor naar links door LPWM te activeren en RPWM te deactiveren.
+ */
 void motorBeweegLinks(void)
 {
-    lpwm_active = 1;
-    rpwm_active = 0;
+    lpwm_active = 1; // LPWM inschakelen
+    rpwm_active = 0; // RPWM uitschakelen
 }
 
+/**
+ * @brief Beweeg de motor naar rechts door RPWM te activeren en LPWM te deactiveren.
+ */
 void motorBeweegRechts(void)
 {
-    rpwm_active = 1;
-    lpwm_active = 0;
+    rpwm_active = 1; // RPWM inschakelen
+    lpwm_active = 0; // LPWM uitschakelen
 }
 
+/**
+ * @brief Beweeg de motor naar beneden door RPWM2 te activeren en LPWM2 te deactiveren.
+ */
 void motorBeweegOmlaag(void)
 {
-    rpwm2_active = 1;
-    lpwm2_active = 0;
+    rpwm2_active = 1; // RPWM2 inschakelen
+    lpwm2_active = 0; // LPWM2 uitschakelen
 }
 
+/**
+ * @brief Beweeg de motor omhoog door LPWM2 te activeren en RPWM2 te deactiveren.
+ */
 void motorBeweegOmhoog(void)
 {
-    lpwm2_active = 1;
-    rpwm2_active = 0;
+    lpwm2_active = 1; // LPWM2 inschakelen
+    rpwm2_active = 0; // RPWM2 uitschakelen
 }
 
-
+/**
+ * @brief Stop alle motoren door alle PWM-signalen uit te schakelen.
+ */
 void motorStop(void)
 {
-    lpwm_active = 0;
-    rpwm_active = 0;
+    lpwm_active = 0;  // LPWM uitschakelen
+    rpwm_active = 0;  // RPWM uitschakelen
+    lpwm2_active = 0; // LPWM2 uitschakelen
+    rpwm2_active = 0; // RPWM2 uitschakelen
 
-    PORTL &= ~(1 << LPWM) & ~(1 << RPWM) & ~(1 << LPWM2) & ~(1 << RPWM2); // Turn off all outputs
+    // Zet alle motorpins uit
+    PORTL &= ~(1 << LPWM) & ~(1 << RPWM) & ~(1 << LPWM2) & ~(1 << RPWM2);
 }
 
+/**
+ * @brief ISR (Interrupt Service Routine) voor Timer0 Compare Match A.
+ *        Zet de actieve motorpins uit (PWM-signaal laag).
+ */
 ISR(TIMER0_COMPA_vect)
 {
     if (lpwm_active)
     {
-        PORTL &= ~(1 << LPWM); // Turn off LPWM
+        PORTL &= ~(1 << LPWM); // LPWM uitschakelen
     }
     if (rpwm_active)
     {
-        PORTL &= ~(1 << RPWM); // Turn off RPWM
+        PORTL &= ~(1 << RPWM); // RPWM uitschakelen
     }
     if (lpwm2_active)
     {
-        PORTL &= ~(1 << LPWM2);
+        PORTL &= ~(1 << LPWM2); // LPWM2 uitschakelen
     }
     if (rpwm2_active)
     {
-        PORTL &= ~(1 << RPWM2);
+        PORTL &= ~(1 << RPWM2); // RPWM2 uitschakelen
     }
 }
 
+/**
+ * @brief ISR (Interrupt Service Routine) voor Timer0 Overflow.
+ *        Zet de actieve motorpins aan (PWM-signaal hoog).
+ */
 ISR(TIMER0_OVF_vect)
 {
     if (lpwm_active)
     {
-        PORTL |= (1 << LPWM); // Turn on LPWM
+        PORTL |= (1 << LPWM); // LPWM inschakelen
     }
     if (rpwm_active)
     {
-        PORTL |= (1 << RPWM); // Turn on RPWM
+        PORTL |= (1 << RPWM); // RPWM inschakelen
     }
     if (lpwm2_active)
     {
-        PORTL |= (1 << LPWM2); // Turn on LPWM
+        PORTL |= (1 << LPWM2); // LPWM2 inschakelen
     }
     if (rpwm2_active)
     {
-        PORTL |= (1 << RPWM2); // Turn on RPWM
+        PORTL |= (1 << RPWM2); // RPWM2 inschakelen
     }
 }

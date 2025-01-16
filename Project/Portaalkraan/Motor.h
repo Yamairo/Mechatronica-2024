@@ -1,61 +1,74 @@
- #ifndef MOTOR_H
- #define MOTOR_H
+#ifndef MOTOR_H
+#define MOTOR_H
 
- #include <avr/io.h>
- #include <util/delay.h>
- #include <avr/interrupt.h>
- // Pin Definitions
- #define LPWM PL5 // Pin 44
- #define RPWM PL3 // Pin 46
- #define LPWM2 PL4 // Pin 45
- #define RPWM2 PL2 // Pin 47
- #define v5 PA0 // Pin 22
- // Function Prototypes
+#include <avr/io.h>
+#include <util/delay.h>
+#include <avr/interrupt.h>
 
- /**
- * @brief Initialiseerd de timer voor PWM controle.
+// Pin-definities voor motorbediening
+#define LPWM PL5  // Pin 44: Links PWM (voor horizontale beweging)
+#define RPWM PL3  // Pin 46: Rechts PWM (voor horizontale beweging)
+#define LPWM2 PL4 // Pin 45: Links PWM2 (voor verticale beweging)
+#define RPWM2 PL2 // Pin 47: Rechts PWM2 (voor verticale beweging)
+#define v5 PA0    // Pin 22: Algemene uitgang (bijvoorbeeld voeding of statusled)
+
+// Functieprototypes
+
+/**
+ * @brief Initialiseer de timer (Timer0) voor PWM-controle.
+ *        Dit omvat het instellen van de timer-modus, prescaler en interrupts
+ *        die nodig zijn voor motorbediening.
  */
- void init_timer(void);
+void init_timer(void);
 
- /**
- * @brief Configureer de pins voor motor besturing en controle.
+/**
+ * @brief Configureer de benodigde pins voor motorbesturing.
+ *        Stelt pin-modi in (input/output) en schakelt pull-up weerstanden in waar nodig.
  */
- void init_pins(void);
+void init_pins(void);
 
- /**
- * @brief Initialiseerd de timer en de pins.
+/**
+ * @brief Initialiseer zowel de timer als de pins.
+ *        Zorgt ervoor dat de hardware correct is ingesteld voordat de motor wordt gebruikt.
  */
- void init(void);
+void init(void);
 
- // Interrupt Service Routines (ISRs)
- /**
- * @brief ISR voor Compare match A.
+// Interrupt Service Routines (ISRs)
+
+/**
+ * @brief ISR voor Compare Match A van Timer0.
+ *        Deze routine schakelt de actieve PWM-signalen uit (laag) wanneer een compare match plaatsvindt.
  */
- ISR(TIMER0_COMPA_vect);
+ISR(TIMER0_COMPA_vect);
 
- /**
- * @brief ISR voor TIMER0 Overflow.
+/**
+ * @brief ISR voor Overflow van Timer0.
+ *        Deze routine schakelt de actieve PWM-signalen in (hoog) bij een overflow van Timer0.
  */
- ISR(TIMER0_OVF_vect);
+ISR(TIMER0_OVF_vect);
 
- /**
- * @brief Enables PWM for LPWM (Pin 44).
+/**
+ * @brief Activeer PWM voor de LPWM-pin (Pin 44).
+ *        Dit zorgt ervoor dat de motor naar links beweegt.
  */
- void motorBeweegLinks(void);
+void motorBeweegLinks(void);
 
- /**
- * @brief Enables PWM for RPWM (Pin 47).
-*/
- void motorBeweegOmlaag(void);
-
-  /**
- * @brief Enables PWM for LPWM2 (Pin 45).
+/**
+ * @brief Activeer PWM voor de RPWM-pin (Pin 47).
+ *        Dit zorgt ervoor dat de motor naar beneden beweegt.
  */
- void motorBeweegOmhoog(void);
+void motorBeweegOmlaag(void);
 
- /**
- * @brief Disables both LPWM and RPWM outputs.
+/**
+ * @brief Activeer PWM voor de LPWM2-pin (Pin 45).
+ *        Dit zorgt ervoor dat de motor naar boven beweegt.
  */
- void motorStop(void);
+void motorBeweegOmhoog(void);
 
- #endif // MOTOR_H
+/**
+ * @brief Schakel alle motoruitgangen uit (LPWM, RPWM, LPWM2, RPWM2).
+ *        Dit stopt alle bewegingen van de motor.
+ */
+void motorStop(void);
+
+#endif // MOTOR_H
