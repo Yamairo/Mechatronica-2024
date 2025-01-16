@@ -11,14 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Homepage.md",
-                "mode": "preview",
-                "source": true
+                "file": "Boeken/Mega2560 Pinout.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Homepage"
+              "icon": "lucide-file-text",
+              "title": "Mega2560 Pinout"
             }
           }
         ]
@@ -204,19 +202,18 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Project/Code notations/Motor code in header bestand met main c file.md",
-    "Project/Code notations/Eerste versie motor code.md",
-    "Project/Motor/bin/Debug/Motor.elf",
-    "Project/Motor/Motor.h",
-    "Project/Code notations",
-    "Homepage.md",
-    "Boeken/Mega2560 Pinout.pdf",
     "Project/Motor/Motor.layout",
     "Solidworks/Solidworks-YamairoMartinus-20072716/~$Wiel-YamairoMartinus20072716.SLDPRT",
     "Project/Motor/Motor.cbp",
     "Project/Motor/bin/Debug/Motor.lfs",
     "Project/Motor/obj/Debug/fuse.o",
     "Project/Motor/obj/Debug/main.o",
+    "Project/Motor/bin/Debug/Motor.sig",
+    "Project/Motor/bin/Debug/Motor.map",
+    "Project/Motor/bin/Debug/Motor.lss",
+    "Project/Motor/bin/Debug/Motor.lock",
+    "Project/Motor/bin/Debug/Motor.hex",
+    "Homepage.md",
     "Microcontroller Programmeren/Week 13.md",
     "Microcontroller Programmeren/Week 12 A.md",
     "Elektrische Netwerken/Week 13 - Capaciteit, Resistiviteit en Condensatoren.md",
@@ -243,6 +240,7 @@
     "Subonderwerpen/Microcontroller.md",
     "Subonderwerpen/moment.md",
     "Subonderwerpen/logische spanningsniveaus.md",
+    "Subonderwerpen/LED.md",
     "Solidworks/3d Modeleren/Render/Untitled Project (2)/Poortaalkraan.jpg",
     "Solidworks/3d Modeleren/Render/Portaalkraan render (5)/Portaalkraan render (5).jpg",
     "Solidworks/3d Modeleren/Render/Portaalkraan render (3)/Portaalkraan render (3).jpg",
