@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1736502125 source:c:\mechatronica-2024\project\limitswitch\fuse.c
+	<avr/io.h>
+
+1736502454 source:c:\mechatronica-2024\project\limitswitch\main.c
+	<avr/io.h>
+
+1736504177 source:c:\mechatronica-2024\project\limitswitch\limitswitch.c
+	"LimitSwitch.h"
+	<util/delay.h>
+
+1736504177 c:\mechatronica-2024\project\limitswitch\limitswitch.h
+	<avr/io.h>
+
