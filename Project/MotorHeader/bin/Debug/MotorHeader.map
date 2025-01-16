@@ -49,7 +49,6 @@ Linker script and memory map
 
 Address of section .data set to 0x800200
 LOAD c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
-LOAD obj\Debug\fuse.o
 LOAD obj\Debug\main.o
 LOAD obj\Debug\Motor.o
 START GROUP
@@ -266,7 +265,6 @@ END GROUP
                 0x000000000000010c                __vector_18
                 0x000000000000010c                __vector_20
                 0x000000000000010c                __vector_42
- .text          0x0000000000000110        0x0 obj\Debug\fuse.o
  .text          0x0000000000000110      0x69a obj\Debug\main.o
                 0x0000000000000110                main
  .text          0x00000000000007aa      0x232 obj\Debug\Motor.o
@@ -410,7 +408,6 @@ END GROUP
                 [!provide]                        PROVIDE (__data_start = .)
  *(.data)
  .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
- .data          0x0000000000800200        0x0 obj\Debug\fuse.o
  .data          0x0000000000800200        0x0 obj\Debug\main.o
  .data          0x0000000000800200        0x0 obj\Debug\Motor.o
  .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
@@ -442,7 +439,6 @@ END GROUP
                 0x0000000000800200                PROVIDE (__bss_start = .)
  *(.bss)
  .bss           0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
- .bss           0x0000000000800200        0x0 obj\Debug\fuse.o
  .bss           0x0000000000800200        0x0 obj\Debug\main.o
  .bss           0x0000000000800200        0x2 obj\Debug\Motor.o
                 0x0000000000800200                lpwm_active
@@ -480,10 +476,8 @@ END GROUP
  *(.eeprom*)
                 0x0000000000810000                __eeprom_end = .
 
-.fuse           0x0000000000820000        0x3
+.fuse
  *(.fuse)
- .fuse          0x0000000000820000        0x3 obj\Debug\fuse.o
-                0x0000000000820000                __fuse
  *(.lfuse)
  *(.hfuse)
  *(.efuse)
@@ -514,9 +508,8 @@ END GROUP
 
 .comment        0x0000000000000000       0x12
  *(.comment)
- .comment       0x0000000000000000       0x12 obj\Debug\fuse.o
+ .comment       0x0000000000000000       0x12 obj\Debug\main.o
                                          0x13 (size before relaxing)
- .comment       0x0000000000000012       0x13 obj\Debug\main.o
  .comment       0x0000000000000012       0x13 obj\Debug\Motor.o
 
 .note.gnu.avr.deviceinfo
@@ -539,65 +532,58 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000       0x98
+.debug_aranges  0x0000000000000000       0x80
  *(.debug_aranges)
  .debug_aranges
-                0x0000000000000000       0x18 obj\Debug\fuse.o
+                0x0000000000000000       0x20 obj\Debug\main.o
  .debug_aranges
-                0x0000000000000018       0x20 obj\Debug\main.o
+                0x0000000000000020       0x20 obj\Debug\Motor.o
  .debug_aranges
-                0x0000000000000038       0x20 obj\Debug\Motor.o
+                0x0000000000000040       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
  .debug_aranges
-                0x0000000000000058       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .debug_aranges
-                0x0000000000000078       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                0x0000000000000060       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x104c
+.debug_info     0x0000000000000000      0xfaa
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0xbbc c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
- .debug_info    0x0000000000000bbc       0xa2 obj\Debug\fuse.o
- .debug_info    0x0000000000000c5e      0x28d obj\Debug\main.o
- .debug_info    0x0000000000000eeb      0x119 obj\Debug\Motor.o
- .debug_info    0x0000000000001004       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .debug_info    0x0000000000001028       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_info    0x0000000000000bbc      0x28d obj\Debug\main.o
+ .debug_info    0x0000000000000e49      0x119 obj\Debug\Motor.o
+ .debug_info    0x0000000000000f62       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_info    0x0000000000000f86       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
 
-.debug_abbrev   0x0000000000000000      0xd3c
+.debug_abbrev   0x0000000000000000      0xcc1
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0xb1a c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
- .debug_abbrev  0x0000000000000b1a       0x7b obj\Debug\fuse.o
- .debug_abbrev  0x0000000000000b95       0xf7 obj\Debug\main.o
- .debug_abbrev  0x0000000000000c8c       0x88 obj\Debug\Motor.o
- .debug_abbrev  0x0000000000000d14       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .debug_abbrev  0x0000000000000d28       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x0000000000000b1a       0xf7 obj\Debug\main.o
+ .debug_abbrev  0x0000000000000c11       0x88 obj\Debug\Motor.o
+ .debug_abbrev  0x0000000000000c99       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_abbrev  0x0000000000000cad       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
 
-.debug_line     0x0000000000000000      0x677
+.debug_line     0x0000000000000000      0x638
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x0000000000000000       0x1d c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
- .debug_line    0x000000000000001d       0x3f obj\Debug\fuse.o
- .debug_line    0x000000000000005c      0x2e4 obj\Debug\main.o
- .debug_line    0x0000000000000340      0x271 obj\Debug\Motor.o
- .debug_line    0x00000000000005b1       0x51 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .debug_line    0x0000000000000602       0x75 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_line    0x000000000000001d      0x2e4 obj\Debug\main.o
+ .debug_line    0x0000000000000301      0x271 obj\Debug\Motor.o
+ .debug_line    0x0000000000000572       0x51 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_line    0x00000000000005c3       0x75 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
 
 .debug_frame    0x0000000000000000      0x18c
  *(.debug_frame)
  .debug_frame   0x0000000000000000       0x38 obj\Debug\main.o
  .debug_frame   0x0000000000000038      0x154 obj\Debug\Motor.o
 
-.debug_str      0x0000000000000000      0x5b5
+.debug_str      0x0000000000000000      0x5c4
  *(.debug_str)
  .debug_str     0x0000000000000000      0x3e9 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
- .debug_str     0x00000000000003e9       0xa5 obj\Debug\fuse.o
-                                         0xd9 (size before relaxing)
- .debug_str     0x000000000000048e       0x7b obj\Debug\main.o
-                                        0x136 (size before relaxing)
- .debug_str     0x0000000000000509       0x4d obj\Debug\Motor.o
+ .debug_str     0x00000000000003e9      0x10b obj\Debug\main.o
+                                        0x13f (size before relaxing)
+ .debug_str     0x00000000000004f4       0x71 obj\Debug\Motor.o
                                         0x131 (size before relaxing)
- .debug_str     0x0000000000000556       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
- .debug_str     0x00000000000005b5       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_str     0x0000000000000565       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_str     0x00000000000005c4       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
 
 .debug_loc
  *(.debug_loc)
@@ -627,22 +613,19 @@ END GROUP
  *(.debug_addr)
 
 .debug_line_str
-                0x0000000000000000      0x15f
+                0x0000000000000000      0x11b
  *(.debug_line_str)
  .debug_line_str
-                0x0000000000000000       0x6d obj\Debug\fuse.o
-                                         0xa4 (size before relaxing)
- .debug_line_str
-                0x000000000000006d       0x97 obj\Debug\main.o
+                0x0000000000000000       0xc0 obj\Debug\main.o
                                          0xf7 (size before relaxing)
  .debug_line_str
-                0x0000000000000104        0x8 obj\Debug\Motor.o
+                0x00000000000000c0        0x8 obj\Debug\Motor.o
                                          0xa5 (size before relaxing)
  .debug_line_str
-                0x000000000000010c       0x53 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                0x00000000000000c8       0x53 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
                                          0x5f (size before relaxing)
  .debug_line_str
-                0x000000000000015f       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                0x000000000000011b       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
 
 .debug_loclists
  *(.debug_loclists)
@@ -701,7 +684,6 @@ __fp_szero                                        c:/program files (x86)/avr-gcc
                                                   c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
 __fp_zero                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
                                                   c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
-__fuse                                            obj\Debug\fuse.o
 __gesf2                                           c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
 __gtsf2                                           c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
                                                   obj\Debug\main.o
@@ -779,11 +761,8 @@ __vector_default                                  c:/program files (x86)/avr-gcc
 __vectors                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 _exit                                             c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
 disable_pwm                                       obj\Debug\Motor.o
-                                                  obj\Debug\main.o
 enable_lpwm                                       obj\Debug\Motor.o
-                                                  obj\Debug\main.o
 enable_rpwm                                       obj\Debug\Motor.o
-                                                  obj\Debug\main.o
 exit                                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
                                                   c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 init                                              obj\Debug\Motor.o
@@ -793,4 +772,7 @@ init_timer                                        obj\Debug\Motor.o
 lpwm_active                                       obj\Debug\Motor.o
 main                                              obj\Debug\main.o
                                                   c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+motorBeweegLinks                                  obj\Debug\main.o
+motorBeweegRechts                                 obj\Debug\main.o
+motorStop                                         obj\Debug\main.o
 rpwm_active                                       obj\Debug\Motor.o

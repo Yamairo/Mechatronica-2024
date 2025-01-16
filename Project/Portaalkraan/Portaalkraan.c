@@ -15,20 +15,24 @@ void initPortaalkraan(void) {
 
 void nulpuntPortaalkraan(void) {
     // Move motor until the zero-point limit switch (PB0) is triggered
-    motorBeweegRechts(); // Move motor in one direction
+    motorBeweegLinks(); // Move motor in one direction
     while (!isLimitSwitchPressed(PB0, &PORTB, &PINB)) {
         _delay_ms(10); // Check every 10ms
     }
     motorStop(); // Stop motor when zero point is reached
+    motorBeweegRechts();
+    _delay_ms(10);
+    motorStop();
     distanceCount = 0; // Reset the distance count
 }
 
+void pakPotplantOp(void)
+{
+
+}
+
 uint16_t afstandPortaalkraan(void) {
-    // Monitor the distance counting limit switch (PB1)
-    if (isLimitSwitchPressed(PB1, &PORTB, &PINB)) {
-        distanceCount++; // Increment the distance count on each trigger
-    }
-    return distanceCount; // Return the total distance count
+    return countLimitSwitchPresses(PB1, &PORTB, &PINB); // Return the total distance count
 }
 
 void portaalkraanMagneet(void) {
