@@ -5,3 +5,16 @@
 1734528793 source:c:\mechatronica-2024\project\motor\fuse.c
 	<avr/io.h>
 
+1734612003 source:d:\school\hbo-mechatronica-jaar-1-2024\project\motor\fuse.c
+	<avr/io.h>
+
+1734612502 source:d:\school\hbo-mechatronica-jaar-1-2024\project\motor\main.c
+
+1734614251 source:d:\school\hbo-mechatronica-jaar-1-2024\project\motor\motor.c
+	"Motor.h"
+
+1734614083 d:\school\hbo-mechatronica-jaar-1-2024\project\motor\motor.h
+	<avr/io.h>
+	<util/delay.h>
+	<avr/interrupt.h>
+
