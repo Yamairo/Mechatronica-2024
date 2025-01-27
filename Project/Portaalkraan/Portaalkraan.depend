@@ -2,34 +2,35 @@
 1736504343 source:c:\mechatronica-2024\project\portaalkraan\fuse.c
 	<avr/io.h>
 
-1736953418 source:c:\mechatronica-2024\project\portaalkraan\limitswitch.c
+1737119892 source:c:\mechatronica-2024\project\portaalkraan\limitswitch.c
 	"LimitSwitch.h"
+	"Motor.h"
+
+1737119775 c:\mechatronica-2024\project\portaalkraan\limitswitch.h
+	<avr/io.h>
 	<util/delay.h>
 
-1736953418 c:\mechatronica-2024\project\portaalkraan\limitswitch.h
-	<avr/io.h>
-
-1736954417 source:c:\mechatronica-2024\project\portaalkraan\motor.c
+1737992480 source:c:\mechatronica-2024\project\portaalkraan\motor.c
 	"motor.h"
 
-1737039818 c:\mechatronica-2024\project\portaalkraan\motor.h
+1737992366 c:\mechatronica-2024\project\portaalkraan\motor.h
 	<avr/io.h>
 	<util/delay.h>
 	<avr/interrupt.h>
 
-1737038978 source:c:\mechatronica-2024\project\portaalkraan\main.c
+1737986194 source:c:\mechatronica-2024\project\portaalkraan\main.c
 	"Portaalkraan.h"
 	<avr/io.h>
 	<util/delay.h>
 
-1737037696 source:c:\mechatronica-2024\project\portaalkraan\portaalkraan.c
+1737992434 source:c:\mechatronica-2024\project\portaalkraan\portaalkraan.c
 	"Portaalkraan.h"
 	"LimitSwitch.h"
 	"Motor.h"
 	<avr/io.h>
 	<util/delay.h>
 
-1736506828 c:\mechatronica-2024\project\portaalkraan\portaalkraan.h
+1737991878 c:\mechatronica-2024\project\portaalkraan\portaalkraan.h
 	<stdint.h>
 
 1737044059 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\fuse.c
@@ -57,4 +58,11 @@
 	<avr/io.h>
 	<util/delay.h>
 	<avr/interrupt.h>
+
+1737992578 source:c:\mechatronica-2024\project\portaalkraan\interface.c
+	"Interface.h"
+
+1737992578 c:\mechatronica-2024\project\portaalkraan\interface.h
+	<avr/io.h>
+	<util/delay.h>
 

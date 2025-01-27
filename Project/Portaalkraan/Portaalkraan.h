@@ -24,7 +24,7 @@ void nulpuntPortaalkraan(void);
  *
  * @return Het huidige y-coördinaat (aantal activeringen van de limietschakelaar).
  */
-uint16_t afstandPortaalkraan(void);
+uint16_t afstandPortaalkraan();
 
 /**
  * @brief Schakel de magneet van de portaalkraan in om objecten vast te houden.
@@ -43,4 +43,9 @@ void portaalkraanMagneetUit(void);
  */
 void pakPotplantOp(void);
 
+/**
+ * @brief Zet een potplant neer door de kraan naar beneden te bewegen
+ *        totdat de limietschakelaar wordt geactiveerd, daarna wordt de magneet uitgeschakeld.
+ */
+void zetPotplantNeer(void);
 #endif // PORTAALKRAAN_H

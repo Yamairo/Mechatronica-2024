@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1737979639 source:c:\mechatronica-2024\project\test\fuse.c
+	<avr/io.h>
+
+1737980428 source:c:\mechatronica-2024\project\test\main.c
+	<avr/io.h>
+	<util/delay.h>
+

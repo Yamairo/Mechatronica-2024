@@ -13,35 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Code notations/Automatisch oppakken en neerzetten (Met gegeven coördinaten).md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Automatisch oppakken en neerzetten (Met gegeven coördinaten)"
-            },
-            "group": "e5346e305fd658d3"
-          }
-        ]
-      },
-      {
-        "id": "3aada2da178623f2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "89a5a2f1b5a719cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project/Code notations/Automatisch oppakken en neerzetten (Met gegeven coördinaten).md",
+                "file": "Project/Code notations/Code Portaalkraan.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Automatisch oppakken en neerzetten (Met gegeven coördinaten)"
-            },
-            "group": "e5346e305fd658d3"
+              "title": "Code Portaalkraan"
+            }
           }
         ]
       }
@@ -99,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "218d10baa4691b5a",
@@ -221,10 +198,23 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "89a5a2f1b5a719cb",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Project/Portaalkraan/bin/Debug/Portaalkraan.elf",
+    "Project/Portaalkraan2/Portaalkraan2.layout",
+    "Project/Portaalkraan2/obj/Debug/fuse.o",
+    "Project/Portaalkraan2/obj/Debug/LimitSwitch.o",
+    "Project/Portaalkraan2/obj/Debug/Motor.o",
+    "Project/Portaalkraan2/obj/Debug/Interface.o",
+    "Project/Portaalkraan2/bin/Debug",
+    "Project/Portaalkraan2/bin",
+    "Project/Portaalkraan2/obj/Debug",
+    "Project/Portaalkraan2/obj",
+    "Project/Portaalkraan2/Portaalkraan.h",
     "Project/Code notations/Motor code in header bestand met main c file.md",
-    "Project/Code notations/Automatisch oppakken en neerzetten (Met gegeven coördinaten).md",
-    "Homepage.md"
+    "Homepage.md",
+    "Subonderwerpen/Bekabeling.md",
+    "Project/Code notations/Code Portaalkraan.md",
+    "Project/Code notations/Automatisch oppakken en neerzetten (Met gegeven coördinaten).md"
   ]
 }

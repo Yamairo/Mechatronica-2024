@@ -40,7 +40,8 @@ void init_pins(void)
     PORTL &= ~(1 << LPWM) & ~(1 << RPWM);
 
     // Pin 22 (v5) instellen als uitgang
-    DDRA |= (1 << v5);
+    DDRA |= (1 << vcc1);
+    DDRA |= (1 << vcc2);
 
     // PF1 (knop) instellen als invoer met pull-up weerstand
     DDRF &= ~(1 << PF1);  // PF1 als invoer
