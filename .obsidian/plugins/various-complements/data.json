@@ -47,171 +47,67 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "samenwerkingscontract": {
-      "samenwerkingscontract": {
+    "isLimitSwitchPressed": {
+      "isLimitSwitchPressed": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1731412504110
+          "lastUpdated": 1737126702961
         }
       }
     },
-    "mechanisme": {
-      "mechanisme": {
+    "CountLimitSwitchPresses": {
+      "CountLimitSwitchPresses": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1731413272788
+          "lastUpdated": 1737126857131
         }
       }
     },
-    "Projectcharter": {
-      "Projectcharter": {
+    "NulpuntPortaalkraan": {
+      "NulpuntPortaalkraan": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1732102104635
+          "lastUpdated": 1737127082938
         }
       }
     },
-    "hardware": {
-      "hardware": {
+    "nulpuntPortaalkraan": {
+      "nulpuntPortaalkraan": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1732609061491
+          "lastUpdated": 1737127094611
         }
       }
     },
-    "Registers": {
-      "Registers": {
+    "countLimitSwitchPresses": {
+      "countLimitSwitchPresses": {
         "currentFile": {
           "count": 2,
-          "lastUpdated": 1732610156717
+          "lastUpdated": 1737127307206
         }
       }
     },
-    "Microcontroller": {
-      "Microcontroller": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1732610110594
-        }
-      }
-    },
-    "kloksnelheid": {
-      "kloksnelheid": {
+    "portaalkraanMagneetAan": {
+      "portaalkraanMagneetAan": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1732609641012
+          "lastUpdated": 1737127369142
         }
       }
     },
-    "velden": {
-      "velden": {
+    "portaalkraanMagneetUit": {
+      "portaalkraanMagneetUit": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1733299713606
+          "lastUpdated": 1737127375371
         }
       }
     },
-    "Lading": {
-      "Lading": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1733300557313
-        }
-      }
-    },
-    "Stroom": {
-      "Stroom": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1733301670863
-        }
-      }
-    },
-    "Spanning": {
-      "Spanning": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1733303466741
-        }
-      }
-    },
-    "Condensator": {
-      "Condensator": {
+    "ZetPotplantNeer": {
+      "ZetPotplantNeer": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1733300505803
-        }
-      }
-    },
-    "capacitiet": {
-      "capacitiet": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1733300554495
-        }
-      }
-    },
-    "capaciteit": {
-      "capaciteit": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1733301996866
-        }
-      }
-    },
-    "condensator": {
-      "condensator": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1733303457680
-        }
-      }
-    },
-    "Capaciteit": {
-      "Capaciteit": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1733302000825
-        }
-      }
-    },
-    "\\epsilon_0": {
-      "\\epsilon_0": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1733302288941
-        }
-      }
-    },
-    "Weerstand": {
-      "Weerstand": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1733303396905
-        }
-      }
-    },
-    "resistiviteit": {
-      "resistiviteit": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1733302574956
-        }
-      }
-    },
-    "spanningsverschil": {
-      "spanningsverschil": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1733303409560
-        }
-      }
-    },
-    "compare": {
-      "compare": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1733820524744
+          "lastUpdated": 1737127664802
         }
       }
     }

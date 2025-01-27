@@ -87,3 +87,10 @@ uint16_t afstandPortaalkraan(void) {
 void portaalkraanMagneetAan(void) {
     // Deze functie activeert de magneet, implementatie ontbreekt
 }
+
+/**
+ * Functie om de magneet van de portaalkraan aan te zetten
+ */
+void portaalkraanMagneetUit(void) {
+    // Deze functie activeert de magneet, implementatie ontbreekt
+}

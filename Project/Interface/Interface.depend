@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1737720217 source:c:\mechatronica-2024\project\interface\fuse.c
+	<avr/io.h>
+
+1737979618 source:c:\mechatronica-2024\project\interface\main.c
+
+1737985319 source:c:\mechatronica-2024\project\interface\interface.c
+	"Interface.h"
+
+1737981278 c:\mechatronica-2024\project\interface\interface.h
+	<avr/io.h>
+	<util/delay.h>
+

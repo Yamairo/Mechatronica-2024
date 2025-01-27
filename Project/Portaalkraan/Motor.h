@@ -10,7 +10,9 @@
 #define RPWM PL3  // Pin 46: Rechts PWM (voor horizontale beweging)
 #define LPWM2 PL4 // Pin 45: Links PWM2 (voor verticale beweging)
 #define RPWM2 PL2 // Pin 47: Rechts PWM2 (voor verticale beweging)
-#define v5 PA0    // Pin 22: Algemene uitgang (bijvoorbeeld voeding of statusled)
+#define vcc1 PA0    // Pin 22: Algemene uitgang
+#define vcc2 PA1    // Pin 23: Algemene uitgang
+#define uint_8t richting
 
 // Functieprototypes
 
@@ -54,7 +56,13 @@ ISR(TIMER0_OVF_vect);
 void motorBeweegLinks(void);
 
 /**
- * @brief Activeer PWM voor de RPWM-pin (Pin 47).
+ * @brief Activeer PWM voor de LPWM-pin (Pin 47).
+ *        Dit zorgt ervoor dat de motor naar links beweegt.
+ */
+void motorBeweegRechts(void);
+
+/**
+ * @brief Activeer PWM voor de RPWM-pin (Pin 46).
  *        Dit zorgt ervoor dat de motor naar beneden beweegt.
  */
 void motorBeweegOmlaag(void);
