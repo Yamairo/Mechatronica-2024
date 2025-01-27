@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1737236111 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\gayniggas\fuse.c
+	<avr/io.h>
+
+1737384657 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\gayniggas\opdracht 1.c
+	<avr/io.h>
+
+1737413267 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\gayniggas\main.c
+	<avr/io.h>
+

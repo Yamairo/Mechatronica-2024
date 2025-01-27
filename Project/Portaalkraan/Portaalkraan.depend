@@ -47,14 +47,21 @@
 	<avr/io.h>
 	<util/delay.h>
 
-1737050194 d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\portaalkraan.h
+1737068611 d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\portaalkraan.h
 	<stdint.h>
 
-1737044059 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\motor.c
+1737069076 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\motor.c
 	"motor.h"
 
-1737044059 d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\motor.h
+1737069102 d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\motor.h
 	<avr/io.h>
 	<util/delay.h>
 	<avr/interrupt.h>
+
+1737069994 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\portaalkraan.c
+	"Portaalkraan.h"
+	"LimitSwitch.h"
+	"Motor.h"
+	<avr/io.h>
+	<util/delay.h>
 

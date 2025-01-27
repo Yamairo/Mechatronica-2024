@@ -11,37 +11,13 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Project/Code notations/Automatisch oppakken en neerzetten (Met gegeven coördinaten).md",
-                "mode": "source",
-                "source": true
+                "file": "Boeken/ATmega640-1280-1281-2560-2561-Datasheet-DS40002211A.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Automatisch oppakken en neerzetten (Met gegeven coördinaten)"
-            },
-            "group": "e5346e305fd658d3"
-          }
-        ]
-      },
-      {
-        "id": "3aada2da178623f2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "89a5a2f1b5a719cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project/Code notations/Automatisch oppakken en neerzetten (Met gegeven coördinaten).md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Automatisch oppakken en neerzetten (Met gegeven coördinaten)"
-            },
-            "group": "e5346e305fd658d3"
+              "icon": "lucide-file-text",
+              "title": "ATmega640-1280-1281-2560-2561-Datasheet-DS40002211A"
+            }
           }
         ]
       }
@@ -221,10 +197,21 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "89a5a2f1b5a719cb",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Project/Code notations/Motor code in header bestand met main c file.md",
+    "Microcontroller Programmeren/Toets/Toets.depend",
+    "Microcontroller Programmeren/Toets/bin/Debug/Toets.efs",
+    "Microcontroller Programmeren/Toets/bin/Debug/Toets.hfs",
+    "Microcontroller Programmeren/Toets/bin/Debug/Toets.lfs",
+    "Microcontroller Programmeren/Toets/bin/Debug/Toets.fuse",
+    "Microcontroller Programmeren/Toets/bin/Debug/Toets.sig",
+    "Microcontroller Programmeren/Toets/bin/Debug/Toets.lock",
+    "Microcontroller Programmeren/Toets/bin/Debug/Toets.eep",
+    "Microcontroller Programmeren/Toets/bin/Debug/Toets.hex",
+    "Microcontroller Programmeren/Toets/bin/Debug/Toets.lss",
+    "Microcontroller Programmeren/Toets/bin/Debug/Toets.elf",
+    "Homepage.md",
     "Project/Code notations/Automatisch oppakken en neerzetten (Met gegeven coördinaten).md",
-    "Homepage.md"
+    "Project/Code notations/Motor code in header bestand met main c file.md"
   ]
 }
