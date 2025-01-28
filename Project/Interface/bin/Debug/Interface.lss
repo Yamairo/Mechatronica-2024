@@ -27,7 +27,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  11 .debug_str    000005b0  00000000  00000000  000034e0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 12 .debug_line_str 00000159  00000000  00000000  00003a90  2**0
+ 12 .debug_line_str 00000192  00000000  00000000  00003a90  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -1545,25 +1545,18 @@ int kiesCoordinaat(void)
  880:	08 95       	ret
 
 00000882 <main>:
-int main(void)
-{
  882:	cf 93       	push	r28
  884:	df 93       	push	r29
  886:	cd b7       	in	r28, 0x3d	; 61
  888:	de b7       	in	r29, 0x3e	; 62
 
 0000088a <.Loc.1>:
-	init();
  88a:	0e 94 95 00 	call	0x12a	; 0x12a <init>
 
 0000088e <.L2>:
-	while (1)
-	{
-		kiesCoordinaat();
  88e:	0e 94 4b 02 	call	0x496	; 0x496 <kiesCoordinaat>
 
 00000892 <.LBE2>:
-	{
  892:	00 00       	nop
  894:	fc cf       	rjmp	.-8      	; 0x88e <.L2>
 

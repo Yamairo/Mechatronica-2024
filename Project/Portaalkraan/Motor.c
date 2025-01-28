@@ -1,4 +1,4 @@
-#include "motor.h"
+#include "Motor.h"
 
 // Globale variabelen om de motorstatus bij te houden
 volatile uint8_t lpwm_active = 0;  // Links PWM actief
@@ -24,6 +24,15 @@ void init_timer(void)
 }
 
 /**
+ * Functie om de timer (Timer0) uit te schakelen
+ */
+void stop_timer(void)
+{
+    // Zet de timer uit door de prescaler bits naar 0 te zetten
+    TCCR0B &= ~((1 << CS02) | (1 << CS01) | (1 << CS00)); // Stop de timer
+}
+
+/**
  * @brief Initialiseer alle benodigde pins voor motorbediening en debugfuncties.
  *        - Stel pin PB6 in als uitgang voor debug LED.
  *        - Stel motorbedieningspins (LPWM, RPWM) in als uitgangen en zet deze uit.
@@ -34,6 +43,7 @@ void init_pins(void)
 {
     // Debug LED instellen
     DDRB |= (1 << PB6);
+    PORTB &= ~(1 << PB6);
 
     // Motorbedieningspins (LPWM, RPWM) instellen als uitgangen, standaard uitgeschakeld
     DDRL |= (1 << LPWM) | (1 << RPWM);

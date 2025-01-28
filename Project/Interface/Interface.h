@@ -8,9 +8,9 @@
 // 8: SDI	-> PH5
 // 7: SFTCLK	-> PH4
 // 4: LCHCLK	-> PG5
-#define S1 PF1
-#define S2 PF2
-#define S3 PF3
+#define S1 PF1 // wordt pc4
+#define S2 PF2 // wordt pc5
+#define S3 PF3 //wordt pc6
 
 #define SDI_BIT		PH5
 #define DDR_SDI		DDRH

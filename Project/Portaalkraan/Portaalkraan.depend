@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1737044059 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\fuse.c
+	<avr/io.h>
+
+1738022093 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\interface.c
+	"Interface.h"
+	"Noodknop.h"
+
+1738015089 d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\interface.h
+	<avr/io.h>
+	<util/delay.h>
+
+1738008686 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\limitswitch.c
+	"LimitSwitch.h"
+	"Motor.h"
+
+1738005632 d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\limitswitch.h
+	<avr/io.h>
+	<util/delay.h>
+
+1738018012 d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\motor.h
+	<avr/io.h>
+	<util/delay.h>
+	<avr/interrupt.h>
+
+1738020711 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\motor.c
+	"Motor.h"
+
+1738021870 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\portaalkraan.c
+	"Portaalkraan.h"
+	"LimitSwitch.h"
+	"Motor.h"
+	<avr/io.h>
+	<util/delay.h>
+
+1738021996 d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\portaalkraan.h
+	<stdint.h>
+
+1738022760 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\main.c
+	"Portaalkraan.h"
+	"Interface.h"
+	"Noodknop.h"
+	<avr/io.h>
+	<util/delay.h>
+	<avr/interrupt.h>
+
+1738022570 d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\noodknop.h
+	<avr/io.h>
+
+1738022994 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\noodknop.c
+	"Noodknop.h"
+

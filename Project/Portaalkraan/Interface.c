@@ -3,18 +3,23 @@
 #endif
 
 #include "Interface.h"
+#include "Noodknop.h"
 
-int coordinaat = 0;
+// Tijd wordt gebruikt om te wachten tot de knop word losgelaten
 int tijd = 1;
 
+/*
+Elke waarde van 1-F, in het hexadecimaal talstelsel, staan in deze lijst.
+Deze kan je gebruiken om alle de hex getallen van 0-F kan laten zien.
+*/
 static unsigned int segmentcodes[] = {
 	~0xFC, ~0x60, ~0xDA, ~0xF2,
 	~0x66, ~0xB6, ~0xBE, ~0xE0,
 	~0xFE, ~0xF6, ~0xEE, ~0x3E,
-	~0x9C, ~0x7A, ~0x9E, ~0x8E };
+	~0x9C, ~0x7A, ~0x9E, ~0x8E
+};
 
-void init_interface (void)
-{
+void init_interface (void) {
 	// Initialiseer de pinnen voor datain, shiftclk en latchclk als output
 	DDR_SDI    |= (1 << SDI_BIT);
 	DDR_SFTCLK |= (1 << SFTCLK_BIT);
@@ -25,11 +30,9 @@ void init_interface (void)
 	PORT_LCHCLK &= ~(1 << LCHCLK_BIT);
 }
 
-void send_data(char data)
-{
-	for (unsigned i = 0; i < 8; i++)
+void send_data(char data) {
 	// Herhaal voor alle bits in een char
-	{
+	for (unsigned i = 0; i < 8; i++) {
 		// Bepaal de waarde van de bit die je naar het schuifregister
 		// wil sturen
 		int bit = data & 1;
@@ -37,12 +40,9 @@ void send_data(char data)
 
 		// Maak de juiste pin hoog of laag op basis van de bepaalde waarde
 		// van het bit
-		if (bit)
-		{
+		if (bit) {
 			PORT_SDI |= (1 << SDI_BIT);
-		}
-		else
-		{
+		} else {
 			PORT_SDI &= ~(1 << SDI_BIT);
 		}
 
@@ -54,13 +54,11 @@ void send_data(char data)
 	}
 }
 
-void send_enable(int display_nummer)
-{
+void send_enable(int display_nummer) {
 	send_data(0x10 << display_nummer);
 }
 
-void display(char data, int display_nummer)
-{
+void display(char data, int display_nummer) {
 	send_data(data);
 	send_enable(display_nummer);
 
@@ -71,47 +69,61 @@ void display(char data, int display_nummer)
 	PORT_LCHCLK &= ~(1 << LCHCLK_BIT);
 }
 
-void display_getal(unsigned int getal)
-{
-	for (int i = 0; i < 4; i++)
-	{
+void display_getal(unsigned int getal) {
+	for (int i = 0; i < 4; i++) {
 		display(segmentcodes[getal%10], i);
 		getal /= 10;
 		_delay_ms(1);   // 1 kHz
 	}
 }
 
-int kiesCoordinaat(void)
-{
-    while (1) // Loop until S3 is pressed
-    {
-        // Check button S1 for decrement
+int kiesCoordinaat(void) {
+    // Dit coordinaat wordt ingesteld om gebruikt te worden voor het display
+    int coordinaat = 0;
+	// Loop totdat S3 is ingedrukt
+    while (!(isNoodknopIngedrukt())){
+        /*
+		Als S1 wordt ingedrukt verlaag het coordinaat met 1
+		*/
         if (!(PINF & (1 << S1)) && (coordinaat > 0)) {
-            coordinaat--; // Decrement coordinaat
+            coordinaat--;
             while (!(PINF & (1 << S1))) {
                 _delay_ms(tijd);
                 display_getal(coordinaat);
             }
         }
 
-        // Check button S2 for increment
+        /*
+		Als S1 wordt ingedrukt verhoog het coordinaat met 1
+		*/
         if (!(PINF & (1 << S2)) && (coordinaat < 100)) {
-            coordinaat++; // Increment coordinaat
+            coordinaat++;
             while (!(PINF & (1 << S2))) {
                 _delay_ms(tijd);
                 display_getal(coordinaat);
             }
         }
 
-        // Continuously display the current value of coordinaat
+        // Laat het het coordinaat zien op de display
         display_getal(coordinaat);
 
-        // Check button S3 for return
+        /*
+		Controleer of S3 is ingedrukt
+		Als dit het geval is zet het display op 0000
+		Reset het coordinaat en return het
+		*/
         if (!(PINF & (1 << S3))) {
-            display_getal(0x0000); // Clear the display
-            int result = coordinaat; // Store the current value
-            coordinaat = 0;         // Reset coordinaat to zero
-            return result;          // Return the stored value
+			// Zet het segment display als 0000
+            display_getal(0x0000);
+
+            // Maak een kopie van het coordinaat om te returnen
+            int getal = coordinaat;
+
+            // Reset het coordinaat
+            coordinaat = 0;
+
+			// Return de kopie van het coordinaat
+            return getal;
         }
     }
 }

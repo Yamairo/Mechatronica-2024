@@ -3,6 +3,8 @@
 
 #include <stdint.h>
 
+#define Magneet PC0
+
 /**
  * @brief Initialiseer alle pins zodat de portaalkraan volledig werkt.
  *        Dit omvat het instellen van de juiste pin-modi en het activeren

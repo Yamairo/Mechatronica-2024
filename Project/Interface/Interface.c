@@ -3,6 +3,7 @@
 #endif
 
 #include "Interface.h"
+#include "Noodknop.h"
 
 int coordinaat = 0;
 int tijd = 1;
@@ -83,7 +84,7 @@ void display_getal(unsigned int getal)
 
 int kiesCoordinaat(void)
 {
-    while (1) // Loop until S3 is pressed
+    while (!(isNoodkopIngedrukt())) // Loop until S3 is pressed
     {
         // Check button S1 for decrement
         if (!(PINF & (1 << S1)) && (coordinaat > 0)) {

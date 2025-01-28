@@ -12,14 +12,16 @@ extern int lpwm_active;
 
 
 int isLimitSwitchPressed(uint8_t inputPin, volatile uint8_t *inputPort, volatile uint8_t *pinReg) {
-    // Configure the input pin with pull-up resistor
-    *inputPort |= (1 << inputPin); // Enable pull-up resistor
+    // Zet de inputport als pull-up resistor, dit wordt gedaan om een knop te gebruiken
+    *inputPort |= (1 << inputPin);
 
-    // Check if the button is pressed
-    if (!(*pinReg & (1 << inputPin))) { // Input pin LOW (button pressed)
-        return 1; // Button is pressed
-    } else { // Input pin HIGH (button not pressed)
-        return 0; // Button is not pressed
+    // Controleer of de knop is ingedrukt (active low)
+    if (!(*pinReg & (1 << inputPin))) {
+        // Als de knop is ingedrukt return 1
+        return 1;
+    } else {
+        // Anders return 0
+        return 0;
     }
 }
 
@@ -34,31 +36,44 @@ int isLimitSwitchPressed(uint8_t inputPin, volatile uint8_t *inputPort, volatile
  * @return De bijgewerkte waarde van de teller.
  */
 uint16_t countLimitSwitchPresses(uint8_t inputPin, volatile uint8_t *inputPort, volatile uint8_t *pinReg) {
-    static int16_t pressCount = 0; // Persistent teller van activaties (kan negatief worden)
-    static uint8_t wasPressed = 0; // Houdt de vorige status van de knop bij
+    // Houdt het aantal keer dat de switch is ingedrukt om bij te houden wat de huidige positie is
+    static int16_t pressCount = 0;
+    
+    // Getal om bij te houden of de knop is ingedrukt
+    static uint8_t wasPressed = 0;
 
     // Configureer de input pin met een pull-up weerstand
-    *inputPort |= (1 << inputPin); // Schakel pull-up weerstand in
+    *inputPort |= (1 << inputPin);
 
     // Controleer of de knop momenteel is ingedrukt
-    if (!(*pinReg & (1 << inputPin))) { // Knop is ingedrukt
-        if ((!wasPressed) & rpwm_active) { // Detecteer overgang van niet-ingedrukt naar ingedrukt
-            pressCount += 1; // Pas de teller aan op basis van de richting
-            wasPressed = 1;         // Markeer de knop als ingedrukt
-            _delay_ms(50);          // Simpele debounce-vertraging
-        } if ((!wasPressed) & lpwm_active) { // Detecteer overgang van niet-ingedrukt naar ingedrukt
-            pressCount -= 1; // Pas de teller aan op basis van de richting
-            wasPressed = 1;         // Markeer de knop als ingedrukt
-            _delay_ms(50);          // Simpele debounce-vertraging
+    if (!(*pinReg & (1 << inputPin))) {
+        // Detecteer overgang van niet-ingedrukt naar ingedrukt
+        if ((!wasPressed) & rpwm_active) {
+            /*
+            Als de knop ingedrukt wordt en de motor naar rechts draait,
+            dan zal de teller met een omhoog gaan.
+            */
+            pressCount ++;
+            wasPressed = 1;
+            _delay_ms(50);
+        } if ((!wasPressed) & lpwm_active) { 
+            /*
+            Als de knop ingedrukt wordt en de motor naar links draait,
+            dan zal de teller met een omlaag gaan.
+            */
+            pressCount -= 1;
+            wasPressed = 1;
+            _delay_ms(50);
         }
-    } else { // Knop is niet ingedrukt
-        wasPressed = 0; // Reset de ingedrukte status
+    } else {
+        // Reset de ingedrukte status
+        wasPressed = 0;
     }
 
-    // Zorg ervoor dat de teller niet negatief wordt als je dat wilt vermijden
     if (pressCount < 0) {
         pressCount = 0;
     }
 
-    return pressCount; // Geef de tellerwaarde terug als unsigned integer
+    // Geef de tellerwaarde terug als unsigned integer
+    return pressCount;
 }

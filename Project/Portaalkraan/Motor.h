@@ -24,6 +24,11 @@
 void init_timer(void);
 
 /**
+ * Functie om de timer (Timer0) uit te schakelen
+ */
+void stop_timer(void);
+
+/**
  * @brief Configureer de benodigde pins voor motorbesturing.
  *        Stelt pin-modi in (input/output) en schakelt pull-up weerstanden in waar nodig.
  */

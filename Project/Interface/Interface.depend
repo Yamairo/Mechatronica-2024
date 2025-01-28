@@ -11,3 +11,15 @@
 	<avr/io.h>
 	<util/delay.h>
 
+1738005632 source:d:\school\hbo-mechatronica-jaar-1-2024\project\interface\fuse.c
+	<avr/io.h>
+
+1738010477 source:d:\school\hbo-mechatronica-jaar-1-2024\project\interface\interface.c
+	"Interface.h"
+
+1738005632 d:\school\hbo-mechatronica-jaar-1-2024\project\interface\interface.h
+	<avr/io.h>
+	<util/delay.h>
+
+1738005632 source:d:\school\hbo-mechatronica-jaar-1-2024\project\interface\main.c
+

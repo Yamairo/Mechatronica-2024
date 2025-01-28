@@ -678,26 +678,26 @@ END GROUP
  *(.debug_addr)
 
 .debug_line_str
-                0x0000000000000000      0x159
+                0x0000000000000000      0x192
  *(.debug_line_str)
  .debug_line_str
                 0x0000000000000000       0x6b obj\Debug\fuse.o
                                          0xa0 (size before relaxing)
  .debug_line_str
-                0x000000000000006b       0x94 obj\Debug\Interface.o
-                                         0xfa (size before relaxing)
+                0x000000000000006b       0xcd obj\Debug\Interface.o
+                                        0x11e (size before relaxing)
  .debug_line_str
-                0x00000000000000ff        0x7 obj\Debug\main.o
+                0x0000000000000138        0x7 obj\Debug\main.o
                                          0x63 (size before relaxing)
  .debug_line_str
-                0x0000000000000106       0x53 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                0x000000000000013f       0x53 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
                                          0x5f (size before relaxing)
  .debug_line_str
-                0x0000000000000159       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
+                0x0000000000000192       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_copy_data.o)
  .debug_line_str
-                0x0000000000000159       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                0x0000000000000192       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
  .debug_line_str
-                0x0000000000000159       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+                0x0000000000000192       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
 
 .debug_loclists
  *(.debug_loclists)

@@ -11,7 +11,12 @@ static uint16_t distanceCount = 0;
  * Functie om de portaalkraan te initialiseren
  */
 void initPortaalkraan(void) {
-    init(); // Initialiseer motorbesturing
+    // Initialiseer motor en interface functies
+    init();
+
+    // Zet pin 37 voor de magneet als output
+    DDRC |= (1 << Magneet);
+    PORTC &= ~(1 << Magneet);
 
     // Stel PB0, PB1, PB2 in als ingangen voor de limietschakelaars
     DDRB &= ~(1 << PB0) & ~(1 << PB1) & ~(1 << PB2);
@@ -85,12 +90,12 @@ uint16_t afstandPortaalkraan(void) {
  * Functie om de magneet van de portaalkraan aan te zetten
  */
 void portaalkraanMagneetAan(void) {
-    // Deze functie activeert de magneet, implementatie ontbreekt
+    PORTC |= (1 << Magneet);
 }
 
 /**
  * Functie om de magneet van de portaalkraan aan te zetten
  */
 void portaalkraanMagneetUit(void) {
-    // Deze functie activeert de magneet, implementatie ontbreekt
+    PORTC &= ~(1 << Magneet);
 }

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "portaalkraan.h": "c",
+        "limitswitch.h": "c"
+    }
+}
