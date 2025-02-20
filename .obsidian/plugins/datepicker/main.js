@@ -84,56 +84,6 @@ var DatepickerCMPlugin = class {
     this.datepickerScrollHandler = () => {
       this.datepickerPositionHandler();
     };
-    this.formats = [
-      {
-        regex: /\d{4}[-\/\\.]{1}\d{1,2}[-\/\\.]{1}\d{1,2}[ T]\d{1,2}:\d{1,2}( )?([apm]{2})/ig,
-        formatToUser: "YYYY-MM-DD hh:mm A",
-        formatToPicker: "YYYY-MM-DDTHH:mm",
-        type: "DATETIME"
-      },
-      {
-        regex: /\d{4}[-\/\\.]{1}\d{1,2}[-\/\\.]{1}\d{1,2}[ T]\d{1,2}:\d{1,2}/g,
-        formatToUser: "YYYY-MM-DD HH:mm",
-        formatToPicker: "YYYY-MM-DDTHH:mm",
-        type: "DATETIME"
-      },
-      {
-        regex: /\d{1,2}[-\/\\.]{1}\d{1,2}[-\/\\.]{1}\d{4} \d{1,2}:\d{1,2}( )?([apm]{2})/ig,
-        formatToUser: "DD-MM-YYYY hh:mm A",
-        formatToPicker: "YYYY-MM-DDTHH:mm",
-        type: "DATETIME"
-      },
-      {
-        regex: /\d{1,2}[-\/\\.]{1}\d{4}[ T]\d{1,2}:\d{1,2}/g,
-        formatToUser: "DD-MM-YYYY HH:mm",
-        formatToPicker: "YYYY-MM-DDTHH:mm",
-        type: "DATETIME"
-      },
-      {
-        regex: /\d{4}[-\/\\.]{1}\d{1,2}[-\/\\.]{1}\d{1,2}/g,
-        formatToUser: "YYYY-MM-DD",
-        formatToPicker: "YYYY-MM-DD",
-        type: "DATE"
-      },
-      {
-        regex: /\d{1,2}[-\/\\.]{1}\d{1,2}[-\/\\.]{1}\d{4}/g,
-        formatToUser: "DD-MM-YYYY",
-        formatToPicker: "YYYY-MM-DD",
-        type: "DATE"
-      },
-      {
-        regex: /\d{1,2}:\d{1,2}( )?([apm]{2})/ig,
-        formatToUser: "hh:mm A",
-        formatToPicker: "HH:mm",
-        type: "TIME"
-      },
-      {
-        regex: /\d{1,2}:\d{1,2}/g,
-        formatToUser: "HH:mm",
-        formatToPicker: "HH:mm",
-        type: "TIME"
-      }
-    ];
     this.scrollEventAbortController = new AbortController();
     this.datepicker = void 0;
     this.dates = [];
@@ -164,6 +114,63 @@ var DatepickerCMPlugin = class {
         }
       }
     });
+  }
+  get formats() {
+    return this.getFormats();
+  }
+  getFormats() {
+    const formatPatterns = [
+      "YYYY-MM-DD",
+      "DD.MM.YYYY",
+      "MM-DD-YYYY",
+      "DD-MM-YYYY",
+      "MM.DD.YYYY",
+      "YYYY.MM.DD",
+      "YYYY/MM/DD",
+      "DD/MM/YYYY",
+      "MM/DD/YYYY"
+    ];
+    let formats = [];
+    const userFormat = DatepickerPlugin.settings.dateFormat;
+    const userSeparator = userFormat.includes(".") ? "\\." : userFormat.includes("/") ? "\\/" : "-";
+    formatPatterns.forEach((format) => {
+      const separator = format.includes(".") ? "\\." : format.includes("/") ? "\\/" : "-";
+      formats.push(
+        {
+          regex: new RegExp(`\\d{1,4}${separator}\\d{1,2}${separator}\\d{1,4} \\d{1,2}:\\d{1,2}( )?([apm]{2})`, "ig"),
+          formatToUser: `${format} hh:mm A`,
+          formatToPicker: "YYYY-MM-DDTHH:mm",
+          type: "DATETIME"
+        },
+        {
+          regex: new RegExp(`\\d{1,4}${separator}\\d{1,2}${separator}\\d{1,4} \\d{1,2}:\\d{1,2}`, "g"),
+          formatToUser: `${format} HH:mm`,
+          formatToPicker: "YYYY-MM-DDTHH:mm",
+          type: "DATETIME"
+        },
+        {
+          regex: new RegExp(`\\d{1,4}${separator}\\d{1,2}${separator}\\d{1,4}`, "g"),
+          formatToUser: format,
+          formatToPicker: "YYYY-MM-DD",
+          type: "DATE"
+        }
+      );
+    });
+    formats.push(
+      {
+        regex: /\d{1,2}:\d{1,2}( )?([apm]{2})/ig,
+        formatToUser: "hh:mm A",
+        formatToPicker: "HH:mm",
+        type: "TIME"
+      },
+      {
+        regex: /\d{1,2}:\d{1,2}/g,
+        formatToUser: "HH:mm",
+        formatToPicker: "HH:mm",
+        type: "TIME"
+      }
+    );
+    return formats;
   }
   getVisibleDates(view) {
     var _a;
@@ -230,7 +237,9 @@ var DatepickerCMPlugin = class {
             if (!resultFromPicker.isValid()) {
               return;
             }
-            const dateFromPicker = resultFromPicker.format(match.format.formatToUser);
+            const dateFromPicker = resultFromPicker.format(
+              match.format.type === "DATETIME" ? DatepickerPlugin.settings.overrideFormat ? DatepickerPlugin.settings.dateFormat + " " + (match.format.formatToUser.includes("A") ? "hh:mm A" : "HH:mm") : match.format.formatToUser : match.format.type === "DATE" ? DatepickerPlugin.settings.overrideFormat ? DatepickerPlugin.settings.dateFormat : match.format.formatToUser : match.format.formatToUser
+            );
             if (dateFromPicker === match.value)
               return;
             this.performingReplace = true;
@@ -376,6 +385,8 @@ function datepickerButtonEventHandler(e, view) {
   return true;
 }
 var DEFAULT_SETTINGS = {
+  dateFormat: "YYYY-MM-DD",
+  overrideFormat: false,
   showDateButtons: true,
   showTimeButtons: true,
   showAutomatically: false,
@@ -433,7 +444,7 @@ var _DatepickerPlugin = class extends import_obsidian.Plugin {
                   changes: {
                     from: cursorPosition,
                     to: cursorPosition,
-                    insert: (0, import_obsidian.moment)(result).format("YYYY-MM-DD")
+                    insert: (0, import_obsidian.moment)(result).format(_DatepickerPlugin.settings.dateFormat)
                   }
                 });
               }, 0);
@@ -515,7 +526,7 @@ var _DatepickerPlugin = class extends import_obsidian.Plugin {
                   changes: {
                     from: cursorPosition,
                     to: cursorPosition,
-                    insert: (0, import_obsidian.moment)(result).format("YYYY-MM-DD " + timeFormat)
+                    insert: (0, import_obsidian.moment)(result).format(_DatepickerPlugin.settings.dateFormat + " " + timeFormat)
                   }
                 });
               }, 25);
@@ -567,7 +578,7 @@ var _DatepickerPlugin = class extends import_obsidian.Plugin {
           changes: {
             from: cursorPosition,
             to: cursorPosition,
-            insert: (0, import_obsidian.moment)().format("YYYY-MM-DD " + timeFormat)
+            insert: (0, import_obsidian.moment)().format(_DatepickerPlugin.settings.dateFormat + " " + timeFormat)
           }
         });
       }
@@ -585,7 +596,7 @@ var _DatepickerPlugin = class extends import_obsidian.Plugin {
           changes: {
             from: cursorPosition,
             to: cursorPosition,
-            insert: (0, import_obsidian.moment)().format("YYYY-MM-DD")
+            insert: (0, import_obsidian.moment)().format(_DatepickerPlugin.settings.dateFormat)
           }
         });
       }
@@ -706,6 +717,14 @@ var _Datepicker = class {
       datepickers[i].remove();
     }
     this.isOpened = false;
+    setTimeout(() => {
+      const escapeEvent = new KeyboardEvent("keydown", {
+        key: "Escape",
+        code: "Escape",
+        bubbles: true
+      });
+      activeDocument.dispatchEvent(escapeEvent);
+    }, 50);
   }
   respectSettingAndClose() {
     if (DatepickerPlugin.settings.autoApplyEdits)
@@ -891,6 +910,18 @@ var DatepickerSettingTab = class extends import_obsidian.PluginSettingTab {
   display() {
     const { containerEl: settingsContainerElement } = this;
     settingsContainerElement.empty();
+    new import_obsidian.Setting(settingsContainerElement).setName("Date Format").setDesc("Choose your preferred date format for inserting new dates").addDropdown((dropdown) => dropdown.addOption("YYYY-MM-DD", "YYYY-MM-DD").addOption("DD.MM.YYYY", "DD.MM.YYYY").addOption("MM-DD-YYYY", "MM-DD-YYYY").addOption("DD-MM-YYYY", "DD-MM-YYYY").addOption("MM.DD.YYYY", "MM.DD.YYYY").addOption("YYYY.MM.DD", "YYYY.MM.DD").addOption("YYYY/MM/DD", "YYYY/MM/DD").addOption("DD/MM/YYYY", "DD/MM/YYYY").addOption("MM/DD/YYYY", "MM/DD/YYYY").setValue(DatepickerPlugin.settings.dateFormat).onChange(async (value) => {
+      DatepickerPlugin.settings.dateFormat = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(settingsContainerElement).setName("Use date format when modifying existing dates").setDesc("Use the selected date format when modifying existing dates").addToggle((toggle) => toggle.setValue(DatepickerPlugin.settings.overrideFormat).onChange(async (value) => {
+      DatepickerPlugin.settings.overrideFormat = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(settingsContainerElement).setName("Insert new time in 24 hour format").setDesc('Insert time in 24 hour format when performing "Insert new time" and "Insert new date and time" commands').addToggle((toggle) => toggle.setValue(DatepickerPlugin.settings.insertIn24HourFormat).onChange(async (value) => {
+      DatepickerPlugin.settings.insertIn24HourFormat = value;
+      await this.plugin.saveSettings();
+    }));
     new import_obsidian.Setting(settingsContainerElement).setName("Show a picker button for dates").setDesc("Shows a button with a calendar icon associated with date values, select it to open the picker (Reloading Obsidian may be required)").addToggle((toggle) => toggle.setValue(DatepickerPlugin.settings.showDateButtons).onChange(async (value) => {
       DatepickerPlugin.settings.showDateButtons = value;
       await this.plugin.saveSettings();
@@ -919,13 +950,11 @@ var DatepickerSettingTab = class extends import_obsidian.PluginSettingTab {
       DatepickerPlugin.settings.focusOnArrowDown = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian.Setting(settingsContainerElement).setName("Insert new time in 24 hour format").setDesc('Insert time in 24 hour format when performing "Insert new time" and "Insert new date and time" commands').addToggle((toggle) => toggle.setValue(DatepickerPlugin.settings.insertIn24HourFormat).onChange(async (value) => {
-      DatepickerPlugin.settings.insertIn24HourFormat = value;
-      await this.plugin.saveSettings();
-    }));
     new import_obsidian.Setting(settingsContainerElement).setName("Select date/time text").setDesc("Automatically select the entire date/time text when a date/time is selected").addToggle((toggle) => toggle.setValue(DatepickerPlugin.settings.selectDateText).onChange(async (value) => {
       DatepickerPlugin.settings.selectDateText = value;
       await this.plugin.saveSettings();
     }));
   }
 };
+
+/* nosourcemap */

@@ -1,0 +1,17 @@
+{
+  "dateFormat": "yyyy-MM-dd'T'HH:mm",
+  "enableCreateTime": true,
+  "headerUpdated": "updated",
+  "headerCreated": "created",
+  "minMinutesBetweenSaves": 1,
+  "ignoreGlobalFolder": [],
+  "ignoreCreatedFolder": [],
+  "enableExperimentalHash": false,
+  "fileHashMap": {
+    "Sensoren en Actuatoren/Week 2.md": "211df14a72d50e26a9a7eeef6f6bc58b263271c21e01d32b5a6282f8ea41d2ef",
+    "Bassiswiskunde/Les 3.md": "1ae0ab5501dbec574fd145d8e2eb8e5627b3712fd85e4f5e2fe91b296694d8c1",
+    "Mechanica 2/Week 2.md": "d11cad76cf7843bcfc8b188c6a41d5413c9dff707e7721c3f5c40bf8040ad7b1",
+    "Industriële Besturing Programmeren/Week 2.md": "847e6328ba038ff0df62be549af4e41a32bed5361c4d50d30c951c33c34dd481",
+    "Homepage.md": "6aee006b40bd0a20439cc9d6d2b83cceca90fb4734e1150ee49e961bc6633ea5"
+  }
+}

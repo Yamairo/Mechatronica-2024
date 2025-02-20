@@ -1,6 +1,6 @@
 ---
 created: 2024-09-19T08:59
-updated: 2024-12-19T13:49
+updated: 2025-02-20T11:12
 ---
 ```toc
 ```
@@ -35,10 +35,24 @@ FROM "Microcontroller Programmeren"
 FLATTEN "## " + file.link AS heading
 ```
 
-# Mechanica
+# Mechanica 2
 ```dataview
 LIST
-FROM "Mechanica"
+FROM "Mechanica 2"
+FLATTEN "## " + file.link AS heading
+```
+
+# Ontwerpen in Groepen 
+```dataview
+LIST
+FROM "Ontwerpen in groepen"
+FLATTEN "## " + file.link AS heading
+```
+
+# Sensoren en Actuatoren
+```dataview
+LIST
+FROM "Sensoren en Actuatoren"
 FLATTEN "## " + file.link AS heading
 ```
 
@@ -49,10 +63,5 @@ FROM "Wiskunde"
 FLATTEN "## " + file.link AS heading
 ```
 
-# Ontwerpen in Groepen 
-```dataview
-LIST
-FROM "Ontwerpen in groepen"
-FLATTEN "## " + file.link AS heading
-```
+
 
