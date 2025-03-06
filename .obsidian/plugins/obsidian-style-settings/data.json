@@ -27,8 +27,8 @@
   "minimal-style@@ui3@@light": "#FFF789",
   "wikipedia-theme@@custom-accent": false,
   "wikipedia-theme@@image-placement": "no-float",
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-honey-milk-topaz",
-  "blue-topaz-theme@@background-settings-workplace-background-image": false,
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-lilac",
+  "blue-topaz-theme@@background-settings-workplace-background-image": true,
   "blue-topaz-theme@@background-settings-workplace-theme-dark": "background-settings-workplace-waves2",
   "blue-topaz-theme@@background-image-settings-switch": false,
   "blue-topaz-theme@@background-notebook-liked-switch": false,
@@ -47,5 +47,8 @@
   "blue-topaz-theme@@remove-file-icons": false,
   "blue-topaz-theme@@toggle-checked-decoration": true,
   "blue-topaz-theme@@stack-tabs-text-ori-options": "stack-tab-text-ori-mixed",
-  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-monokai"
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-monokai",
+  "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-blue-mountain",
+  "blue-topaz-theme@@background-settings-workplace-theme-light-custom": "C:\\Users\\yamai\\Pictures\\Wallpapers\\Chainsaw Man\\wallpaperflare.com_wallpaper (23)",
+  "Blue-Topaz-Codebox-Highlight@@background-code@@light": "#CDF7C0"
 }

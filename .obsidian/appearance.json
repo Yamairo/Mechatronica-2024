@@ -2,5 +2,6 @@
   "accentColor": "",
   "baseFontSize": 13,
   "cssTheme": "Blue Topaz",
-  "theme": "obsidian"
+  "theme": "moonstone",
+  "showRibbon": false
 }
