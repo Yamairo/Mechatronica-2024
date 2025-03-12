@@ -6,6 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -13,39 +14,51 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Industriële Besturing Programmeren/Week 3.md",
+                "file": "Mechanica 2/Week 4 - Traagheidsmoment.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Week 3"
+              "title": "Week 4 - Traagheidsmoment"
             },
-            "group": "ff99df5dde6194e3"
+            "group": "e9227e1419587908"
+          },
+          {
+            "id": "3b24867842c36dd8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-12 11.09.33.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-12 11.09.33.excalidraw"
+            }
           }
         ],
-        "stacked": true
+        "currentTab": 1
       },
       {
-        "id": "cc0945d009f80ee0",
+        "id": "4b7e5a89e6461b58",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
-            "id": "472703517fd1c28d",
+            "id": "7c9cac25b27d38d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Industriële Besturing Programmeren/Week 3.md",
+                "file": "Mechanica 2/Week 4 - Traagheidsmoment.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Week 3"
+              "title": "Week 4 - Traagheidsmoment"
             },
-            "group": "ff99df5dde6194e3"
+            "group": "e9227e1419587908"
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,11 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/Drawing 2025-03-12 11.09.33.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Drawing 2025-03-12 11.09.33.excalidraw"
             }
           },
           {
@@ -151,7 +165,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -163,8 +179,8 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
@@ -177,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sensoren en Actuatoren/Week 3.md",
+                "file": "Excalidraw/Drawing 2025-03-12 11.09.33.excalidraw.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week 3"
+              "title": "Outline of Drawing 2025-03-12 11.09.33.excalidraw"
             }
           },
           {
@@ -217,12 +233,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,40 +255,46 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "3b24867842c36dd8",
   "lastOpenFiles": [
-    "Bijlages/Pasted image 20250306112523.png",
-    "Bijlages/Pasted image 20250306112504.png",
+    "Mechanica 2/Week 4 - Traagheidsmoment.md",
+    "Excalidraw/Drawing 2025-03-12 11.09.33.excalidraw.md",
+    "Bijlages/Pasted image 20250312110831.png",
+    "Bijlages/Pasted image 20250312110644.png",
+    "Excalidraw/Opdracht 1 week 4.md",
+    "Sensoren en Actuatoren/Week 4.md",
+    "Bijlages/Pasted image 20250312095115.png",
+    "Bijlages/Pasted image 20250312093043.png",
+    "Bijlages/Pasted image 20250312092459.png",
+    "Bijlages/Pasted image 20250312092228.png",
+    "Subonderwerpen/Terugkoppeling.md",
+    "Bijlages/Pasted image 20250312091850.png",
+    "Bijlages/Pasted image 20250312091847.png",
+    "Bijlages/Pasted image 20250312091644.png",
+    "Sensoren en Actuatoren/Week 3.md",
+    "Bijlages/Pasted image 20250312091006.png",
+    "Wiskunde 2/Week 3.md",
+    "Homepage.md",
+    "Subonderwerpen/git handleiding.md",
+    "Wiskunde 2/Week 3 opdrachten.md",
+    "Project AGV/~$ncept Ontwerpverslag.odt",
+    "Mechanica 2/Week 3 WC.md",
+    "Industriële Besturing Programmeren/Week 3.md",
     "Industriële Besturing Programmeren/Week 2.md",
     "Sensoren en Actuatoren/Week 2.md",
-    "Industriële Besturing Programmeren/Week 3.md",
-    "Homepage.md",
-    "Sensoren en Actuatoren/Week 3.md",
-    "Bijlages/Pasted image 20250304160220.png",
-    "Bijlages/Pasted image 20250304160209.png",
     "Subonderwerpen/Rendement.md",
     "Subonderwerpen/Overbrengingsverhouding.md",
     "Subonderwerpen/Prijs.md",
     "Subonderwerpen/Speling.md",
     "Sensoren en Actuatoren/Week 1.md",
-    "Wiskunde 2/Week 3 opdrachten.md",
     "Wiskunde 2",
     "Mechanica 2/Week 3 Sterkteleer.md",
     "Excalidraw/Drawing 2025-03-03 10.53.35.excalidraw.md",
-    "Bijlages/Pasted image 20250220115030.png",
-    "Bijlages/Pasted image 20250220114654.png",
-    "Bijlages/Pasted image 20250220114611.png",
-    "Bijlages/Pasted image 20250220114431.png",
-    "Bijlages/Pasted image 20250220113024.png",
-    "Bijlages/Pasted image 20250220113014.png",
-    "Bijlages/Pasted image 20250220112745.png",
     "Microcontroller Programmeren/Week 12 A.md",
     "Microcontroller Programmeren/Week 9.md",
     "Industriële Besturing Programmeren/Week 1.md",
     "Mechanica 2/Week 2.md",
     "Bassiswiskunde/Les 3.md",
-    "Project AGV/Project Kickoff.md",
-    "Project AGV/Aantekeningen Vergadering 1.md",
     "Mechanica 2",
     "Industriële Besturing Programmeren",
     "Sensoren en Actuatoren",
@@ -281,12 +302,6 @@
     "Boeken/Mega2560 Pinout.pdf",
     "Boeken/De programmeertaal C - Jesse op den Brouw.pdf",
     "Boeken/ATmega640-1280-1281-2560-2561-Datasheet-DS40002211A.pdf",
-    "Project Agrobot/Code notations/Code Portaalkraan.md",
-    "Project Agrobot/Code notations/Automatisch oppakken en neerzetten (Met gegeven coördinaten).md",
-    "Project/MotorHeader/bin/Debug/MotorHeader.elf",
-    "Project Agrobot/Testknop/Testknop.layout",
-    "Project Agrobot/Code notations/Eerste versie motor code.md",
-    "Project Agrobot/Code notations/Motor code in header bestand met main c file.md",
-    "Subonderwerpen/Bekabeling.md"
+    "Project/MotorHeader/bin/Debug/MotorHeader.elf"
   ]
 }
