@@ -1,6 +1,6 @@
 ---
 created: 2025-03-12T08:43
-updated: 2025-03-12T09:54
+updated: 2025-03-19T08:53
 ---
 #  Inhoudsopgave
 ```toc
@@ -152,3 +152,14 @@ Redenen om borstels kwijt te willen:
 Nadelen: 
 1. Motor driver nodig. Kan niet direct op een batterij. 
 2. Duurder
+
+## Lineaire motor, Voor- en nadelen
+
+1. Hoge snelheid
+2. Kan overal stoppen
+3. Hoge precisie
+4. Krachtig goed isntelbaar
+5. Weinig onderhoud
+6. Hoog [[Rendement]] Versimpelt veel ontwerpen
+
+-- Hoge prijs

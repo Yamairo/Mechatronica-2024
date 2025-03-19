@@ -4,59 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "c1cc7fe98e4bde17",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "29fafed58b86971a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanica 2/Week 4 - Traagheidsmoment.md",
+                "file": "Sensoren en Actuatoren/Week 5.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Week 4 - Traagheidsmoment"
+              "title": "Week 5"
             },
-            "group": "e9227e1419587908"
-          },
-          {
-            "id": "3b24867842c36dd8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-03-12 11.09.33.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-12 11.09.33.excalidraw"
-            }
+            "group": "4dc2bedc1ae42be2"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "4b7e5a89e6461b58",
+        "id": "a1b9590ed9e2dbfa",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "7c9cac25b27d38d0",
+            "id": "0dee7aca987779e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanica 2/Week 4 - Traagheidsmoment.md",
+                "file": "Sensoren en Actuatoren/Week 5.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Week 4 - Traagheidsmoment"
+              "title": "Week 5"
             },
-            "group": "e9227e1419587908"
+            "group": "4dc2bedc1ae42be2"
           }
         ]
       }
@@ -193,13 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2025-03-12 11.09.33.excalidraw.md",
+                "file": "Sensoren en Actuatoren/Week 5.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2025-03-12 11.09.33.excalidraw"
+              "title": "Outline of Week 5"
             }
           },
           {
@@ -255,15 +240,31 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "3b24867842c36dd8",
+  "active": "0dee7aca987779e5",
   "lastOpenFiles": [
-    "Mechanica 2/Week 4 - Traagheidsmoment.md",
+    "Bijlages/Pasted image 20250319085856.png",
+    "Sensoren en Actuatoren/Week 4.md",
+    "Sensoren en Actuatoren/Week 5.md",
+    "Sensoren en Actuatoren/Week 6.md",
+    "Homepage.md",
+    "Boeken/ATmega640-1280-1281-2560-2561-Datasheet-DS40002211A.pdf",
+    "Boeken/make_avrprogramming.pdf",
+    "Industriële Besturing Programmeren/Week 4.md",
+    "Industriële Besturing Programmeren/Week 3.md",
+    "Sensoren en actuatoren/Week 5.md",
+    "Subonderwerpen/Remanent geheugen.md",
+    "Subonderwerpen/Vluchtig geheugen.md",
+    "Mechanica 2/Week 4 WC.md",
+    "Excalidraw/6.88 sterkteleer.md",
+    "Excalidraw/Opdracht week 4 wc tekening.md",
+    "Bijlages/Pasted image 20250312095115.png",
+    "Mechanica 2/Week 3 WC.md",
+    "Wiskunde 2/Week 3.md",
     "Excalidraw/Drawing 2025-03-12 11.09.33.excalidraw.md",
+    "Mechanica 2/Week 4 - Traagheidsmoment.md",
     "Bijlages/Pasted image 20250312110831.png",
     "Bijlages/Pasted image 20250312110644.png",
     "Excalidraw/Opdracht 1 week 4.md",
-    "Sensoren en Actuatoren/Week 4.md",
-    "Bijlages/Pasted image 20250312095115.png",
     "Bijlages/Pasted image 20250312093043.png",
     "Bijlages/Pasted image 20250312092459.png",
     "Bijlages/Pasted image 20250312092228.png",
@@ -273,35 +274,19 @@
     "Bijlages/Pasted image 20250312091644.png",
     "Sensoren en Actuatoren/Week 3.md",
     "Bijlages/Pasted image 20250312091006.png",
-    "Wiskunde 2/Week 3.md",
-    "Homepage.md",
     "Subonderwerpen/git handleiding.md",
     "Wiskunde 2/Week 3 opdrachten.md",
     "Project AGV/~$ncept Ontwerpverslag.odt",
-    "Mechanica 2/Week 3 WC.md",
-    "Industriële Besturing Programmeren/Week 3.md",
     "Industriële Besturing Programmeren/Week 2.md",
     "Sensoren en Actuatoren/Week 2.md",
     "Subonderwerpen/Rendement.md",
     "Subonderwerpen/Overbrengingsverhouding.md",
-    "Subonderwerpen/Prijs.md",
-    "Subonderwerpen/Speling.md",
-    "Sensoren en Actuatoren/Week 1.md",
     "Wiskunde 2",
-    "Mechanica 2/Week 3 Sterkteleer.md",
-    "Excalidraw/Drawing 2025-03-03 10.53.35.excalidraw.md",
-    "Microcontroller Programmeren/Week 12 A.md",
-    "Microcontroller Programmeren/Week 9.md",
-    "Industriële Besturing Programmeren/Week 1.md",
-    "Mechanica 2/Week 2.md",
-    "Bassiswiskunde/Les 3.md",
     "Mechanica 2",
     "Industriële Besturing Programmeren",
     "Sensoren en Actuatoren",
     "Project AGV",
     "Boeken/Mega2560 Pinout.pdf",
-    "Boeken/De programmeertaal C - Jesse op den Brouw.pdf",
-    "Boeken/ATmega640-1280-1281-2560-2561-Datasheet-DS40002211A.pdf",
-    "Project/MotorHeader/bin/Debug/MotorHeader.elf"
+    "Boeken/De programmeertaal C - Jesse op den Brouw.pdf"
   ]
 }
