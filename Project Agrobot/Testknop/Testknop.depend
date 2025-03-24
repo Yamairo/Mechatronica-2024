@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1738763223 source:c:\mechatronica-2024\project\testknop\fuse.c
+	<avr/io.h>
+
+1738763422 source:c:\mechatronica-2024\project\testknop\main.c
+	<avr/io.h>
+

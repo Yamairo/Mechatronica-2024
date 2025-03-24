@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1737991175 source:c:\mechatronica-2024\project\portaalkraan2\fuse.c
+	<avr/io.h>
+
+1737985319 source:c:\mechatronica-2024\project\portaalkraan2\interface.c
+	"Interface.h"
+
+1737981278 c:\mechatronica-2024\project\portaalkraan2\interface.h
+	<avr/io.h>
+	<util/delay.h>
+
+1737119892 source:c:\mechatronica-2024\project\portaalkraan2\limitswitch.c
+	"LimitSwitch.h"
+	"Motor.h"
+
+1737119775 c:\mechatronica-2024\project\portaalkraan2\limitswitch.h
+	<avr/io.h>
+	<util/delay.h>
+
+1737109986 c:\mechatronica-2024\project\portaalkraan2\motor.h
+	<avr/io.h>
+	<util/delay.h>
+	<avr/interrupt.h>
+
+1737123189 source:c:\mechatronica-2024\project\portaalkraan2\motor.c
+	"motor.h"
+

@@ -2,5 +2,6 @@
   "accentColor": "",
   "baseFontSize": 13,
   "cssTheme": "Wikipedia",
-  "theme": "system"
+  "theme": "moonstone",
+  "showRibbon": false
 }

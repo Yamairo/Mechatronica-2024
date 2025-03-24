@@ -1,6 +1,6 @@
 ---
 created: 2024-09-19T08:59
-updated: 2024-12-19T13:49
+updated: 2025-03-04T14:51
 ---
 ```toc
 ```
@@ -26,6 +26,7 @@ WHERE !Tasks.completed
 LIST
 FROM "Elektrische Netwerken"
 FLATTEN "## " + file.link AS heading
+SORT file.name ASC
 ```
 
 # Microcontroller programmeren
@@ -33,20 +34,15 @@ FLATTEN "## " + file.link AS heading
 LIST
 FROM "Microcontroller Programmeren"
 FLATTEN "## " + file.link AS heading
+SORT file.name ASC
 ```
 
-# Mechanica
+# Mechanica 2
 ```dataview
 LIST
-FROM "Mechanica"
+FROM "Mechanica 2"
 FLATTEN "## " + file.link AS heading
-```
-
-# Wiskunde
-```dataview
-LIST
-FROM "Wiskunde"
-FLATTEN "## " + file.link AS heading
+SORT file.name ASC
 ```
 
 # Ontwerpen in Groepen 
@@ -54,5 +50,30 @@ FLATTEN "## " + file.link AS heading
 LIST
 FROM "Ontwerpen in groepen"
 FLATTEN "## " + file.link AS heading
+SORT file.name ASC
 ```
+
+# Sensoren en Actuatoren
+```dataview
+LIST
+FROM "Sensoren en Actuatoren"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+# Wiskunde
+```dataview
+LIST
+FROM "Wiskunde"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+# Wiskunde 2
+```dataview
+LIST
+FROM "Wiskunde 2"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+
 
