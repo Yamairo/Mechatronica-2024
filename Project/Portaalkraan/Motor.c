@@ -1,4 +1,5 @@
 #include "Motor.h"
+#include "Interface.h"
 
 // Globale variabelen om de motorstatus bij te houden
 volatile uint8_t lpwm_active = 0;  // Links PWM actief
@@ -43,7 +44,6 @@ void init_pins(void)
 {
     // Debug LED instellen
     DDRB |= (1 << PB6);
-    PORTB &= ~(1 << PB6);
 
     // Motorbedieningspins (LPWM, RPWM) instellen als uitgangen, standaard uitgeschakeld
     DDRL |= (1 << LPWM) | (1 << RPWM);
@@ -125,21 +125,27 @@ void motorStop(void)
  */
 ISR(TIMER0_COMPA_vect)
 {
-    if (lpwm_active)
-    {
+    PORTB &= ~(1 << PB6);
+    if (lpwm_active) {
         PORTL &= ~(1 << LPWM); // LPWM uitschakelen
     }
-    if (rpwm_active)
-    {
+    if (rpwm_active) {
         PORTL &= ~(1 << RPWM); // RPWM uitschakelen
     }
-    if (lpwm2_active)
-    {
+    if (lpwm2_active) {
         PORTL &= ~(1 << LPWM2); // LPWM2 uitschakelen
     }
-    if (rpwm2_active)
-    {
+    if (rpwm2_active) {
         PORTL &= ~(1 << RPWM2); // RPWM2 uitschakelen
+    }
+    if(isNoodknopIngedrukt()) {
+        while(PINF & (1 << S1)) {
+            _delay_ms(1);
+            PORTB |= (1 << PB6);
+            PORTL &= ~(1 << LPWM) & (1 << RPWM);
+            PORTL &= ~(1 << LPWM2) & (1 << RPWM2);
+        }
+        PORTB &= ~(1 << PB6);
     }
 }
 
@@ -149,6 +155,7 @@ ISR(TIMER0_COMPA_vect)
  */
 ISR(TIMER0_OVF_vect)
 {
+    PORTB |= (1 << PB6);
     if (lpwm_active)
     {
         PORTL |= (1 << LPWM); // LPWM inschakelen

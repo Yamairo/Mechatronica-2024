@@ -12,11 +12,7 @@ int main(void) {
     init_interface();        // Initialiseer de interface (display en knoppen)
     while(1)
     {
-        while(isNoodknopIngedrukt())
-        {
-            _delay_ms(1);
-        }
-        while (!isNoodknopIngedrukt()) {  // Terwijl de noodknop ingedrukt is, voer de taak uit
+        while (1) {  // Terwijl de noodknop ingedrukt is, voer de taak uit
             // Stap 2: Kies het eerste coördinaat en toon het op het display
             int punt_1 = kiesCoordinaat(); // Kies het eerste punt
             display_getal(punt_1);          // Toon het gekozen punt op het display
@@ -34,15 +30,10 @@ int main(void) {
             // Stap 5: Start de motorbeweging naar het eerste punt
             motorBeweegRechts();      // Begin met bewegen naar rechts naar punt_1
             uint16_t distance = afstandPortaalkraan();  // Lees de huidige afstand
-            while ((distance != punt_1) && (isNoodknopIngedrukt())) {
+            while ((distance != punt_1)) {
                 distance = afstandPortaalkraan();  // Blijf de afstand controleren
                 _delay_ms(wacht);  // Wacht een moment voor de volgende meting
                 display_getal(punt_1); // Toon punt_1 op het display (continu bijwerken)
-
-                // Controleer of de noodknop is ingedrukt en break uit de loop als dat het geval is
-                if (isNoodknopIngedrukt()) {
-                    break;  // Als de noodknop wordt losgelaten, stop dan de motorbeweging en breek de loop
-                }
             }
 
             motorStop();  // Stop de motor als het eerste punt is bereikt
@@ -51,15 +42,10 @@ int main(void) {
             // Stap 6: Beweeg naar het tweede punt en zet de potplant neer
             motorBeweegRechts(); // Begin met bewegen naar rechts naar punt_2
             distance = afstandPortaalkraan();  // Lees de huidige afstand
-            while ((distance != punt_2) && (isNoodknopIngedrukt())) {
+            while ((distance != punt_2)) {
                 distance = afstandPortaalkraan();  // Blijf de afstand controleren
                 _delay_ms(wacht);  // Wacht een moment voor de volgende meting
                 display_getal(punt_2); // Toon punt_2 op het display (continu bijwerken)
-
-                // Controleer of de noodknop is ingedrukt en break uit de loop als dat het geval is
-                if (isNoodknopIngedrukt()) {
-                    break;  // Als de noodknop wordt losgelaten, stop dan de motorbeweging en breek de loop
-                }
             }
 
             motorStop();  // Stop de motor als het tweede punt is bereikt

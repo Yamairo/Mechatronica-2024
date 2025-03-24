@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "10dddcd1366e3e19",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "ccb8b5f5c22edc32",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Boeken/Mega2560 Pinout.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Mega2560 Pinout"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -38,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -75,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d63d5b0ec1965569",
@@ -196,16 +196,19 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "ccb8b5f5c22edc32",
   "lastOpenFiles": [
+    "Boeken/Mega2560 Pinout.pdf",
+    "Homepage.md",
+    "Boeken/ATmega640-1280-1281-2560-2561-Datasheet-DS40002211A.pdf",
+    "Microcontroller Programmeren/Oefentoets-2022/bin/Debug/Oefentoets-2022.elf",
+    "Microcontroller Programmeren/Oefentoets-2022/obj/Debug/Opdracht-2-c.o",
+    "Microcontroller Programmeren/Oefentoets-2022/Opdracht-2-c.c",
+    "Microcontroller Programmeren/Oefentoets-2022/obj/Debug/Opdracht-2-b.o",
+    "Microcontroller Programmeren/Oefentoets-2022/Opdracht-2-b.c",
     "Project/Portaalkraan/obj/Debug/Noodknop.o",
     "Project/Portaalkraan/Noodknop.h",
     "Project/Portaalkraan/Noodknop.c",
-    "Project/Code notations/Code Portaalkraan.md",
-    "Boeken/ATmega640-1280-1281-2560-2561-Datasheet-DS40002211A.pdf",
-    "Project/Portaalkraan/bin/Debug/Portaalkraan.elf",
-    "Boeken/make_avrprogramming.pdf",
-    "Boeken/De programmeertaal C - Jesse op den Brouw.pdf",
-    "Homepage.md"
+    "Project/Code notations/Code Portaalkraan.md"
   ]
 }

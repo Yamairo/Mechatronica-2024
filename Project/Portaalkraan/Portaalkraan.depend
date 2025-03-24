@@ -2,7 +2,7 @@
 1737044059 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\fuse.c
 	<avr/io.h>
 
-1738022093 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\interface.c
+1738335085 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\interface.c
 	"Interface.h"
 	"Noodknop.h"
 
@@ -23,8 +23,9 @@
 	<util/delay.h>
 	<avr/interrupt.h>
 
-1738020711 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\motor.c
+1738357656 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\motor.c
 	"Motor.h"
+	"Interface.h"
 
 1738021870 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\portaalkraan.c
 	"Portaalkraan.h"
@@ -36,7 +37,7 @@
 1738021996 d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\portaalkraan.h
 	<stdint.h>
 
-1738022760 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\main.c
+1738335024 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\main.c
 	"Portaalkraan.h"
 	"Interface.h"
 	"Noodknop.h"
@@ -47,6 +48,6 @@
 1738022570 d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\noodknop.h
 	<avr/io.h>
 
-1738022994 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\noodknop.c
+1738357939 source:d:\school\hbo-mechatronica-jaar-1-2024\project\portaalkraan\noodknop.c
 	"Noodknop.h"
 

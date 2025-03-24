@@ -81,7 +81,7 @@ int kiesCoordinaat(void) {
     // Dit coordinaat wordt ingesteld om gebruikt te worden voor het display
     int coordinaat = 0;
 	// Loop totdat S3 is ingedrukt
-    while (!(isNoodknopIngedrukt())){
+    while (1){
         /*
 		Als S1 wordt ingedrukt verlaag het coordinaat met 1
 		*/
