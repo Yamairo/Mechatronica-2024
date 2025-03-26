@@ -1,9 +1,7 @@
 ---
 created: 2024-09-19T08:59
-updated: 2025-03-04T14:51
+updated: 2025-03-25T12:28
 ---
-```toc
-```
 
 # Te doen
 Voor meer zie [[Huiswerk]]
@@ -21,7 +19,19 @@ FLATTEN file.tasks AS Tasks
 WHERE !Tasks.completed
 ```
 
-# Elektrische Netwerken
+# Vakken
+```toc
+```
+
+## Communicatieve Vaardigheden
+```dataview
+LIST
+FROM "Communicatieve Vaardigheden"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+## Elektrische Netwerken
 ```dataview
 LIST
 FROM "Elektrische Netwerken"
@@ -29,7 +39,15 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
-# Microcontroller programmeren
+## Industriële Besturing Programmeren
+```dataview
+LIST
+FROM "Industriële Besturing Programmeren"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+## Microcontroller programmeren
 ```dataview
 LIST
 FROM "Microcontroller Programmeren"
@@ -37,7 +55,7 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
-# Mechanica 2
+## Mechanica 2
 ```dataview
 LIST
 FROM "Mechanica 2"
@@ -45,7 +63,7 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
-# Ontwerpen in Groepen 
+## Ontwerpen in Groepen 
 ```dataview
 LIST
 FROM "Ontwerpen in groepen"
@@ -53,7 +71,7 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
-# Sensoren en Actuatoren
+## Sensoren en Actuatoren
 ```dataview
 LIST
 FROM "Sensoren en Actuatoren"
@@ -61,7 +79,7 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
-# Wiskunde
+## Wiskunde
 ```dataview
 LIST
 FROM "Wiskunde"
@@ -69,7 +87,7 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
-# Wiskunde 2
+## Wiskunde 2
 ```dataview
 LIST
 FROM "Wiskunde 2"
