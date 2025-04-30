@@ -4,14 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UK86mSe1ED0umMSQW7se-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UK86mSe1ED0umMSQW7se-1" target="UK86mSe1ED0umMSQW7se-83">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="405" y="90" />
-              <mxPoint x="-352" y="90" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="UK86mSe1ED0umMSQW7se-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UK86mSe1ED0umMSQW7se-1" target="UK86mSe1ED0umMSQW7se-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -36,6 +28,14 @@
             <Array as="points">
               <mxPoint x="405" y="90" />
               <mxPoint x="1189" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UK86mSe1ED0umMSQW7se-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UK86mSe1ED0umMSQW7se-1" target="UK86mSe1ED0umMSQW7se-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="90" />
+              <mxPoint x="-413" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -113,7 +113,7 @@
           <mxGeometry x="440" y="230" width="115" height="35" as="geometry" />
         </mxCell>
         <mxCell id="UK86mSe1ED0umMSQW7se-37" value="Bocht Draaien" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-217" y="360" width="115" height="35" as="geometry" />
+          <mxGeometry x="-230" y="360" width="115" height="35" as="geometry" />
         </mxCell>
         <mxCell id="UK86mSe1ED0umMSQW7se-39" value="Snelheid aanpassen" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-67" y="360" width="115" height="35" as="geometry" />
@@ -167,19 +167,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UK86mSe1ED0umMSQW7se-83" value="Persoon Vollgen" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-429" y="130" width="154" height="35" as="geometry" />
+          <mxGeometry x="-490" y="130" width="154" height="35" as="geometry" />
         </mxCell>
         <mxCell id="UK86mSe1ED0umMSQW7se-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK86mSe1ED0umMSQW7se-85" target="UK86mSe1ED0umMSQW7se-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UK86mSe1ED0umMSQW7se-85" value="Persoon Detecteren" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-539" y="230" width="154" height="35" as="geometry" />
+          <mxGeometry x="-580" y="230" width="154" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="UK86mSe1ED0umMSQW7se-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK86mSe1ED0umMSQW7se-88" target="UK86mSe1ED0umMSQW7se-106">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UK86mSe1ED0umMSQW7se-88" value="Obstakels Detecteren" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-329" y="230" width="154" height="35" as="geometry" />
+          <mxGeometry x="-390" y="230" width="154" height="35" as="geometry" />
         </mxCell>
         <mxCell id="UK86mSe1ED0umMSQW7se-104" value="Voortbewegen" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-539" y="345" width="154" height="35" as="geometry" />
+          <mxGeometry x="-580" y="475" width="154" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="UK86mSe1ED0umMSQW7se-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UK86mSe1ED0umMSQW7se-106" target="UK86mSe1ED0umMSQW7se-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UK86mSe1ED0umMSQW7se-106" value="Obstakels Vermijden" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="360" width="154" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
