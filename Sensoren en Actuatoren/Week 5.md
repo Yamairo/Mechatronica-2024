@@ -1,5 +1,9 @@
 ---
 created: 2025-03-14T13:07
+updated: 2025-05-15T15:19
+---
+	---
+created: 2025-03-14T13:07
 updated: 2025-03-19T10:07
 ---
 # Inhoudsopgave
@@ -10,7 +14,18 @@ updated: 2025-03-19T10:07
 ---
 
 ## Model PMDC en BLDC motor
-![[Pasted image 20250319085856.png]]
+![[Pasted image 20250326085659.png]]
+
+- $U$ de voedingsspanning, in V,  
+- $I$ de motorstroom, in A,  
+- $T$ het gevraagde koppel, in N.m,  
+- $k_T$ de koppelconstante, in N.m/A,  
+- $L$ de zelfinductie, in H ('Henry'),  
+- $R_i$ de inductieweerstand, in $\Omega$,  
+- $U_i$ de inductiespanning, in V,  
+- $\omega$ de hoeksnelheid, in rad/s,  
+- $k_\omega$ de snelheidsconstante, in rad/(s.V)  
+
 
 ### Uitleg Model U, T, kT, I
 

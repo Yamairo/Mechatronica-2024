@@ -1,6 +1,6 @@
 ---
 created: 2024-09-19T08:59
-updated: 2025-05-15T15:18
+updated: 2025-05-15T15:20
 ---
 
 # Te doen
@@ -49,6 +49,15 @@ SORT file.name ASC
 ```
 
 ## Excalidraw
+
+## Industriële Besturing Programmeren
+```dataview
+LIST
+FROM "Industriële Besturing Programmeren"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+## Microcontroller programmeren
 ```dataview
 LIST
 FROM "Excalidraw"
@@ -64,6 +73,8 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
+
+
 ## Mechanica 2
 ```dataview
 LIST
@@ -71,6 +82,7 @@ FROM "Mechanica 2"
 FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
+
 
 ## Microcontroller Programmeren
 ```dataview
@@ -81,6 +93,9 @@ SORT file.name ASC
 ```
 
 ## Ontwerpen in Groepen
+=======
+## Ontwerpen in Groepen 
+>>>>>>> b1beaf62d30dc22f03f41c48b7489d0d3587d2ca
 ```dataview
 LIST
 FROM "Ontwerpen in groepen"
@@ -88,6 +103,7 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
+<<<<<<< HEAD
 ## Project
 ```dataview
 LIST
@@ -112,6 +128,8 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
+=======
+>>>>>>> b1beaf62d30dc22f03f41c48b7489d0d3587d2ca
 ## Sensoren en Actuatoren
 ```dataview
 LIST
@@ -120,6 +138,7 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
+<<<<<<< HEAD
 ## Solidworks
 ```dataview
 LIST
@@ -136,6 +155,8 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
+=======
+>>>>>>> b1beaf62d30dc22f03f41c48b7489d0d3587d2ca
 ## Wiskunde
 ```dataview
 LIST

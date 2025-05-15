@@ -225,17 +225,41 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "homepage:Open homepage": false,
-      "card-board:CardBoard": false
+      "card-board:CardBoard": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "c94701ec41fed282",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Project AGV/Functie-Analyse.drawio",
+    "Powerpoints/OIG2_WK06_Creatieve_Technieken_v1.0.pdf",
+    "Powerpoints",
+    "Ontwerpen in groepen 2/ Week 6.md",
+    "Ontwerpen in groepen 2",
+    "Mechanica 2/Week 6.md",
+    "Mechanica 2/Oude toetsen/ME-MECCON1_Sterkteleer_20240403_ANTWOORDEN.pdf",
+    "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 6 april 2023 - Meest voorkomende fouten.pdf",
+    "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 20 april 2023_ANSWERS.pdf",
+    "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 4 april 2022 - ANTWOORDEN.pdf",
+    "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 20 april 2023 - Meest voorkomende fouten.pdf",
+    "Mechanica 2/Oude toetsen/220420 - MECCON1-19 toets 20 april 2022 - ANTWOORDEN.pdf",
+    "Mechanica 2/Oude toetsen",
+    "Industriële Besturing Programmeren/Week 5 - Besturingsalgebra.md",
+    "Industriële Besturing Programmeren/Week 4 - Geheugens.md",
+    "Industriële Besturing Programmeren/Week 3 - Rising Falling Edge, Begin Geheugens.md",
+    "Industriële Besturing Programmeren/Week 2 - Besturingscommando's, Stappenplan, Ventielen en Logische Basisfuncties.md",
+    "Industriële Besturing Programmeren/Week 1 - Introductie Pneumatiek, Hydrauliek en WST.md",
+    "Excalidraw/Drawing 2025-03-26 10.50.58.excalidraw.md",
+    "Bijlages/Pasted image 20250326104259.png",
+    "Bijlages/Pasted image 20250326104122.png",
+    "Bijlages/Pasted image 20250326101835.png",
+    "Bijlages/Pasted image 20250326101710.png",
+    "Bijlages/Pasted image 20250326085659.png",
+    "Bijlages/Pasted image 20250320111044.png",
     "Homepage.md",
     "Mechanica 2/Week 4 WC.md",
     "Mechanica 2/Week 4 - Traagheidsmoment.md",
     "Mechanica 2/Week 3 WC.md",
-    "Mechanica 2/Week 3 Sterkteleer.md",
-    "Boeken/Mega2560 Pinout.pdf"
+    "Mechanica 2/Week 3 Sterkteleer.md"
   ]
 }
