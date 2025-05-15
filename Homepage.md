@@ -1,6 +1,6 @@
 ---
 created: 2024-09-19T08:59
-updated: 2025-05-15T15:20
+updated: 2025-05-15T15:22
 ---
 
 # Te doen
@@ -73,8 +73,6 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
-
-
 ## Mechanica 2
 ```dataview
 LIST
@@ -92,10 +90,7 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
-## Ontwerpen in Groepen
-=======
 ## Ontwerpen in Groepen 
->>>>>>> b1beaf62d30dc22f03f41c48b7489d0d3587d2ca
 ```dataview
 LIST
 FROM "Ontwerpen in groepen"
@@ -103,7 +98,6 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
-<<<<<<< HEAD
 ## Project
 ```dataview
 LIST
@@ -128,8 +122,6 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
-=======
->>>>>>> b1beaf62d30dc22f03f41c48b7489d0d3587d2ca
 ## Sensoren en Actuatoren
 ```dataview
 LIST
@@ -138,7 +130,6 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
-<<<<<<< HEAD
 ## Solidworks
 ```dataview
 LIST
@@ -155,8 +146,6 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
-=======
->>>>>>> b1beaf62d30dc22f03f41c48b7489d0d3587d2ca
 ## Wiskunde
 ```dataview
 LIST
