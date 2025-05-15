@@ -13,35 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage.md",
+                "file": "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homepage"
-            },
-            "group": "07aa24d402f9e984"
-          }
-        ]
-      },
-      {
-        "id": "dc41d39ff2a772dd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c94701ec41fed282",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homepage.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Homepage"
-            },
-            "group": "07aa24d402f9e984"
+              "title": "Onderzoek Mechanisch Faalmechanisme Duwmodule"
+            }
           }
         ]
       }
@@ -225,12 +203,63 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "card-board:CardBoard": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "card-board:CardBoard": false
     }
+  },
+  "floating": {
+    "id": "566b13fdb31a2029",
+    "type": "floating",
+    "children": [
+      {
+        "id": "dfe9e47d19e511e6",
+        "type": "window",
+        "children": [
+          {
+            "id": "e52a217a0955c7f7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "499559042fb4f58a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Boeken/Projectboek PRO2_Deel-2-V250509.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Projectboek PRO2_Deel-2-V250509"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1920,
+        "y": 240,
+        "width": 960,
+        "height": 1080,
+        "maximize": false,
+        "zoom": -1
+      }
+    ]
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Bijlages/Pasted image 20250516015045.png",
+    "Bijlages/Pasted image 20250516014850.png",
+    "Bijlages/Pasted image 20250516014848.png",
+    "Bijlages/Pasted image 20250516014728.png",
+    "Boeken/2004-CISM_vo.pdf",
+    "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
+    "Boeken/Projectboek PRO2_Deel-2-V250509.pdf",
+    "Bijlages/Pasted image 20250515183236.png",
+    "Boeken/Projectboek PRO2_Deel-2-V250509.pdf.crdownload",
+    "Homepage.md",
+    "Project AGV/Aantekeningen Vergadering 1.md",
+    "Project AGV Deel 2",
+    "Excalidraw/Drawing 2025-05-15 15.31.56.excalidraw.md",
+    "Huiswerk.md",
     "Project AGV/Functie-Analyse.drawio",
     "Powerpoints/OIG2_WK06_Creatieve_Technieken_v1.0.pdf",
     "Powerpoints",
@@ -239,11 +268,6 @@
     "Mechanica 2/Week 6.md",
     "Mechanica 2/Oude toetsen/ME-MECCON1_Sterkteleer_20240403_ANTWOORDEN.pdf",
     "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 6 april 2023 - Meest voorkomende fouten.pdf",
-    "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 20 april 2023_ANSWERS.pdf",
-    "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 4 april 2022 - ANTWOORDEN.pdf",
-    "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 20 april 2023 - Meest voorkomende fouten.pdf",
-    "Mechanica 2/Oude toetsen/220420 - MECCON1-19 toets 20 april 2022 - ANTWOORDEN.pdf",
-    "Mechanica 2/Oude toetsen",
     "Industriële Besturing Programmeren/Week 5 - Besturingsalgebra.md",
     "Industriële Besturing Programmeren/Week 4 - Geheugens.md",
     "Industriële Besturing Programmeren/Week 3 - Rising Falling Edge, Begin Geheugens.md",
@@ -256,7 +280,6 @@
     "Bijlages/Pasted image 20250326101710.png",
     "Bijlages/Pasted image 20250326085659.png",
     "Bijlages/Pasted image 20250320111044.png",
-    "Homepage.md",
     "Mechanica 2/Week 4 WC.md",
     "Mechanica 2/Week 4 - Traagheidsmoment.md",
     "Mechanica 2/Week 3 WC.md",

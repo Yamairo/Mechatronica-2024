@@ -1,12 +1,4 @@
 {
-  "accentColor": "",
-  "baseFontSize": 13,
-<<<<<<< HEAD
   "cssTheme": "Wikipedia",
-  "theme": "obsidian",
-=======
-  "cssTheme": "Border",
-  "theme": "moonstone",
->>>>>>> b1beaf62d30dc22f03f41c48b7489d0d3587d2ca
-  "showRibbon": false
+  "theme": "moonstone"
 }

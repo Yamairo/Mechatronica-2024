@@ -1,6 +1,6 @@
 ---
 created: 2024-09-19T08:59
-updated: 2025-05-15T15:22
+updated: 2025-05-15T15:46
 ---
 
 # Te doen
@@ -122,6 +122,13 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
+## Project AGV 2
+```dataview
+LIST
+FROM "Project AGV Deel 2"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
 ## Sensoren en Actuatoren
 ```dataview
 LIST
