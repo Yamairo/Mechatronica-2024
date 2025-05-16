@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
-                "mode": "source",
+                "file": "Homepage.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Onderzoek Mechanisch Faalmechanisme Duwmodule"
+              "title": "Homepage"
             }
           }
         ]
@@ -207,51 +207,14 @@
       "card-board:CardBoard": false
     }
   },
-  "floating": {
-    "id": "566b13fdb31a2029",
-    "type": "floating",
-    "children": [
-      {
-        "id": "dfe9e47d19e511e6",
-        "type": "window",
-        "children": [
-          {
-            "id": "e52a217a0955c7f7",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "499559042fb4f58a",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Boeken/Projectboek PRO2_Deel-2-V250509.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Projectboek PRO2_Deel-2-V250509"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1920,
-        "y": 240,
-        "width": 960,
-        "height": 1080,
-        "maximize": false,
-        "zoom": -1
-      }
-    ]
-  },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
     "Bijlages/Pasted image 20250516015045.png",
     "Bijlages/Pasted image 20250516014850.png",
     "Bijlages/Pasted image 20250516014848.png",
     "Bijlages/Pasted image 20250516014728.png",
     "Boeken/2004-CISM_vo.pdf",
-    "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
     "Boeken/Projectboek PRO2_Deel-2-V250509.pdf",
     "Bijlages/Pasted image 20250515183236.png",
     "Boeken/Projectboek PRO2_Deel-2-V250509.pdf.crdownload",
@@ -279,7 +242,6 @@
     "Bijlages/Pasted image 20250326101835.png",
     "Bijlages/Pasted image 20250326101710.png",
     "Bijlages/Pasted image 20250326085659.png",
-    "Bijlages/Pasted image 20250320111044.png",
     "Mechanica 2/Week 4 WC.md",
     "Mechanica 2/Week 4 - Traagheidsmoment.md",
     "Mechanica 2/Week 3 WC.md",
