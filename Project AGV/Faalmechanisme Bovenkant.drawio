@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="Page-1" id="CCmFm6_k-PqS2pYb4gft">
-    <mxGraphModel>
+    <mxGraphModel dx="474" dy="256" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Wx1BXARaciWCvntnVvRm-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wx1BXARaciWCvntnVvRm-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#006658;fontColor=#5C5C5C;fillColor=#21C0A5;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wx1BXARaciWCvntnVvRm-3" value="" style="shape=collate;whiteSpace=wrap;html=1;strokeColor=#006658;fontColor=#5C5C5C;fillColor=#21C0A5;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wx1BXARaciWCvntnVvRm-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=5;indent=5;strokeColor=#006658;fontColor=#5C5C5C;fillColor=#21C0A5;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Wx1BXARaciWCvntnVvRm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#5C5C5C;fillColor=#21C0A5;endArrow=none;startFill=0;" edge="1" parent="1" source="Wx1BXARaciWCvntnVvRm-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="342" y="240" />
+              <mxPoint x="380" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wx1BXARaciWCvntnVvRm-9" value="Eindstandschakelaar" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#006658;fontColor=#5C5C5C;fillColor=#21C0A5;" vertex="1" connectable="0" parent="Wx1BXARaciWCvntnVvRm-6">
+          <mxGeometry x="0.5333" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wx1BXARaciWCvntnVvRm-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=5;strokeColor=#006658;fontColor=#5C5C5C;fillColor=#21C0A5;" vertex="1" parent="1">
+          <mxGeometry x="334" y="275" width="16" height="10" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
