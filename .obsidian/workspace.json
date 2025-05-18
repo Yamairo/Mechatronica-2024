@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "9ace57de2406cd3c",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "07ba4e586b5ce8c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Homepage.md",
-                "mode": "preview",
-                "source": true
+                "file": "PDF/Onderzoek Mechanisch Faalmechanisme Duwmodule.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Homepage"
+              "icon": "lucide-file-text",
+              "title": "Onderzoek Mechanisch Faalmechanisme Duwmodule"
             }
           }
         ]
@@ -74,7 +72,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -155,12 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "PDF/Onderzoek Mechanisch Faalmechanisme Duwmodule.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Onderzoek Mechanisch Faalmechanisme Duwmodule"
             }
           },
           {
@@ -184,12 +184,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,41 +206,41 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "07ba4e586b5ce8c3",
   "lastOpenFiles": [
-    "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
-    "Bijlages/Pasted image 20250516015045.png",
-    "Bijlages/Pasted image 20250516014850.png",
-    "Bijlages/Pasted image 20250516014848.png",
-    "Bijlages/Pasted image 20250516014728.png",
-    "Boeken/2004-CISM_vo.pdf",
     "Boeken/Projectboek PRO2_Deel-2-V250509.pdf",
-    "Bijlages/Pasted image 20250515183236.png",
-    "Boeken/Projectboek PRO2_Deel-2-V250509.pdf.crdownload",
+    "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
+    "PDF/Onderzoek Mechanisch Faalmechanisme Duwmodule.pdf",
     "Homepage.md",
+    "Bijlages/Pasted image 20250518164705.png",
+    "Bijlages/Pasted image 20250518163730.png",
+    "Bijlages/Pasted image 20250518163634.png",
+    "Bijlages/Faalmechanisme Bovenkant Vol Pakket.drawio 1.svg",
+    "Bijlages/Faalmechanisme Bovenkant Vol Pakket.drawio.svg",
+    "Bijlages/Faalmechanisme topaanzicht 2 Vol Pakket.drawio.svg",
+    "Bijlages/Faalmechanisme topaanzicht 2 vol pakket 1.drawio",
+    "Bijlages/Faalmechanisme topaanzicht 2 vol pakket.drawio",
+    "Bijlages/Faalmechanisme topaanzicht 2.drawio.svg",
+    "Bijlages/Faalmechanisme zijaanzicht 2.drawio.svg",
+    "Bijlages/Faalmechanisme Bovenkant.drawio 1.svg",
+    "Bijlages/Faalmechanisme zijaanzicht.drawio 3.svg",
+    "PDF",
+    "Boeken/2004-CISM_vo.pdf",
+    "Boeken/Projectboek PRO2_Deel-2-V250509.pdf.crdownload",
     "Project AGV/Aantekeningen Vergadering 1.md",
     "Project AGV Deel 2",
     "Excalidraw/Drawing 2025-05-15 15.31.56.excalidraw.md",
     "Huiswerk.md",
     "Project AGV/Functie-Analyse.drawio",
     "Powerpoints/OIG2_WK06_Creatieve_Technieken_v1.0.pdf",
-    "Powerpoints",
     "Ontwerpen in groepen 2/ Week 6.md",
-    "Ontwerpen in groepen 2",
     "Mechanica 2/Week 6.md",
-    "Mechanica 2/Oude toetsen/ME-MECCON1_Sterkteleer_20240403_ANTWOORDEN.pdf",
-    "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 6 april 2023 - Meest voorkomende fouten.pdf",
     "Industriële Besturing Programmeren/Week 5 - Besturingsalgebra.md",
     "Industriële Besturing Programmeren/Week 4 - Geheugens.md",
     "Industriële Besturing Programmeren/Week 3 - Rising Falling Edge, Begin Geheugens.md",
     "Industriële Besturing Programmeren/Week 2 - Besturingscommando's, Stappenplan, Ventielen en Logische Basisfuncties.md",
     "Industriële Besturing Programmeren/Week 1 - Introductie Pneumatiek, Hydrauliek en WST.md",
     "Excalidraw/Drawing 2025-03-26 10.50.58.excalidraw.md",
-    "Bijlages/Pasted image 20250326104259.png",
-    "Bijlages/Pasted image 20250326104122.png",
-    "Bijlages/Pasted image 20250326101835.png",
-    "Bijlages/Pasted image 20250326101710.png",
-    "Bijlages/Pasted image 20250326085659.png",
     "Mechanica 2/Week 4 WC.md",
     "Mechanica 2/Week 4 - Traagheidsmoment.md",
     "Mechanica 2/Week 3 WC.md",
