@@ -1,6 +1,6 @@
 ---
 created: 2024-09-19T08:59
-updated: 2025-03-28T10:00
+updated: 2025-05-19T11:49
 ---
 
 # Te doen
@@ -27,7 +27,16 @@ SORT file.name ASC
 ```
 
 # Vakken
+
 ```toc
+```
+
+## Bassiswiskunde
+```dataview
+LIST
+FROM "Bassiswiskunde"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
 ```
 
 ## Communicatieve Vaardigheden
@@ -46,6 +55,8 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
+## Excalidraw
+
 ## Industriële Besturing Programmeren
 ```dataview
 LIST
@@ -53,11 +64,18 @@ FROM "Industriële Besturing Programmeren"
 FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
-
 ## Microcontroller programmeren
 ```dataview
 LIST
-FROM "Microcontroller Programmeren"
+FROM "Excalidraw"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+## Industriële Besturing Programmeren
+```dataview
+LIST
+FROM "Mechanice"
 FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
@@ -70,6 +88,15 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
+
+## Microcontroller Programmeren
+```dataview
+LIST
+FROM "Microcontroller Programmeren"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
 ## Ontwerpen in Groepen 
 ```dataview
 LIST
@@ -78,10 +105,57 @@ FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
 
+## Project
+```dataview
+LIST
+FROM "Project"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+## Project Agrobot
+```dataview
+LIST
+FROM "Project Agrobot"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+## Project AGV
+```dataview
+LIST
+FROM "Project AGV"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+## Project AGV 2
+```dataview
+LIST
+FROM "Project AGV Deel 2"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
 ## Sensoren en Actuatoren
 ```dataview
 LIST
 FROM "Sensoren en Actuatoren"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+## Solidworks
+```dataview
+LIST
+FROM "Solidworks"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+## Statica
+```dataview
+LIST
+FROM "Statica"
 FLATTEN "## " + file.link AS heading
 SORT file.name ASC
 ```
@@ -100,5 +174,38 @@ LIST
 FROM "Wiskunde 2"
 FLATTEN "## " + file.link AS heading
 SORT file.name ASC
+```
 
+# Extra Informatie
 
+# Bijlages
+```dataview
+LIST
+FROM "Bijlages"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+# Boeken
+```dataview
+LIST
+FROM "Boeken"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+# Subonderwerpen
+```dataview
+LIST
+FROM "Subonderwerpen"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```
+
+# Templates
+```dataview
+LIST
+FROM "Templates"
+FLATTEN "## " + file.link AS heading
+SORT file.name ASC
+```

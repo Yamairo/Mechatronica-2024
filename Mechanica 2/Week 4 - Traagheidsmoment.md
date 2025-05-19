@@ -1,6 +1,6 @@
 ---
 created: 2025-03-12T10:33
-updated: 2025-03-12T11:09
+updated: 2025-05-19T11:48
 ---
 # Inhoudsopgave
 ```toc
@@ -16,12 +16,12 @@ I_y=\int{x^{2}dA}
 $$
 
 ### Een rechthoek
-$ 
+$$ 
 \begin{align}
 \overline{I}_{x=1/12}bh^{3}\\
 \overline{I}_{y=1/12}hb^{3}
 \end{align}
-$
+$$
 
 ### Samengesteld Lichaam
 Rechthoek: $\overline{I}_{x,1}=\frac{1}{12}bh^{3}$

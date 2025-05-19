@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Page-1" id="kljbISe7CCq1MsPuejtc">
+    <mxGraphModel dx="474" dy="256" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kCensWRNzOAePuaZmuei-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kCensWRNzOAePuaZmuei-2" value="" style="shape=lineEllipse;line=vertical;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="539.5" y="130" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="kCensWRNzOAePuaZmuei-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="201" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kCensWRNzOAePuaZmuei-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="140" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kCensWRNzOAePuaZmuei-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="190" as="sourcePoint" />
+            <mxPoint x="539.5" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kCensWRNzOAePuaZmuei-8" value="" style="html=1;rounded=0;endArrow=none;startFill=0;endSize=6;curved=0;jumpSize=5;fillColor=#f8cecc;strokeColor=#b85450;jumpStyle=none;flowAnimation=0;shadow=0;strokeWidth=6;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="460" y="190" as="sourcePoint" />
+            <mxPoint x="520" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

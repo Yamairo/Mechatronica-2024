@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1738674512 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\oefentoets-2023\fuse.c
+	<avr/io.h>
+
+1738692199 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\oefentoets-2023\main.c
+	<avr/io.h>
+	<util/delay.h>
+
+1738674838 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\oefentoets-2023\opdracht-1a.c
+	<avr/io.h>
+
+1738675094 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\oefentoets-2023\opdracht-2.c
+	<avr/io.h>
+
+1738675714 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\oefentoets-2023\opdracht-3.c
+	<avr/io.h>
+
+1738677703 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\oefentoets-2023\opdracht-4.c
+	<avr/io.h>
+	<avr/interrupt.h>
+
+1738680117 source:d:\school\hbo-mechatronica-jaar-1-2024\microcontroller programmeren\oefentoets-2023\opdracht-5.c
+
