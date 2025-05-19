@@ -4,44 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "58bef6a90515a501",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "195337081d4730a0",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanica 2/Week 6.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Week 6"
-            },
-            "group": "8773ee10d6ea687a"
-          }
-        ]
-      },
-      {
-        "id": "3f24de80a019e430",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7a46a745d5de4e5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mechanica 2/Week 6.md",
+                "file": "Homepage.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Week 6"
-            },
-            "group": "8773ee10d6ea687a"
+              "title": "Homepage"
+            }
           }
         ]
       }
@@ -100,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d63d5b0ec1965569",
@@ -216,9 +193,21 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "3f209a937ca67b15",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Project AGV/ Functies.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for  Functies"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -237,57 +226,56 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "card-board:CardBoard": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "195337081d4730a0",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Homepage.md",
+    "Boeken/Projectboek%20PRO2_Deel-2_v250429.pdf",
+    "Sensoren en Actuatoren/Week 13.md",
+    "Sensoren en actuatoren/Week 13.md",
+    "Industiële Besturing Programmeren/Week 12.md",
+    "Industiële Besturing Programmeren",
+    "Mechanica 2/Week 12.md",
+    "Sensoren en Actuatoren/Week 12.md",
+    "Industriële Besturing Programmeren/Week 11.md",
+    "Ontwerpen in groepen 2/Week 11.md",
+    "Project AGV/ Functies.md",
+    "Boeken/make_avrprogramming.pdf",
+    "Boeken/Mega2560 Pinout.pdf",
+    "Ontwerpen in groepen/Week 11.md",
+    "Ontwerpen in groepen/Evaporating cloud.canvas",
+    "Industriële Besturing Programmeren/Week 10.md",
+    "Industriële Besturing Programmeren/Week 8.md",
+    "Industriële Besturing Programmeren/Week 7.md",
+    "Industriële Besturing Programmeren/Week 5 - Besturingsalgebra.md",
+    "Subonderwerpen/Pinout.md",
+    "Mechanica 2/Week 8.md",
+    "Ontwerpen in groepen/Week 8.md",
+    "Sensoren en Actuatoren/Week 5.md",
+    "Mechanica 2/Week 6.md",
+    "Mechanica 2/Week 7.md",
+    "Mechanica 2/Week 2.md",
+    "Bijlages/Pasted image 20250402110310.png",
+    "Boeken/ATmega640-1280-1281-2560-2561-Datasheet-DS40002211A.pdf",
+    "Boeken/De programmeertaal C - Jesse op den Brouw.pdf",
+    "Mechanica 2/Week 4 WC.md",
+    "Mechanica 2/Week 3 WC.md",
+    "Microcontroller Programmeren/Week 12 A.md",
+    "Microcontroller Programmeren/Week 13.md",
     "Mechanica 2/Oude toetsen.zip",
     "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 4 april 2022 - ANTWOORDEN.pdf",
     "Mechanica 2/Oude toetsen/220420 - MECCON1-19 toets 20 april 2022 - ANTWOORDEN.pdf",
     "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 6 april 2023 - Meest voorkomende fouten.pdf",
-    "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 20 april 2023_ANSWERS.pdf",
-    "Mechanica 2/Oude toetsen/Me MECCON1-19 toets 20 april 2023 - Meest voorkomende fouten.pdf",
-    "Mechanica 2/Oude toetsen/ME-MECCON1_Sterkteleer_20240403_ANTWOORDEN.pdf",
-    "Mechanica 2/Oude toetsen",
-    "Mechanica 2/New folder",
-    "Excalidraw/Drawing 2025-03-26 10.50.58.excalidraw.md",
-    "Mechanica 2/Week 6.md",
     "Bijlages/Pasted image 20250326104259.png",
     "Bijlages/Pasted image 20250326104122.png",
-    "Sensoren en Actuatoren/Week 6.md",
     "Bijlages/Pasted image 20250326101835.png",
     "Bijlages/Pasted image 20250326101710.png",
-    "Sensoren en Actuatoren/Week 5.md",
     "Bijlages/Pasted image 20250326085659.png",
-    "Powerpoints/OIG2_WK06_Creatieve_Technieken_v1.0.pdf",
-    "Ontwerpen in groepen 2/ Week 6.md",
-    "Homepage.md",
-    "Subonderwerpen/Untitled 1.md",
-    "Subonderwerpen/Untitled.md",
-    "Powerpoints/OIG2_WK06_Creatieve_Technieken_v1.0.pdf.opdownload",
-    "Wiskunde 2/Week 3.md",
-    "Industriële Besturing Programmeren/Week 1 - Introductie Pneumatiek, Hydrauliek en WST.md",
-    "Industriële Besturing Programmeren/Week 5 - Besturingsalgebra.md",
-    "Industriële Besturing Programmeren/Week 2 - Besturingscommando's, Stappenplan, Ventielen en Logische Basisfuncties.md",
-    "Industriële Besturing Programmeren/Week 3 - Rising Falling Edge, Begin Geheugens.md",
-    "Industriële Besturing Programmeren/Week 4 - Geheugens.md",
     "Bijlages/Pasted image 20250320111044.png",
     "Bijlages/Pasted image 20250319085856.png",
-    "Sensoren en Actuatoren/Week 4.md",
-    "Sensoren en actuatoren/Week 5.md",
-    "Subonderwerpen/Remanent geheugen.md",
-    "Subonderwerpen/Vluchtig geheugen.md",
-    "Mechanica 2/Week 4 WC.md",
-    "Excalidraw/6.88 sterkteleer.md",
-    "Excalidraw/Opdracht week 4 wc tekening.md",
     "Bijlages/Pasted image 20250312095115.png",
-    "Mechanica 2/Week 3 WC.md",
-    "Excalidraw/Drawing 2025-03-12 11.09.33.excalidraw.md",
-    "Mechanica 2/Week 4 - Traagheidsmoment.md",
-    "Bijlages/Pasted image 20250312110831.png",
-    "Bijlages/Pasted image 20250312110644.png",
-    "Excalidraw/Opdracht 1 week 4.md"
+    "Bijlages/Pasted image 20250312110831.png"
   ]
 }
