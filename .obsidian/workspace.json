@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9ace57de2406cd3c",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "07ba4e586b5ce8c3",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "PDF/Onderzoek Mechanisch Faalmechanisme Duwmodule.pdf"
+                "file": "Project AGV Deel 2/Project Risicoanalyse.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Onderzoek Mechanisch Faalmechanisme Duwmodule"
+              "icon": "lucide-file",
+              "title": "Project Risicoanalyse"
             }
           }
         ]
@@ -72,13 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "05d5e94d98e3bd42",
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PDF/Onderzoek Mechanisch Faalmechanisme Duwmodule.pdf",
+                "file": "Project AGV Deel 2/Project Risicoanalyse.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Onderzoek Mechanisch Faalmechanisme Duwmodule"
+              "title": "Outline of Project Risicoanalyse"
             }
           },
           {
@@ -181,6 +181,26 @@
               "state": {},
               "icon": "checkmark",
               "title": "Todo List"
+            }
+          },
+          {
+            "id": "57e0c47ff2ef3a81",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "97006b3c812cba89",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
@@ -206,12 +226,18 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "07ba4e586b5ce8c3",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Homepage.md",
+    "Project AGV Deel 2/Project Risicoanalyse.md",
+    "Subonderwerpen/Spanning.md",
     "Boeken/Projectboek PRO2_Deel-2-V250509.pdf",
     "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
     "PDF/Onderzoek Mechanisch Faalmechanisme Duwmodule.pdf",
-    "Homepage.md",
+    "Project AGV/Faalmechanisme Bovenkant.drawio",
+    "Project AGV Deel 2/Untitled Diagram.drawio",
+    "Project AGV Deel 2/Faalmechanisme zijaanzicht.drawio",
+    "Project AGV Deel 2/Faalmechanisme topaanzicht 2.drawio",
     "Bijlages/Pasted image 20250518164705.png",
     "Bijlages/Pasted image 20250518163730.png",
     "Bijlages/Pasted image 20250518163634.png",
@@ -226,13 +252,9 @@
     "Bijlages/Faalmechanisme zijaanzicht.drawio 3.svg",
     "PDF",
     "Boeken/2004-CISM_vo.pdf",
-    "Boeken/Projectboek PRO2_Deel-2-V250509.pdf.crdownload",
     "Project AGV/Aantekeningen Vergadering 1.md",
-    "Project AGV Deel 2",
     "Excalidraw/Drawing 2025-05-15 15.31.56.excalidraw.md",
     "Huiswerk.md",
-    "Project AGV/Functie-Analyse.drawio",
-    "Powerpoints/OIG2_WK06_Creatieve_Technieken_v1.0.pdf",
     "Ontwerpen in groepen 2/ Week 6.md",
     "Mechanica 2/Week 6.md",
     "Industriële Besturing Programmeren/Week 5 - Besturingsalgebra.md",
