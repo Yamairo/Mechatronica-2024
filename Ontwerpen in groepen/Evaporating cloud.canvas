@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"26758969094e4112","x":-155,"y":-149,"width":55,"height":50,"color":"3","type":"text","text":"A"},
+		{"id":"314c21eba50937ae","x":-60,"y":-220,"width":54,"height":60,"color":"6","type":"text","text":"B"},
+		{"id":"c3d28315bcff7e16","type":"text","text":"C","x":-60,"y":-99,"width":54,"height":60,"color":"6"},
+		{"id":"c58a5773e2531783","type":"text","text":"D","x":80,"y":-220,"width":54,"height":60,"color":"4"},
+		{"id":"ea145ceb096b1f20","type":"text","text":"D ","x":80,"y":-99,"width":54,"height":60,"color":"4"},
+		{"id":"93b2b9f977218f78","x":45,"y":-285,"width":124,"height":60,"type":"text","text":"Behoefte"},
+		{"id":"fc335110bf1678e1","x":-91,"y":-285,"width":117,"height":60,"type":"text","text":"Gedrag"}
+	],
+	"edges":[
+		{"id":"7964e86505d5502b","fromNode":"314c21eba50937ae","fromSide":"left","toNode":"26758969094e4112","toSide":"top","label":"Doel"},
+		{"id":"d58240f79ea585b2","fromNode":"c3d28315bcff7e16","fromSide":"left","toNode":"26758969094e4112","toSide":"bottom"},
+		{"id":"8ccd8626b207761e","fromNode":"ea145ceb096b1f20","fromSide":"top","toNode":"c58a5773e2531783","toSide":"bottom"},
+		{"id":"7ba90f19d1787ba5","fromNode":"c58a5773e2531783","fromSide":"left","toNode":"314c21eba50937ae","toSide":"right"},
+		{"id":"a55586ce3e4737ea","fromNode":"ea145ceb096b1f20","fromSide":"left","toNode":"c3d28315bcff7e16","toSide":"right"}
+	]
+}

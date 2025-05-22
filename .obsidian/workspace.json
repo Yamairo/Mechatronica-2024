@@ -13,12 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Project AGV Deel 2/Project Risicoanalyse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Project Risicoanalyse"
+=======
+                "file": "Homepage.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Homepage"
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
             }
           }
         ]
@@ -27,15 +36,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e1e07fdf84f9f5dc",
+    "id": "22f346ef3f987fbf",
     "type": "split",
     "children": [
       {
-        "id": "f9e4eb5da4b7c662",
+        "id": "a8b727dda2dfa0d2",
         "type": "tabs",
         "children": [
           {
-            "id": "e73c55419ccb0bc8",
+            "id": "3c5876cb9398b07c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +57,7 @@
             }
           },
           {
-            "id": "8d0732401595e562",
+            "id": "b106c8db7ef539b7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +74,7 @@
             }
           },
           {
-            "id": "3782c93da295f20a",
+            "id": "a54c036c31c949c2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,18 +87,22 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 300
+=======
+    "width": 200
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
   },
   "right": {
-    "id": "05d5e94d98e3bd42",
+    "id": "d63d5b0ec1965569",
     "type": "split",
     "children": [
       {
-        "id": "30a03b14fd1697a9",
+        "id": "84682c15b74dfa65",
         "type": "tabs",
         "children": [
           {
-            "id": "3aa48be744a2e0e1",
+            "id": "0b6ed3a8c4876d3d",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -107,20 +120,21 @@
             }
           },
           {
-            "id": "a4e71b7204715098",
+            "id": "fb7c40b32a6a8e19",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/Drawing 2025-03-12 11.09.33.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Drawing 2025-03-12 11.09.33.excalidraw"
             }
           },
           {
-            "id": "fb7f6c8c8fd9e4c9",
+            "id": "6d3dea8b6df23dce",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,13 +149,13 @@
             }
           },
           {
-            "id": "b8b0cb6d87548c4f",
+            "id": "a4f3df0c8f817b65",
             "type": "leaf",
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
@@ -149,22 +163,30 @@
             }
           },
           {
-            "id": "2d51b4fc5648b907",
+            "id": "871de5c309441846",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Project AGV Deel 2/Project Risicoanalyse.md",
+=======
+                "file": "Powerpoints/OIG2_WK06_Creatieve_Technieken_v1.0.pdf",
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
+<<<<<<< HEAD
               "title": "Outline of Project Risicoanalyse"
+=======
+              "title": "Outline of OIG2_WK06_Creatieve_Technieken_v1.0"
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
             }
           },
           {
-            "id": "a479926a1b5db735",
+            "id": "0c67bca47ef3144d",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -174,7 +196,7 @@
             }
           },
           {
-            "id": "bf7ef34adbb2fb4a",
+            "id": "87709a625350d315",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -184,7 +206,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "57e0c47ff2ef3a81",
+=======
+            "id": "34c46bca8b52dd88",
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -194,6 +220,7 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "97006b3c812cba89",
             "type": "leaf",
             "state": {
@@ -201,14 +228,26 @@
               "state": {},
               "icon": "trident-custom",
               "title": "Mermaid Toolbar"
+=======
+            "id": "3f209a937ca67b15",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Project AGV/ Functies.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for  Functies"
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,22 +257,30 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "card-board:CardBoard": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Homepage.md",
     "Project AGV Deel 2/Project Risicoanalyse.md",
     "Subonderwerpen/Spanning.md",
     "Boeken/Projectboek PRO2_Deel-2-V250509.pdf",
+=======
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
     "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
+    "Project AGV Deel 2/Untitled Diagram.drawio",
+    "Project AGV Deel 2/Faalmechanisme zijaanzicht.drawio",
+    "Project AGV Deel 2/Faalmechanisme topaanzicht 2.drawio",
+    "Project AGV Deel 2",
     "PDF/Onderzoek Mechanisch Faalmechanisme Duwmodule.pdf",
+<<<<<<< HEAD
     "Project AGV/Faalmechanisme Bovenkant.drawio",
     "Project AGV Deel 2/Untitled Diagram.drawio",
     "Project AGV Deel 2/Faalmechanisme zijaanzicht.drawio",
@@ -257,15 +304,48 @@
     "Huiswerk.md",
     "Ontwerpen in groepen 2/ Week 6.md",
     "Mechanica 2/Week 6.md",
+=======
+    "PDF",
+    "Solidworks/3d-Model-Poortaalkraan-20072716_Yamairo_Martinus/~$x-as20072716_Yamairo-Martinus.sldprt",
+    "Solidworks/3d-Model-Poortaalkraan-20072716_Yamairo_Martinus/~$radial ball bearing_68_iso20072716_Yamairo-Martinus.sldprt",
+    "Solidworks/3d-Model-Poortaalkraan-20072716_Yamairo_Martinus/~$plain washer clevis pin grade a_iso20072716_Yamairo-Martinus.sldprt",
+    "Solidworks/3d-Model-Poortaalkraan-20072716_Yamairo_Martinus/~$plain washer 10669 type nl_iso20072716_Yamairo-Martinus.sldprt",
+    "Excalidraw/Drawing 2025-05-15 15.31.56.excalidraw.md",
+    "Bijlages/Zijkant faalmechanisme.drawio.svg",
+    "Bijlages/Zijkant faalmechanisme.drawio 1.svg",
+    "Bijlages/Pasted image 20250518164705.png",
+    "Bijlages/Pasted image 20250518163730.png",
+    "Bijlages/Pasted image 20250518163634.png",
+    "Bijlages/Pasted image 20250516015045.png",
+    "Bijlages/Pasted image 20250516014850.png",
+    "Bijlages/Pasted image 20250516014848.png",
+    "Bijlages/Pasted image 20250516014728.png",
+    "Bijlages/Pasted image 20250515183236.png",
+    "Homepage.md",
+    "Sensoren en Actuatoren/Week 13.md",
+    "Sensoren en actuatoren/Week 13.md",
+    "Industiële Besturing Programmeren/Week 12.md",
+    "Mechanica 2/Week 12.md",
+    "Sensoren en Actuatoren/Week 12.md",
+    "Industriële Besturing Programmeren/Week 11.md",
+    "Ontwerpen in groepen 2/Week 11.md",
+    "Project AGV/ Functies.md",
+    "Ontwerpen in groepen/Week 11.md",
+    "Ontwerpen in groepen/Evaporating cloud.canvas",
+    "Industriële Besturing Programmeren/Week 10.md",
+    "Industriële Besturing Programmeren/Week 8.md",
+    "Industriële Besturing Programmeren/Week 7.md",
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
     "Industriële Besturing Programmeren/Week 5 - Besturingsalgebra.md",
-    "Industriële Besturing Programmeren/Week 4 - Geheugens.md",
-    "Industriële Besturing Programmeren/Week 3 - Rising Falling Edge, Begin Geheugens.md",
-    "Industriële Besturing Programmeren/Week 2 - Besturingscommando's, Stappenplan, Ventielen en Logische Basisfuncties.md",
-    "Industriële Besturing Programmeren/Week 1 - Introductie Pneumatiek, Hydrauliek en WST.md",
-    "Excalidraw/Drawing 2025-03-26 10.50.58.excalidraw.md",
+    "Subonderwerpen/Pinout.md",
+    "Mechanica 2/Week 8.md",
+    "Ontwerpen in groepen/Week 8.md",
+    "Sensoren en Actuatoren/Week 5.md",
+    "Mechanica 2/Week 6.md",
+    "Mechanica 2/Week 7.md",
+    "Mechanica 2/Week 2.md",
     "Mechanica 2/Week 4 WC.md",
-    "Mechanica 2/Week 4 - Traagheidsmoment.md",
     "Mechanica 2/Week 3 WC.md",
-    "Mechanica 2/Week 3 Sterkteleer.md"
+    "Microcontroller Programmeren/Week 12 A.md"
   ]
 }

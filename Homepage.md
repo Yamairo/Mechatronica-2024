@@ -1,6 +1,6 @@
 ---
 created: 2024-09-19T08:59
-updated: 2025-05-15T15:46
+updated: 2025-05-19T11:49
 ---
 
 # Te doen
@@ -17,6 +17,13 @@ TABLE WITHOUT ID
 FROM "Huiswerk"
 FLATTEN file.tasks AS Tasks
 WHERE !Tasks.completed
+```
+
+# Boeken
+```dataview
+LIST
+FROM "Boeken"
+SORT file.name ASC
 ```
 
 # Vakken
