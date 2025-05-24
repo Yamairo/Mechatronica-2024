@@ -1,6 +1,6 @@
 ---
 created: 2025-05-15T15:39
-updated: 2025-05-18T18:25
+updated: 2025-05-19T11:56
 ---
 
 > [!example] Faalmechanisme Stress Simulatie
@@ -70,12 +70,12 @@ $$
 
 Voor al deze formules geldt:
 
-> [!Example] Tabel 1+ 
+> [!Example]+ Tabel 1 - Factoren voor Formules 
 | Variabele     | Betekenis                                                               | Eenheid                                                      |
 | ------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------ |
 | $P_{cr}$      | Kritische kracht waarbij knik optreedt                                  | $\text{Newton} (N)$                                          |
 | $\sigma_{cr}$ | Kritische knikspanning (bij knik)                                       | $\begin{align}&\text{Pascal} (Pa)\\ &of\\ &N/m^2\end{align}$ |
-| $\pi$         | Wiskundige constante pi (~3.1416)                                       | -                                                            |
+| $\pi$         | Wiskundige constante pi ≈ 3.14159                                     | -                                                            |
 | $E$           | Elasticiteitsmodulus (Young's modulus) van het materiaal                | $\begin{align}&\text{Pascal} (Pa)\\ &of\\ &N/m^2\end{align}$ |
 | $I$           | Oppervlakte traagheidsmoment (moments of inertia) van de dwarsdoorsnede | $m^{4}$                                                      |
 | $L$           | Lengte van de kolom (effectieve lengte)                                 | $\text{meter} (m)$                                           |
@@ -103,7 +103,7 @@ $$
 
 
 Voor deze formules geldt:
-> [!Example] Tabel 1
+> [!Example] Tabel 2 - Factoren voor Formules
 | **Variabele**  | Betekenis                     | Eenheid                |
 | -------------- | ----------------------------- | ---------------------- |
 | $\sigma_{max}$ | Maximale stress               | $\text{Pascal } N/m^2$ |
@@ -131,7 +131,7 @@ Om aan waarde $A$ en $b$ te komen, kan er gebruik gemaakt worden van een logarit
 Een van de belangrijkste factoren voor het ontwerpen van het mechanisme is het materiaal dat wordt gebruikt. Voor de toeppassing van het project is er toegang tot sheet metal, PLA en MDF. Deze hebben elk andere elastische waarden. En zullen ook anders gedragen onder druk. 
 Hierbij is de Youngs Modulus een belangrijke waarde om te weten.
 
-> [!example]+ Tabel 2
+> [!example]+ Tabel 3 - Youngs Modulus voor Materialen
 | **Material**                                                                      | **Youngs Modulus (GPa)** | **Youngs Modulus  lbf/in² (psi)** |
 | --------------------------------------------------------------------------------- | ------------------------ | ------------------------------------- |
 | Rubber (small strain)                                                             | 0.01-0.1                 | 1,500-15,000                          |
@@ -171,7 +171,7 @@ Maar de Youngs modulus alleen zegt niet alles, dit is omdat elk materiaal micro 
 <div style="page-break-after: always;"></div>
 
 Hierbij geldt:
-> [!Example] Tabel 3
+> [!Example] Tabel 4 - Factoren voor Formules
 | **Variabele** | **Betekenis**                                               | **Eenheid**              |
 | ------------- | ----------------------------------------------------------- | ------------------------ |
 | $\sigma_c$    | Kritische trekspanning waarbij scheurverlenging optreedt    | $\text{Pascal } (N/m^2)$ |
@@ -190,7 +190,7 @@ Met gebruik van deze formule kunnen bepaalde materialen zoals glas, keramiek en 
 
 Op basis van de gestelde doelen, onderzoeksvragen en de vergelijking van beide concepten krijgt **Mechanisme 2 (versmalling + druk-/limietsensor)** de voorkeur boven het Euler-buckling-principe van Mechanisme 1.
 
-> [!example] Tabel 4 - Vergelijking Mechanisme 1 vs Mechanisme 2 
+> [!example] Tabel 5 - Vergelijking Mechanisme 1 vs Mechanisme 2 
 | Voorwaarde                                                  | Mechanisme 1 – Euler-buckling                                                                                                                                                                           | Mechanisme 2 – Versmalling + limietsensor                                                                                                                                       | Motivering keuze Mechanisme 2                                                                      |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **Eenduidige drempelwaarden** (leeg/vol/falen)              | De kritische kracht is erg afhankelijk van de $L/D$ tolerantie, als het mechanisme niet haaks tegen het pakket komt dan zal deze eerder buigen en is er kans op een fout gedetecteerd gewicht.          | Faalkracht kan worden bepaalt met gebruik van hals-breedte $(r/d)$ en met $K_t$ kunnen er drie duidelijk te zones gekalibreerd worden.                                          | Mechanisme 2 voldoet beter aan eis om scherp te schakelen tussen “leeg”, “vol” en “overbelasting”. |

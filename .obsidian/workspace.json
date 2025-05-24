@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "58a7760398d32404",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "85d15bcd640a6498",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage.md",
+                "file": "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homepage"
+              "title": "Onderzoek Mechanisch Faalmechanisme Duwmodule"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d63d5b0ec1965569",
@@ -112,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2025-03-12 11.09.33.excalidraw.md",
+                "file": "Industriële Besturing Programmeren/Week 14 - Kinematica Toepassen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Drawing 2025-03-12 11.09.33.excalidraw"
+              "title": "Outgoing links from Week 14 - Kinematica Toepassen"
             }
           },
           {
@@ -155,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Powerpoints/OIG2_WK06_Creatieve_Technieken_v1.0.pdf",
+                "file": "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OIG2_WK06_Creatieve_Technieken_v1.0"
+              "title": "Outline of Onderzoek Mechanisch Faalmechanisme Duwmodule"
             }
           },
           {
@@ -170,8 +171,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -180,8 +181,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -190,8 +191,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -200,19 +201,28 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Project AGV/ Functies.md"
+                "file": "Industriële Besturing Programmeren/Week 14 - Kinematica Toepassen.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for  Functies"
+              "title": "File properties for Week 14 - Kinematica Toepassen"
+            }
+          },
+          {
+            "id": "8ab347c2ae15c5c4",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,17 +232,33 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "card-board:CardBoard": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "card-board:CardBoard": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "85d15bcd640a6498",
   "lastOpenFiles": [
+    "Wiskunde 2/Week 14.md",
+    "Homepage.md",
+    "wiskunde 2/Week 14.md",
+    "Industriële Besturing Programmeren/Week 14 - Kinematica Toepassen.md",
+    "Bijlages/Pasted image 20250522113318.png",
+    "Bijlages/Pasted image 20250522112352.png",
+    "Bijlages/Pasted image 20250522112344.png",
+    "Bijlages/Pasted image 20250522112326.png",
+    "Mechanica 2/Week 13.md",
+    "Bijlages/Pasted image 20250521110537.png",
+    "Bijlages/Pasted image 20250521110502.png",
+    "Bijlages/Pasted image 20250521110313.png",
     "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
+    "Bijlages/Pasted image 20250521104843.png",
+    "Bijlages/Pasted image 20250521104834.png",
+    "Bijlages/Pasted image 20250521104824.png",
+    "Project AGV Deel 2/Presentatie Tekst.md",
     "Project AGV Deel 2/Untitled Diagram.drawio",
     "Project AGV Deel 2/Faalmechanisme zijaanzicht.drawio",
     "Project AGV Deel 2/Faalmechanisme topaanzicht 2.drawio",
@@ -244,17 +270,6 @@
     "Solidworks/3d-Model-Poortaalkraan-20072716_Yamairo_Martinus/~$plain washer clevis pin grade a_iso20072716_Yamairo-Martinus.sldprt",
     "Solidworks/3d-Model-Poortaalkraan-20072716_Yamairo_Martinus/~$plain washer 10669 type nl_iso20072716_Yamairo-Martinus.sldprt",
     "Excalidraw/Drawing 2025-05-15 15.31.56.excalidraw.md",
-    "Bijlages/Zijkant faalmechanisme.drawio.svg",
-    "Bijlages/Zijkant faalmechanisme.drawio 1.svg",
-    "Bijlages/Pasted image 20250518164705.png",
-    "Bijlages/Pasted image 20250518163730.png",
-    "Bijlages/Pasted image 20250518163634.png",
-    "Bijlages/Pasted image 20250516015045.png",
-    "Bijlages/Pasted image 20250516014850.png",
-    "Bijlages/Pasted image 20250516014848.png",
-    "Bijlages/Pasted image 20250516014728.png",
-    "Bijlages/Pasted image 20250515183236.png",
-    "Homepage.md",
     "Sensoren en Actuatoren/Week 13.md",
     "Sensoren en actuatoren/Week 13.md",
     "Industiële Besturing Programmeren/Week 12.md",
@@ -273,11 +288,6 @@
     "Mechanica 2/Week 8.md",
     "Ontwerpen in groepen/Week 8.md",
     "Sensoren en Actuatoren/Week 5.md",
-    "Mechanica 2/Week 6.md",
-    "Mechanica 2/Week 7.md",
-    "Mechanica 2/Week 2.md",
-    "Mechanica 2/Week 4 WC.md",
-    "Mechanica 2/Week 3 WC.md",
-    "Microcontroller Programmeren/Week 12 A.md"
+    "Mechanica 2/Week 6.md"
   ]
 }
