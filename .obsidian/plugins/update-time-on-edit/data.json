@@ -30,6 +30,13 @@
     "Sensoren en Actuatoren/Week 5.md": "c3f5bc30794108661fe038b872cff860d32883b7d24fa4bb691cb371663a5e80",
     "Subonderwerpen/Vluchtig geheugen.md": "46e015b217b1edde2702fa61242f8742d64e7118afccd8bdd47cc56b9d3cefd6",
     "Subonderwerpen/Remanent geheugen.md": "3b6ec99211c59650ac916a7caf22124d17d9594d0529226650c0bc3091b0eedd",
+<<<<<<< HEAD
+    "Sensoren en Actuatoren/Week 6.md": "bfae98c81ff353661715369ba406064ee43b373683350a3b2d556babb0ef5d59",
+    "Huiswerk.md": "80461453a28365101833589a0dfd5c03813bf4b2fd24c7ab508c04fb7274377b",
+    "Project AGV/Aantekeningen Vergadering 1.md": "7128b7ee0ff01ed988f0d1c5fdbe2683d104024fbb9357d8bd42994db259030b",
+    "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md": "470c039ee7b1bd91d3839cbc89578d477627e27c6b19a84decbd3de484d4926c",
+    "Project AGV Deel 2/Project Risicoanalyse.md": "8d288aefdab23a0b35a40e57ccc994016df352b66619d881438f74452ffc25f2"
+=======
     "Industriële Besturing Programmeren/Week 5 - Besturingsalgebra.md": "ee39c0c1d73f8b50abcf6a0ded6613e5ba096d1ce90add693998340066a0c1b0",
     "Industriële Besturing Programmeren/Week 4 - Geheugens.md": "25e851fe59279a163c85dfaaf8101c14f2074399a486c3891d937f07141f8a79",
     "Industriële Besturing Programmeren/Week 3 - Rising Falling Edge, Begin Geheugens.md": "feb21c644404f3a9cd476597096ac57094746995c4e600f34599cb0a1d103fe7",
@@ -52,6 +59,7 @@
     "Industiële Besturing Programmeren/Week 12.md": "cc7d0888756363c566cd45b99ef60b8f1c411bc75e20d48b1d88f153812aec6e",
     "Sensoren en actuatoren/Week 13.md": "43a66e9dc3a26e35d96ff9dc1afbaa880d0d7d5e9fb303d0fdf2a812695b7cec",
     "Sensoren en Actuatoren/Week 13.md": "43a66e9dc3a26e35d96ff9dc1afbaa880d0d7d5e9fb303d0fdf2a812695b7cec",
+<<<<<<< HEAD
     "Huiswerk.md": "c3567cc8cf5b9dacee1f417be8dacf156097c362a7ee6e3b6ecced6a95973e3c",
     "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md": "08bb8bc3c2368cf0ef298bb7ec6f766cc46de2ab42ed8ef5bfe4958ecf241b47",
     "Project AGV Deel 2/Presentatie Tekst.md": "a79482240cde547dc398120e81f531bc0a51aee6e4e85eca7b75d473187e327e",
@@ -59,5 +67,9 @@
     "Industriële Besturing Programmeren/Week 14 - Kinematica Toepassen.md": "19199c0ad0449463b727929e1bde7542d99987ddb1b69521f6ac95832bf4050e",
     "wiskunde 2/Week 14.md": "50020674381f884cfb31f1a10af30734d25858d7977d1d8a477f6110e2ba401a",
     "Wiskunde 2/Week 14.md": "34e48ea9c435b996207d272ed3a18cfd7e38e2e8a00d3e8f4a83c67e40eebf0c"
+=======
+    "Huiswerk.md": "c3567cc8cf5b9dacee1f417be8dacf156097c362a7ee6e3b6ecced6a95973e3c"
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
+>>>>>>> 508556b2f142a4109855472bec61662b50738e3a
   }
 }

@@ -1,6 +1,10 @@
 ---
 created: 2025-05-15T15:39
+<<<<<<< HEAD
 updated: 2025-05-19T11:56
+=======
+updated: 2025-05-18T20:58
+>>>>>>> 508556b2f142a4109855472bec61662b50738e3a
 ---
 
 > [!example] Faalmechanisme Stress Simulatie
@@ -204,7 +208,56 @@ Op basis van de gestelde doelen, onderzoeksvragen en de vergelijking van beide c
 
 Voor het produceren van het mechanisme is er gekozen om gebruik te maken van 3d-printen met PLA. Deze keuze is gemaakt omdat PLA voldoet aan de materiaaleigenschappen die benodigd zijn om [[Onderzoek Mechanisch Faalmechanisme Duwmodule#Mechanisme 2| Mechanisme 2]] te laten werken.  Zie [[Onderzoek Mechanisch Faalmechanisme Duwmodule#Materiaal|Materiaal]] voor meer uitleg over de materiaalkeuze.
 
+<div style="page-break-after: always;"></div>
 
+## Testen Mechanismes
+### Mechanisme 1: Euler Buckling van een Cilinder
+
+- Een cilinder wordt belast (onder compressie) tot deze plastisch vervormt en uiteindelijk buigt of breekt.
+- Belangrijke informatie:
+    - Verhouding $L/D$ (lengte/diameter) van de cilinder bepaalt het knikgedrag.
+    - De opstelling moet met één kant van de cilinder  aan de AGV  verbonden zijn.
+        
+- De kritische kracht wordt berekend met: 
+	- $P_{cr} = \frac{\pi^2EI}{L^{2}}$
+
+### Mechanisme 2: Versmalling met Limietsensor
+
+- Bestaat uit een mechanisch onderdeel met een verzwakt deel (nek) dat onder bepaalde kracht faalt.
+- De kracht wordt bepaalt met een druk- of eindstandssensor.
+- Drie zones zijn gedefinieerd:
+    - Geen activatie bij licht pakket.
+    - Activatie bij zwaar pakket.
+    - Falen (breken) bij overbelasting (bv. botsing met muur).
+        
+- Stressconcentratiefactor $K_t$ wordt bepaald met:
+	- $\sigma_{max} = K_{t} \cdot \sigma_{nom}$ 
+	- en  
+	- $K_{t} = A \cdot (r/d)^b$
+
+---
+
+### Testprotocol
+
+1. **Voorbereiding:**
+    - Maak prototypes van beide mechanismen met verschillende materialen (PLA, MDF, metaal).
+    - Zorg voor een testopstelling waarbij gecontroleerd kracht kan worden uitgeoefend op het faalmechanisme.
+        
+2. **Stapsgewijze Belastingen:**
+    - Voer tests uit met toenemende belasting om het gedrag te observeren bij:
+        - Lage krachten (leeg pakket),
+        - Middelmatige krachten (vol pakket),
+        - Hoge krachten (botsing/obstakel).
+            
+3. **Metingen:**
+    - Controleer activering van de sensor (druk/eindstand).
+    - Meet de kracht waarbij vervorming optreedt.
+    - Meet de kracht waarbij het mechanisme faalt.
+        
+4. **Analyse:**
+    - Vergelijk berekende kritische krachten/spanningen met gemeten waarden.
+    - Beoordeel reproduceerbaarheid en betrouwbaarheid van falen.
+    - Evalueer of sensoren effectief beschermd worden tegen overbelasting.
 
 <div style="page-break-after: always;"></div>
 

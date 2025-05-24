@@ -13,12 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
+=======
+<<<<<<< HEAD
+                "file": "Project AGV Deel 2/Project Risicoanalyse.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Project Risicoanalyse"
+=======
+                "file": "Homepage.md",
+>>>>>>> 508556b2f142a4109855472bec61662b50738e3a
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Onderzoek Mechanisch Faalmechanisme Duwmodule"
+=======
+              "title": "Homepage"
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
+>>>>>>> 508556b2f142a4109855472bec61662b50738e3a
             }
           }
         ]
@@ -78,8 +95,16 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 200,
     "collapsed": true
+=======
+<<<<<<< HEAD
+    "width": 300
+=======
+    "width": 200
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
+>>>>>>> 508556b2f142a4109855472bec61662b50738e3a
   },
   "right": {
     "id": "d63d5b0ec1965569",
@@ -156,13 +181,29 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
+=======
+<<<<<<< HEAD
+                "file": "Project AGV Deel 2/Project Risicoanalyse.md",
+=======
+                "file": "Powerpoints/OIG2_WK06_Creatieve_Technieken_v1.0.pdf",
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
+>>>>>>> 508556b2f142a4109855472bec61662b50738e3a
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
+<<<<<<< HEAD
               "title": "Outline of Onderzoek Mechanisch Faalmechanisme Duwmodule"
+=======
+<<<<<<< HEAD
+              "title": "Outline of Project Risicoanalyse"
+=======
+              "title": "Outline of OIG2_WK06_Creatieve_Technieken_v1.0"
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
+>>>>>>> 508556b2f142a4109855472bec61662b50738e3a
             }
           },
           {
@@ -186,7 +227,11 @@
             }
           },
           {
+<<<<<<< HEAD
+            "id": "57e0c47ff2ef3a81",
+=======
             "id": "34c46bca8b52dd88",
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -196,6 +241,15 @@
             }
           },
           {
+<<<<<<< HEAD
+            "id": "97006b3c812cba89",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+=======
             "id": "3f209a937ca67b15",
             "type": "leaf",
             "state": {
@@ -204,6 +258,7 @@
                 "file": "Industriële Besturing Programmeren/Week 14 - Kinematica Toepassen.md"
               },
               "icon": "lucide-info",
+<<<<<<< HEAD
               "title": "File properties for Week 14 - Kinematica Toepassen"
             }
           },
@@ -215,6 +270,10 @@
               "state": {},
               "icon": "checkmark",
               "title": "Todo List"
+=======
+              "title": "File properties for  Functies"
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
+>>>>>>> 508556b2f142a4109855472bec61662b50738e3a
             }
           }
         ],
@@ -242,6 +301,7 @@
   },
   "active": "85d15bcd640a6498",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Wiskunde 2/Week 14.md",
     "Homepage.md",
     "wiskunde 2/Week 14.md",
@@ -254,6 +314,15 @@
     "Bijlages/Pasted image 20250521110537.png",
     "Bijlages/Pasted image 20250521110502.png",
     "Bijlages/Pasted image 20250521110313.png",
+=======
+<<<<<<< HEAD
+    "Homepage.md",
+    "Project AGV Deel 2/Project Risicoanalyse.md",
+    "Subonderwerpen/Spanning.md",
+    "Boeken/Projectboek PRO2_Deel-2-V250509.pdf",
+=======
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
+>>>>>>> 508556b2f142a4109855472bec61662b50738e3a
     "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
     "Bijlages/Pasted image 20250521104843.png",
     "Bijlages/Pasted image 20250521104834.png",
@@ -264,6 +333,31 @@
     "Project AGV Deel 2/Faalmechanisme topaanzicht 2.drawio",
     "Project AGV Deel 2",
     "PDF/Onderzoek Mechanisch Faalmechanisme Duwmodule.pdf",
+<<<<<<< HEAD
+    "Project AGV/Faalmechanisme Bovenkant.drawio",
+    "Project AGV Deel 2/Untitled Diagram.drawio",
+    "Project AGV Deel 2/Faalmechanisme zijaanzicht.drawio",
+    "Project AGV Deel 2/Faalmechanisme topaanzicht 2.drawio",
+    "Bijlages/Pasted image 20250518164705.png",
+    "Bijlages/Pasted image 20250518163730.png",
+    "Bijlages/Pasted image 20250518163634.png",
+    "Bijlages/Faalmechanisme Bovenkant Vol Pakket.drawio 1.svg",
+    "Bijlages/Faalmechanisme Bovenkant Vol Pakket.drawio.svg",
+    "Bijlages/Faalmechanisme topaanzicht 2 Vol Pakket.drawio.svg",
+    "Bijlages/Faalmechanisme topaanzicht 2 vol pakket 1.drawio",
+    "Bijlages/Faalmechanisme topaanzicht 2 vol pakket.drawio",
+    "Bijlages/Faalmechanisme topaanzicht 2.drawio.svg",
+    "Bijlages/Faalmechanisme zijaanzicht 2.drawio.svg",
+    "Bijlages/Faalmechanisme Bovenkant.drawio 1.svg",
+    "Bijlages/Faalmechanisme zijaanzicht.drawio 3.svg",
+    "PDF",
+    "Boeken/2004-CISM_vo.pdf",
+    "Project AGV/Aantekeningen Vergadering 1.md",
+    "Excalidraw/Drawing 2025-05-15 15.31.56.excalidraw.md",
+    "Huiswerk.md",
+    "Ontwerpen in groepen 2/ Week 6.md",
+    "Mechanica 2/Week 6.md",
+=======
     "PDF",
     "Solidworks/3d-Model-Poortaalkraan-20072716_Yamairo_Martinus/~$x-as20072716_Yamairo-Martinus.sldprt",
     "Solidworks/3d-Model-Poortaalkraan-20072716_Yamairo_Martinus/~$radial ball bearing_68_iso20072716_Yamairo-Martinus.sldprt",
@@ -283,6 +377,7 @@
     "Industriële Besturing Programmeren/Week 10.md",
     "Industriële Besturing Programmeren/Week 8.md",
     "Industriële Besturing Programmeren/Week 7.md",
+>>>>>>> 52079151251bd9630fccdd926923f19478e66c61
     "Industriële Besturing Programmeren/Week 5 - Besturingsalgebra.md",
     "Subonderwerpen/Pinout.md",
     "Mechanica 2/Week 8.md",
