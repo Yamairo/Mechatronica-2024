@@ -1,14 +1,4 @@
 {
-<<<<<<< HEAD
-  "cssTheme": "Wikipedia",
-  "theme": "moonstone"
-=======
-<<<<<<< HEAD
-  "cssTheme": "Wikipedia",
-  "theme": "moonstone"
-=======
-  "cssTheme": "Shiba Inu",
-  "theme": "obsidian"
->>>>>>> 508556b2f142a4109855472bec61662b50738e3a
->>>>>>> c1c932a4137775a8d4c5b4ffb6c98213566d7cf7
+  "theme": "moonstone",
+  "cssTheme": "Wikipedia"
 }

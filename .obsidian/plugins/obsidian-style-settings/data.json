@@ -1,11 +1,9 @@
 {
-  "shiba-theme-settings@@shib-workspace-background-image-toggle": true,
-  "shiba-theme-settings@@background-settings-workplace-theme-dark": "background-settings-workplace-theme-dark-lofi4",
-  "shiba-theme-settings@@toggle-bg-panel-page": true,
-  "shiba-theme-settings@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-cute-town-l",
-  "shiba-theme-settings@@shib-custom-bg-blur-light": 0,
-  "shiba-theme-settings@@shib-custom-bg-brightness-light": 0.75,
-  "shiba-theme-settings@@shib-custom-bg-card-fg-opacity-light": 0.3,
-  "shiba-theme-settings@@panel-page-opacity": 0,
-  "shiba-theme-settings@@bg-panel-page-option": "panel-page-bg-theme-dark-paradise"
+  "shiba-theme-settings@@font-text-theme": "times new roman",
+  "shiba-theme-settings@@font-family-vertical-bar": "times new roman",
+  "shiba-theme-settings@@font-family-folder-file-title": "times new roman",
+  "shiba-theme-settings@@font-monospace-theme": "times new roman",
+  "shiba-theme-settings@@font-family-inline-code": "times new roman",
+  "shiba-theme-settings@@font-family-tag": "times new roman",
+  "shiba-theme-settings@@font-family-vault": "times new roman"
 }

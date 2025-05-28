@@ -13,13 +13,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiskunde 2/Week 3.md",
+                "file": "Project AGV Deel 2/Testplan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Testplan"
+            },
+            "group": "5d469ed9cac993bb"
+          }
+        ]
+      },
+      {
+        "id": "431a8e8da6dab321",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a56da320e264eba6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project AGV Deel 2/Testplan.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Week 3"
-            }
+              "title": "Testplan"
+            },
+            "group": "5d469ed9cac993bb"
           }
         ]
       }
@@ -154,12 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Project AGV Deel 2/Testplan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Testplan"
             }
           },
           {
@@ -183,12 +206,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,9 +228,17 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "1d2860da036f7072",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Homepage.md",
+    "Project AGV Deel 2/Testplan.md",
+    "Project AGV Deel 2/Project Risicoanalyse.md",
+    "PDF/Project Risicoanalyse.pdf",
+    "PDF/Testplan.pdf",
+    "Bijlages/Pasted image 20250526142015.png",
+    "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
     "Wiskunde 2/Week 14.md",
+    "Wiskunde 2/Week 3.md",
     "Project AGV Deel 2/Presentatie Tekst.md",
     "Mechanica 2/Week 13.md",
     "Industriële Besturing Programmeren/Week 14 - Kinematica Toepassen.md",
@@ -221,9 +251,6 @@
     "Bijlages/Pasted image 20250521110313.png",
     "Bijlages/Pasted image 20250521104843.png",
     "Bijlages/Pasted image 20250521104834.png",
-    "Bijlages/Pasted image 20250521104824.png",
-    "Subonderwerpen/Untitled.md",
-    "Wiskunde 2/Week 3.md",
-    "Homepage.md"
+    "Subonderwerpen/Untitled.md"
   ]
 }

@@ -1,10 +1,6 @@
 ---
 created: 2025-05-15T15:39
-<<<<<<< HEAD
-updated: 2025-05-19T11:56
-=======
-updated: 2025-05-18T20:58
->>>>>>> 508556b2f142a4109855472bec61662b50738e3a
+updated: 2025-05-26T11:10
 ---
 
 > [!example] Faalmechanisme Stress Simulatie
