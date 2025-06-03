@@ -1,6 +1,6 @@
 ---
 created: 2025-05-26T11:14
-updated: 2025-05-28T09:40
+updated: 2025-05-28T10:55
 ---
 
 # Inhoudsopgave
@@ -26,7 +26,7 @@ Uit de eerder besproken [[Testplan#Eisen|Eisen]] zijn de volgende doelen van het
 > - Correct onderscheid maakt tussen een **leeg pakket** en een **vol pakket**
 > - Op een **voorspelbare en reproduceerbare manier faalt** bij overbelasting
 > - De **sensor beschermt** tegen krachten boven de faalkracht
-> - **Reproduceerbaar** en **produceerbaar** is met PLA via 3 D-printen
+> - **Reproduceerbaar** en **produceerbaar** is met PLA via 3D-printen
 
 
 ## Testvoorbereiding
@@ -61,14 +61,14 @@ Uit de eerder besproken [[Testplan#Eisen|Eisen]] zijn de volgende doelen van het
 
 #### Test 1 – Licht pakket
 
-- Plaats licht pakket op het mechanisme
+- Plaats licht pakket tegen het mechanisme en duw zacht
 - Observeer sensor en mechanisme (geen activatie of buiging)
 - Noteer resultaat (Pass/Fail)
     
 
 #### Test 2 – Normaal pakket
 
-- Plaats normaal pakket
+- Plaats normaal pakket tegen het mechanisme en duw zacht
 - Observeer of sensor activeert binnen verwacht drukbereik
 - Noteer of de sensor activeert en de buiging van het mechanisme
 #### Test 3 – Duurtest
