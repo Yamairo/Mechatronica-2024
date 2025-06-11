@@ -5,5 +5,8 @@
   "shiba-theme-settings@@font-monospace-theme": "times new roman",
   "shiba-theme-settings@@font-family-inline-code": "times new roman",
   "shiba-theme-settings@@font-family-tag": "times new roman",
-  "shiba-theme-settings@@font-family-vault": "times new roman"
+  "shiba-theme-settings@@font-family-vault": "times new roman",
+  "shiba-theme-settings@@shib-workspace-background-image-toggle": true,
+  "shiba-theme-settings@@background-settings-workplace-theme-dark": "background-settings-workplace-theme-dark-lofi4",
+  "shiba-theme-settings@@shib-custom-bg-blur-dark": 0
 }

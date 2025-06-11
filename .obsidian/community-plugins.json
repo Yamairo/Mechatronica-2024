@@ -23,5 +23,7 @@
   "datepicker",
   "homepage",
   "colored-text",
-  "obsidian-tikzjax"
+  "obsidian-tikzjax",
+  "obsidian-linter",
+  "obsidian-pandoc"
 ]

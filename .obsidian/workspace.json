@@ -13,35 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project AGV Deel 2/Testplan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Testplan"
-            },
-            "group": "5d469ed9cac993bb"
-          }
-        ]
-      },
-      {
-        "id": "431a8e8da6dab321",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a56da320e264eba6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project AGV Deel 2/Testplan.md",
+                "file": "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Testplan"
-            },
-            "group": "5d469ed9cac993bb"
+              "title": "Onderzoek Mechanisch Faalmechanisme Duwmodule"
+            }
           }
         ]
       }
@@ -176,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project AGV Deel 2/Testplan.md",
+                "file": "Ontwerpen in groepen 2/Portfolio/Feedforward.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Testplan"
+              "title": "Outline of Feedforward"
             }
           },
           {
@@ -210,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,12 +210,30 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Homepage.md",
+    "Project AGV Deel 2/Onderdeel Faalmechanisme/Functieblokschema.md",
+    "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Argumentatieleer.pdf",
+    "Ontwerpen in groepen 2/Portfolio/Argumentatieleer.md",
+    "Ontwerpen in groepen 2/Portfolio/Zakelijke-Email.md",
+    "Ontwerpen in groepen 2/Portfolio/Softskills.md",
+    "Ontwerpen in groepen 2/Portfolio/Creatieve-Technieken.md",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Risico-Analyse.pdf",
+    "Ontwerpen in groepen 2/Portfolio/Risico-Analyse.md",
+    "Ontwerpen in groepen 2/Portfolio/Onderzoek Sensoren.md",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Onderzoek Sensoren.pdf",
+    "Ontwerpen in groepen 2/Portfolio/Vergaderen.md",
+    "Ontwerpen in groepen 2/Portfolio/Intervisie.md",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Intervisie.pdf",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Feedforward.pdf",
+    "Ontwerpen in groepen 2/Portfolio/Feedforward.md",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Creatieve-Technieken.pdf",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Softskills.pdf",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Vergaderen.pdf",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Zakelijke-Email.pdf",
+    "Ontwerpen in groepen 2/Portfolio/PDF",
     "Project AGV Deel 2/Testplan.md",
     "Project AGV Deel 2/Project Risicoanalyse.md",
-    "PDF/Project Risicoanalyse.pdf",
-    "PDF/Testplan.pdf",
     "Bijlages/Pasted image 20250526142015.png",
-    "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
     "Wiskunde 2/Week 14.md",
     "Wiskunde 2/Week 3.md",
     "Project AGV Deel 2/Presentatie Tekst.md",
