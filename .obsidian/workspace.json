@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "35a145fc7b9dda58",
@@ -155,13 +154,21 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
+=======
+                "file": "Ontwerpen in groepen 2/Portfolio/Feedforward.md",
+>>>>>>> 1513718c3ca2d51c03d731026ff713567caadf26
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
+<<<<<<< HEAD
               "title": "Outline of Onderzoek Mechanisch Faalmechanisme Duwmodule"
+=======
+              "title": "Outline of Feedforward"
+>>>>>>> 1513718c3ca2d51c03d731026ff713567caadf26
             }
           },
           {
@@ -210,19 +217,41 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Homepage.md",
     "Sensoren en Actuatoren/Week 15.md",
     "Bijlages/Pasted image 20250604090409.png",
     "Bijlages/Pasted image 20250604085919.png",
     "Bijlages/Pasted image 20250604085917.png",
     "Boeken/Projectboek PRO2_Deel-2-V250509.pdf",
+=======
+>>>>>>> 1513718c3ca2d51c03d731026ff713567caadf26
     "Wiskunde 2/Week 15.md",
+    "Homepage.md",
+    "Project AGV Deel 2/Onderdeel Faalmechanisme/Functieblokschema.md",
+    "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Argumentatieleer.pdf",
+    "Ontwerpen in groepen 2/Portfolio/Argumentatieleer.md",
+    "Ontwerpen in groepen 2/Portfolio/Zakelijke-Email.md",
+    "Ontwerpen in groepen 2/Portfolio/Softskills.md",
+    "Ontwerpen in groepen 2/Portfolio/Creatieve-Technieken.md",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Risico-Analyse.pdf",
+    "Ontwerpen in groepen 2/Portfolio/Risico-Analyse.md",
+    "Ontwerpen in groepen 2/Portfolio/Onderzoek Sensoren.md",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Onderzoek Sensoren.pdf",
+    "Ontwerpen in groepen 2/Portfolio/Vergaderen.md",
+    "Ontwerpen in groepen 2/Portfolio/Intervisie.md",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Intervisie.pdf",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Feedforward.pdf",
+    "Ontwerpen in groepen 2/Portfolio/Feedforward.md",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Creatieve-Technieken.pdf",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Softskills.pdf",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Vergaderen.pdf",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Zakelijke-Email.pdf",
+    "Ontwerpen in groepen 2/Portfolio/PDF",
     "Project AGV Deel 2/Testplan.md",
     "Project AGV Deel 2/Project Risicoanalyse.md",
-    "PDF/Project Risicoanalyse.pdf",
-    "PDF/Testplan.pdf",
     "Bijlages/Pasted image 20250526142015.png",
-    "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
     "Wiskunde 2/Week 14.md",
     "Wiskunde 2/Week 3.md",
     "Project AGV Deel 2/Presentatie Tekst.md",
