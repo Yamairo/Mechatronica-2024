@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Boeken/Projectboek PRO2_Deel-2-V250509.pdf"
+                "file": "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-file-text",
-              "title": "Projectboek PRO2_Deel-2-V250509"
+              "icon": "lucide-file",
+              "title": "Onderzoek Mechanisch Faalmechanisme Duwmodule"
             }
           }
         ]
@@ -153,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boeken/Projectboek PRO2_Deel-2-V250509.pdf",
+                "file": "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Projectboek PRO2_Deel-2-V250509"
+              "title": "Outline of Onderzoek Mechanisch Faalmechanisme Duwmodule"
             }
           },
           {
@@ -187,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,6 +211,11 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Homepage.md",
+    "Sensoren en Actuatoren/Week 15.md",
+    "Bijlages/Pasted image 20250604090409.png",
+    "Bijlages/Pasted image 20250604085919.png",
+    "Bijlages/Pasted image 20250604085917.png",
+    "Boeken/Projectboek PRO2_Deel-2-V250509.pdf",
     "Wiskunde 2/Week 15.md",
     "Project AGV Deel 2/Testplan.md",
     "Project AGV Deel 2/Project Risicoanalyse.md",
@@ -226,9 +234,6 @@
     "Bijlages/Pasted image 20250522112326.png",
     "Bijlages/Pasted image 20250521110537.png",
     "Bijlages/Pasted image 20250521110502.png",
-    "Bijlages/Pasted image 20250521110313.png",
-    "Bijlages/Pasted image 20250521104843.png",
-    "Bijlages/Pasted image 20250521104834.png",
     "Subonderwerpen/Untitled.md"
   ]
 }
