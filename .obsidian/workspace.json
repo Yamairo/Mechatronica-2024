@@ -14,34 +14,12 @@
               "type": "markdown",
               "state": {
                 "file": "Project AGV Deel 2/STARR-T.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "STARR-T"
-            },
-            "group": "d0b6569a6e8735e5"
-          }
-        ]
-      },
-      {
-        "id": "b5a1d7d4b7762ed4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f9f1e0620ec92bf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project AGV Deel 2/STARR-T.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "STARR-T"
-            },
-            "group": "d0b6569a6e8735e5"
+            }
           }
         ]
       }
@@ -229,8 +207,11 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "f9f1e0620ec92bf2",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Project AGV Deel 2/STARR-T/STARR-T.pdf",
+    "Project AGV Deel 2/STARR-T",
+    "Project AGV Deel 2/New folder",
     "Homepage.md",
     "Project AGV Deel 2/STARR-T.md",
     "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
@@ -263,12 +244,9 @@
     "Ontwerpen in groepen 2/Portfolio/PDF/Creatieve-Technieken.pdf",
     "Ontwerpen in groepen 2/Portfolio/PDF/Softskills.pdf",
     "Ontwerpen in groepen 2/Portfolio/PDF/Vergaderen.pdf",
-    "Ontwerpen in groepen 2/Portfolio/PDF/Zakelijke-Email.pdf",
-    "Ontwerpen in groepen 2/Portfolio/PDF",
     "Project AGV Deel 2/Testplan.md",
     "Bijlages/Pasted image 20250526142015.png",
     "Wiskunde 2/Week 14.md",
-    "Wiskunde 2/Week 3.md",
     "Bijlages/Pasted image 20250522113318.png",
     "Bijlages/Pasted image 20250522112352.png",
     "Bijlages/Pasted image 20250522112344.png",
