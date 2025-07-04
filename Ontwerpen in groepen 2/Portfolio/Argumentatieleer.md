@@ -1,6 +1,6 @@
 ---
 created: 2025-06-06T21:43
-updated: 2025-06-06T21:47
+updated: 2025-06-27T16:44
 ---
 
 **Standpunt:**  
@@ -15,20 +15,7 @@ Een ander belangrijk punt is de werk-privébalans. Veel mensen geven aan dat ze 
 
 Kortom: thuiswerken biedt aantoonbare voordelen op het gebied van productiviteit en welzijn. Het zou zonde zijn om deze kans te laten liggen nu we weten dat het werkt.
 
-```mermaid
-graph TB
-    S[Standpunt:<br>Thuiswerken moet structureel<br>onderdeel blijven van het werkleven]
 
-    A1[Argument 1:<br>Thuiswerken verhoogt<br>de productiviteit]
-    SA1[Subargument:<br>TNO: 34% is productiever<br>door minder afleiding]
-
-    A2[Argument 2:<br>Minder woon-werkverkeer is<br>goed voor het milieu]
-
-    A3[Argument 3:<br>Betere werk-privébalans<br>leidt tot minder burn-outs]
-
-    S --> A1
-    S --> A2
-    S --> A3
-    A1 --> SA1
-```
+> [!example] Argumentatie Diagram
+> ![[argumentatiediagram.png]]
 

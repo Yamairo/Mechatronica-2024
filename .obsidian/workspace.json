@@ -13,13 +13,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
+                "file": "Project AGV Deel 2/STARR-T.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "STARR-T"
+            },
+            "group": "d0b6569a6e8735e5"
+          }
+        ]
+      },
+      {
+        "id": "b5a1d7d4b7762ed4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9f1e0620ec92bf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project AGV Deel 2/STARR-T.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Onderzoek Mechanisch Faalmechanisme Duwmodule"
-            }
+              "title": "STARR-T"
+            },
+            "group": "d0b6569a6e8735e5"
           }
         ]
       }
@@ -207,20 +229,31 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "f9f1e0620ec92bf2",
   "lastOpenFiles": [
-    "Wiskunde 2/Week 15.md",
     "Homepage.md",
-    "Project AGV Deel 2/Onderdeel Faalmechanisme/Functieblokschema.md",
+    "Project AGV Deel 2/STARR-T.md",
     "Project AGV Deel 2/Onderzoek Mechanisch Faalmechanisme Duwmodule.md",
-    "Ontwerpen in groepen 2/Portfolio/PDF/Argumentatieleer.pdf",
+    "Ontwerpen in groepen 2/Portfolio/Onderzoek Sensoren.md",
+    "Sensoren en Actuatoren/Week 6.md",
+    "Sensoren en Actuatoren/Week 13.md",
+    "Sensoren en Actuatoren/Week 12.md",
+    "Sensoren en Actuatoren/Week 5.md",
+    "Sensoren en Actuatoren/Week 4.md",
+    "Sensoren en Actuatoren/Week 3.md",
+    "Sensoren en Actuatoren/Week 2.md",
+    "Sensoren en Actuatoren/Week 1.md",
     "Ontwerpen in groepen 2/Portfolio/Argumentatieleer.md",
+    "Bijlages/argumentatiediagram.png",
+    "Project AGV Deel 2/Project Risicoanalyse.md",
+    "Ontwerpen in groepen 2/Portfolio/Risico-Analyse.md",
+    "Wiskunde 2/Week 15.md",
+    "Project AGV Deel 2/Onderdeel Faalmechanisme/Functieblokschema.md",
+    "Ontwerpen in groepen 2/Portfolio/PDF/Argumentatieleer.pdf",
     "Ontwerpen in groepen 2/Portfolio/Zakelijke-Email.md",
     "Ontwerpen in groepen 2/Portfolio/Softskills.md",
     "Ontwerpen in groepen 2/Portfolio/Creatieve-Technieken.md",
     "Ontwerpen in groepen 2/Portfolio/PDF/Risico-Analyse.pdf",
-    "Ontwerpen in groepen 2/Portfolio/Risico-Analyse.md",
-    "Ontwerpen in groepen 2/Portfolio/Onderzoek Sensoren.md",
     "Ontwerpen in groepen 2/Portfolio/PDF/Onderzoek Sensoren.pdf",
     "Ontwerpen in groepen 2/Portfolio/Vergaderen.md",
     "Ontwerpen in groepen 2/Portfolio/Intervisie.md",
@@ -233,13 +266,9 @@
     "Ontwerpen in groepen 2/Portfolio/PDF/Zakelijke-Email.pdf",
     "Ontwerpen in groepen 2/Portfolio/PDF",
     "Project AGV Deel 2/Testplan.md",
-    "Project AGV Deel 2/Project Risicoanalyse.md",
     "Bijlages/Pasted image 20250526142015.png",
     "Wiskunde 2/Week 14.md",
     "Wiskunde 2/Week 3.md",
-    "Project AGV Deel 2/Presentatie Tekst.md",
-    "Mechanica 2/Week 13.md",
-    "Industriële Besturing Programmeren/Week 14 - Kinematica Toepassen.md",
     "Bijlages/Pasted image 20250522113318.png",
     "Bijlages/Pasted image 20250522112352.png",
     "Bijlages/Pasted image 20250522112344.png",
@@ -247,8 +276,6 @@
     "Bijlages/Pasted image 20250521110537.png",
     "Bijlages/Pasted image 20250521110502.png",
     "Bijlages/Pasted image 20250521110313.png",
-    "Bijlages/Pasted image 20250521104843.png",
-    "Bijlages/Pasted image 20250521104834.png",
-    "Subonderwerpen/Untitled.md"
+    "Bijlages/Pasted image 20250521104843.png"
   ]
 }
